@@ -67,12 +67,12 @@
 </ul>
 </div>
 
-<h4>Eksporter backupdata til offentlige skyer eller fjern--Synology NAS:</h4>
+<h4>Eksporter backupdata til offentlige skyer eller fjern--INTEGRA Server:</h4>
 <p>Ved backup af en stor mængde data til en offentlig sky anbefales det at eksportere den første version til en ekstern lagerenhed (f.eks. et USB-drev) og levere "enheden" til udbyderen af skytjenesten. Der kan enheden tilsluttes og uploade data direkte til skyen. På den måde kan du reducere tiden for den første backup betragteligt.</p>
 <ol>
-<li>Klik på <strong>+</strong> nederst til venstre, og vælg <strong>Fjern-Synology NAS</strong> eller den ønskede udbyder af skytjenesten.</li>
+<li>Klik på <strong>+</strong> nederst til venstre, og vælg <strong>Fjern-INTEGRA Server</strong> eller den ønskede udbyder af skytjenesten.</li>
 <li>Vælg <strong>Eksporter til en lokal delt mappe (herunder en ekstern lagerenhed)</strong>, og færdiggør indstillingerne. Når du bedes om det, vælger du <strong>Aktiver kryptering på klientsiden</strong> for at få en beskyttet databackup.</li>
-<li>Lever den eksterne lagerenhed til udbyderen af fjern-Synology NAS eller skytjenesten. Importer de eksporterede data fra den eksterne lagerenhed.</li>
+<li>Lever den eksterne lagerenhed til udbyderen af fjern-INTEGRA Server eller skytjenesten. Importer de eksporterede data fra den eksterne lagerenhed.</li>
 <li>Når det er bekræftet, returnerer du til <strong>Backup og gendan</strong> og klikker på <strong>Link igen nu</strong>.</li>
 <li>Følg genlink-guidens instruktioner for at linke din DiskStation til informationsbasen. Adgangskoden/krypteringsnøglen er nødvendig, hvis data blev eksporteret krypteret.</li>
 </ol>
@@ -166,11 +166,11 @@
 <li>Følgende tilstande er tilgængelige ved oprettelse af en backupopgave med rsync-kompatible servere som netværksbackupdestination: <b>Tilstanden rsync daemon,</b> som bruges, når du vælger et backupmodul (delt mappe på den rsync-kompatible server) fra rullemenuen ved siden af <b>Backupmodul</b>. Og <b>Tilstanden remote shell,</b>, som kun aktiveres, når du indtaster en absolut sti (starter med "/") i <b>Backupmodul</b>.</li>
 <li>For Linux brugere vil kun kontiene <strong>admin</strong>, <strong>root</strong> og <strong>rsync</strong> have tilladelse til at udføre en backup.</li>
 <li>Hvis du vil åbne destinationsserveren over internettet med dens værtsnavn, skal det være i formatet FQDN (Full Qualified Domain Name), f.eks. <strong>abc.bcd.com</strong>.</li>
-<li>Ved backup fra en Synology NAS-enhed til en anden, bedes du om at indtaste brugernavnet og adgangskoden for en konto på destinationen. Ved backup til delte mapper på en anden DiskStation, kan du gøre det med mappernes indstillinger for adgangsprivilegier. Kun delte mapper, som den angivne brugerkonto har adgangsprivilegier til, kan ses. Hvis du ikke kan finde den ønskede delte mappe på destinationen, skal du kontrollere dine adgangsprivilegier.</li>
+<li>Ved backup fra en INTEGRA Server-enhed til en anden, bedes du om at indtaste brugernavnet og adgangskoden for en konto på destinationen. Ved backup til delte mapper på en anden DiskStation, kan du gøre det med mappernes indstillinger for adgangsprivilegier. Kun delte mapper, som den angivne brugerkonto har adgangsprivilegier til, kan ses. Hvis du ikke kan finde den ønskede delte mappe på destinationen, skal du kontrollere dine adgangsprivilegier.</li>
 <li>Overførselskryptering understøttes kun, når destinationsserveren understøtter krypteret netværksbackup og godkendelsesadgangskoden ikke er tom.</li>
 <li>Fjern-shell-tilstand understøtter kun overførselskryptering.</li>
-<li>Hvis du udfører backup på filer til en Synology NAS-enheder via en rsync-klient, skal filnavnene have UTF-8-kodning.</li>
-<li>Hvis du udfører backup på filer til en Synology NAS-enhed gennem en rsync-kompatibel server, kan opgaven kun udføres af kontiene <strong>admin</strong>, <strong>root</strong> og <strong>rsync</strong> på DiskStation.</li>
+<li>Hvis du udfører backup på filer til en INTEGRA Server-enheder via en rsync-klient, skal filnavnene have UTF-8-kodning.</li>
+<li>Hvis du udfører backup på filer til en INTEGRA Server-enhed gennem en rsync-kompatibel server, kan opgaven kun udføres af kontiene <strong>admin</strong>, <strong>root</strong> og <strong>rsync</strong> på DiskStation.</li>
 <li>Hvis du udfører backup på filer fra din DiskStation til en rsync-kompatibel server, skal du indtaste det korrekte kontonavn og adgangskode for rsync-backup. Du skal også vælge det korrekte backupmodul med skriveprivilegium.</li>
 </ul>
 

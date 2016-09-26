@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synkronisera delade mappar</h2>
-<p>Tjänsten Synkronisera delade mappar låter användarna synkronisera delade mappar från en Synology NAS-enhet (källan) till andra Synology NAS-enheter (målet) i LAN eller över Internet.</p>
+<p>Tjänsten Synkronisera delade mappar låter användarna synkronisera delade mappar från en INTEGRA Server-enhet (källan) till andra INTEGRA Server-enheter (målet) i LAN eller över Internet.</p>
 <p>Vid första synkroniseringen utför Synkronisera delade mappar en fullständig synkronisering av de vald delad mapp (valda delade mappar). Efteråt synkas bara filer som har ändrats. Filer som har tagits bort från källan tas även bort från destinationen.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Aktivera tjänsten</h3>
 <h4>Att aktivera Synkronisera delade mappar:</h4>
-<p>Du måste först aktivera tjänsten på den Synology NAS som är målet.</p>
+<p>Du måste först aktivera tjänsten på den INTEGRA Server som är målet.</p>
 <ol>
 <li>Gå till <strong>Kontrollpanel</strong> > <strong>Filservice</strong> > <strong>rsync</strong></li>
 <li>Välj <strong>Aktivera rsync-tjänst</strong> för att aktivera tjänsten Synkronisera delade mappar.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>För att ta bort länk för delade mappar från den Synology NAS som är mål:</h4>
+<h4>För att ta bort länk för delade mappar från den INTEGRA Server som är mål:</h4>
 
 <p>Om olika källor samtidigt synkar en identisk delad mapp till en DiskStation som är mål uppstår en konflikt. Du måste ta bort länken för den delade mappen på källsidan innan någon annan källa kan synka dess mapp till målet. 
 
 <ol>
-<li>Logga in på den Synology NAS som är mål och gå till <strong>Kontrollpanel</strong> > <strong>Synkronisera delade mappar</strong> > <strong>Anslutningslista</strong>.</li>
-<li>Välj den anslutning som står i konflikt från en Synology NAS-källa och klicka på <strong>Ta bort länk</strong> för att ta bort den.</li>
+<li>Logga in på den INTEGRA Server som är mål och gå till <strong>Kontrollpanel</strong> > <strong>Synkronisera delade mappar</strong> > <strong>Anslutningslista</strong>.</li>
+<li>Välj den anslutning som står i konflikt från en INTEGRA Server-källa och klicka på <strong>Ta bort länk</strong> för att ta bort den.</li>
 </ol>
 
 <p>Nu kan andra källor synka den delade mappen till den DiskStation som är mål.</p>
@@ -52,11 +52,11 @@
 
 <h4>Skapa en synkuppgift:</h4>
 <ol>
-<li>Logga in på Synology NAS-källan och gå till <b>Kontrollpanel</b> > <b>Synkronisera delade mappar</b> > <strong>Uppgiftslista</strong>.</li>
+<li>Logga in på INTEGRA Server-källan och gå till <b>Kontrollpanel</b> > <b>Synkronisera delade mappar</b> > <strong>Uppgiftslista</strong>.</li>
 <li>Klicka på <b>Skapa</b>.</li>
 <li>Ange ett namn för uppgiften.</li>
 <li>Markera den delade mappen som du vill synkronisera till målenheten.</li>
-<li>Specificera den Synology NAS som ska vara mål och följande synkalternativ:</li>
+<li>Specificera den INTEGRA Server som ska vara mål och följande synkalternativ:</li>
 <ul>
 <li><strong>Anpassad SSH-krypteringsport för krypterad synkronisering av delade mappar</strong>: Specificera den önskade krypteringsporten för överföringskryptering med SSH.</li>
 <li><strong>Aktivera överföringskryptering med SSH</strong>: Kryptera data vid överföring. Det ger högre säkerhet medan icke krypterad överföring ger bättre prestanda. Välj det som bäst passar dina behov.
@@ -74,7 +74,7 @@
 <li>Klicka på <strong>Tillämpa</strong>. Nu kan du se synkuppgiften i uppgiftslistan, och den kommer att utföras enligt det schema du angav.</li></ol>
 <h4>Hantera en synkuppgift:</h4>
 <ol>
-<li>På Synology NAS-källan, gå till <strong>Kontrollpanel</strong> > <strong>Synkronisera delade mappar</strong>, klicka på <strong>Uppgiftslista</strong> och välj den önskade uppgiften.</li>
+<li>På INTEGRA Server-källan, gå till <strong>Kontrollpanel</strong> > <strong>Synkronisera delade mappar</strong>, klicka på <strong>Uppgiftslista</strong> och välj den önskade uppgiften.</li>
 <li>Gör något av följande:</li>
 <ul>
 <li>

@@ -86,7 +86,7 @@ class StringBundle {
 		} else if ("NVR" === CURRENT_PRODUCT) {
                         $result = array("DSM", "Synology NVR");
 		} else {
-			$result = array("DSM", "Synology NAS");
+			$result = array("DSM", "INTEGRA Server");
 		}
 		return str_replace($origin, $result, $s);
 	}

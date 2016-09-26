@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Sincronização de Pasta Partilhada</h2>
-<p>O serviço de Sincronização de Pasta Partilhada permite ao utilizador sincronizar pastas de um dispositivo Synology NAS (origem) para outros dispositivos Synology NAS (destino) numa LAN ou através da Internet.</p>
+<p>O serviço de Sincronização de Pasta Partilhada permite ao utilizador sincronizar pastas de um dispositivo INTEGRA Server (origem) para outros dispositivos INTEGRA Server (destino) numa LAN ou através da Internet.</p>
 <p>A Sincronização de Pasta Partilhada fará uma sincronização completa da(s) pasta(s) partilhada(s) na primeira vez. Posteriormente, apenas os ficheiros alterados serão sincronizados. Os ficheiros removidos da origem serão também removidos do destino.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Ativação do Serviço</h3>
 <h4>Para ativar a Sincronização de Pasta Partilhada:</h4>
-<p>Terá primeiro de ativar o serviço na Synology NAS de destino.</p>
+<p>Terá primeiro de ativar o serviço na INTEGRA Server de destino.</p>
 <ol>
 <li>Ir para <strong>Painel de Controlo</strong> > <strong>Serviço de Ficheiros</strong> > <strong>rsync</strong>.</li>
 <li>Selecionar <strong>Activar o serviço rsync</strong> para ativar o serviço Sincronização de Pasta Partilhada.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Para dissociar pastas partilhadas do Synology NAS de destino:</h4>
+<h4>Para dissociar pastas partilhadas do INTEGRA Server de destino:</h4>
 
 <p>Se fontes diferentes sincronizarem em simultâneo uma pasta partilhada idêntica para um DiskStation, de destino, ocorrerá um conflito. Terá de dissociar a pasta partilhada no lado de origem antes que outra fonte possa sincronizar a sua pasta com o destino.  
 
 <ol>
-<li>Inicie a sessão no Synology NAS e aceda a <strong>Painel de Controlo</strong> > <strong>Sincronização de Pasta Partilhada</strong> > <strong>Lista de Ligações</strong>.</li>
-<li>Selecione a ligação de conflito de um Synology NAS de origem e clique em <strong>Dissociar</strong> para a remover.</li>
+<li>Inicie a sessão no INTEGRA Server e aceda a <strong>Painel de Controlo</strong> > <strong>Sincronização de Pasta Partilhada</strong> > <strong>Lista de Ligações</strong>.</li>
+<li>Selecione a ligação de conflito de um INTEGRA Server de origem e clique em <strong>Dissociar</strong> para a remover.</li>
 </ol>
 
 <p>Agora outra fonte pode sincronizar a pasta partilhada com o destino DiskStation.</p>
@@ -52,11 +52,11 @@
 
 <h4>Para criar uma tarefa de sincronização:</h4>
 <ol>
-<li>Inicie a sessão no Synology NAS de origem e aceda a <b>Painel de controlo</b> > <b>Sincronização de Pasta Partilhada</b> > <strong>Lista de Tarefas</strong>.</li>
+<li>Inicie a sessão no INTEGRA Server de origem e aceda a <b>Painel de controlo</b> > <b>Sincronização de Pasta Partilhada</b> > <strong>Lista de Tarefas</strong>.</li>
 <li>Clique em <b>Criar</b>.</li>
 <li>Introduza um nome para esta tarefa.</li>
 <li>Selecione a pasta partilhada que pretende sincronizar para o destino.</li>
-<li>Especifique o Synology NAS de destino e as seguintes opções de sincronização:</li>
+<li>Especifique o INTEGRA Server de destino e as seguintes opções de sincronização:</li>
 <ul>
 <li><strong>Personalizar porta de encriptação de SSH para sincronizar pasta partilhada encriptada</strong>: Especifique a porta de encriptação desejada para encriptação de transferência SSH.</li>
 <li><strong>Ativar a encriptação de transferência SSH</strong>: Encriptar dados durante a transferência. O modo encriptado permite melhor segurança, enquanto o modo não encriptado proporciona melhor desempenho. Pode escolher de acordo com as suas necessidades.
@@ -74,7 +74,7 @@
 <li>Clique em <strong>Aplicar</strong>. Poderá agora ver a tarefa de sincronização na lista de tarefas, a qual será executada de acordo com o agendamento especificado.</li></ol>
 <h4>Para gerir uma tarefa de sincronização:</h4>
 <ol>
-<li>No Synology NAS de origem, aceda a <strong>Painel de Controlo</strong> > <strong>Sincronização de Pasta Partilhada</strong>, clique em <strong>Lista de Tarefas</strong>, e selecione a tarefa desejada.</li>
+<li>No INTEGRA Server de origem, aceda a <strong>Painel de Controlo</strong> > <strong>Sincronização de Pasta Partilhada</strong>, clique em <strong>Lista de Tarefas</strong>, e selecione a tarefa desejada.</li>
 <li>Execute qualquer dos seguintes procedimentos:</li>
 <ul>
 <li>

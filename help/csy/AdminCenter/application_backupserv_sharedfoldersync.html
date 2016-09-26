@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synchronizace sdílených složek</h2>
-<p>Služba Synchronizace sdílených složek umožňuje uživatelům synchronizovat sdílené složky z jednoho zařízení Synology NAS (zdroj) na jiná zařízení  Synology NAS (cíl) v síti LAN nebo přes internet.</p>
+<p>Služba Synchronizace sdílených složek umožňuje uživatelům synchronizovat sdílené složky z jednoho zařízení INTEGRA Server (zdroj) na jiná zařízení  INTEGRA Server (cíl) v síti LAN nebo přes internet.</p>
 <p>Synchronizace sdílených složek provede nejprve úplnou synchronizaci vybraných sdílených složek. Poté se budou synchronizovat pouze změněné soubory. Soubory, které byly odstraněny ze zdroje, se odstraní i z cíle.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Povolení služby</h3>
 <h4>Povolení Synchronizace sdílených složek:</h4>
-<p>Službu musíte nejprve povolit na cílovém zařízení Synology NAS.</p>
+<p>Službu musíte nejprve povolit na cílovém zařízení INTEGRA Server.</p>
 <ol>
 <li>Přejděte do části <strong>Ovládací panel</strong> > <strong>Souborová služba</strong> > <strong>rsync</strong></li>
 <li>Volbou možnosti <strong>Povolit službu rsync</strong> povolte službu Synchronizace sdílených složek.</li>
@@ -37,11 +37,11 @@
 </ol>
 
 
-<h4>Zrušení propojení sdílených složek z cílového zařízení Synology NAS:</h4>
+<h4>Zrušení propojení sdílených složek z cílového zařízení INTEGRA Server:</h4>
 
 <p>Pokud různé zdroje současně synchronizují totožné sdílené složky do jednoho cíle DiskStation, dojde ke konfliktu. Než bude moci jiný zdroj na cíl synchronizovat svou složku, budete muset zrušit propojení sdílené složky na straně zdroje.<ol>
-<li>Přihlaste se k cílovému zařízení Synology NAS a přejděte do části <strong>Ovládací panel</strong> > <strong>Synchronizace sdílených složek</strong> > <strong>Seznam připojení</strong>.</li>
-<li>Ve zdrojovém zařízení Synology NAS vyberte konfliktní připojení a kliknutím na možnost <strong>Zrušit propojení</strong> ho odeberte.</li>
+<li>Přihlaste se k cílovému zařízení INTEGRA Server a přejděte do části <strong>Ovládací panel</strong> > <strong>Synchronizace sdílených složek</strong> > <strong>Seznam připojení</strong>.</li>
+<li>Ve zdrojovém zařízení INTEGRA Server vyberte konfliktní připojení a kliknutím na možnost <strong>Zrušit propojení</strong> ho odeberte.</li>
 </ol>
 
 <p>Nyní může sdílenou složku do cílového zařízení DiskStation synchronizovat jiný zdroj.</p>
@@ -50,11 +50,11 @@
 
 <h4>Vytvoření úlohy synchronizace:</h4>
 <ol>
-<li>Přihlaste se ke zdrojovému zařízení Synology NAS a přejděte do části <b>Ovládací panel</b> > <b>Synchronizace sdílených složek</b> > <strong>Seznam úloh</strong>.</li>
+<li>Přihlaste se ke zdrojovému zařízení INTEGRA Server a přejděte do části <b>Ovládací panel</b> > <b>Synchronizace sdílených složek</b> > <strong>Seznam úloh</strong>.</li>
 <li>Klikněte na možnost <b>Vytvořit</b>.</li>
 <li>Zadejte název úlohy.</li>
 <li>Vyberte sdílenou složku, kterou chcete synchronizovat na cíl.</li>
-<li>Určete cílové zařízení Synology NAS a následující možnosti synchronizace:</li>
+<li>Určete cílové zařízení INTEGRA Server a následující možnosti synchronizace:</li>
 <ul>
 <li><strong>Přizpůsobit port šifrování SSH pro synchronizaci sdílených složek</strong>: Zadejte požadovaný port šifrování pro šifrování přenosu SSH.</li>
 <li><strong>Povolit šifrování přenosu SSH</strong>: Šifrování dat během přenosu. Tato možnost nabízí lepší zabezpečení, zatímco nešifrovaný přenos nabízí lepší výkon. Vyberte možnost podle svých potřeb.</li> 
@@ -71,7 +71,7 @@
 <li>Klikněte na možnost <strong>Použít</strong>. V seznamu úloh se zobrazí úloha synchronizace, která se bude provádět podle zadaného plánu.</li></ol>
 <h4>Správa úlohy synchronizace:</h4>
 <ol>
-<li>Ve zdrojovém zařízení Synology NAS přejděte do části <strong>Ovládací panel</strong> > <strong>Synchronizace sdílených složek</strong>, klikněte na možnost <strong>Seznam úloh</strong> a vyberte požadovanou úlohu.</li>
+<li>Ve zdrojovém zařízení INTEGRA Server přejděte do části <strong>Ovládací panel</strong> > <strong>Synchronizace sdílených složek</strong>, klikněte na možnost <strong>Seznam úloh</strong> a vyberte požadovanou úlohu.</li>
 <li>Proveďte některý z následujících úkonů:</li>
 <ul>
 <li>Kliknutím na možnost <b>Upravit</b> úlohu upravíte.</li>

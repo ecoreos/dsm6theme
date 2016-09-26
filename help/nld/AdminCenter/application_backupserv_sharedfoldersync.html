@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Gedeelde mapsynchronisatie</h2>
-<p>Met Gedeelde mapsynchronisatie kunnen gebruikers gedeelde mappen van het ene Synology NAS-apparaat (de bron) met andere Synology NAS-apparaten (de doelen) in een LAN of op internet synchroniseren.</p>
+<p>Met Gedeelde mapsynchronisatie kunnen gebruikers gedeelde mappen van het ene INTEGRA Server-apparaat (de bron) met andere INTEGRA Server-apparaten (de doelen) in een LAN of op internet synchroniseren.</p>
 <p>Bij de eerste synchronisatie, maakt Gedeelde mapsynchronisatie een volledige synchronisatie van de geselecteerde gedeelde map(pen). Hierna worden uitsluitend gewijzigde bestanden gesynchroniseerd. Bestanden die van de bron zijn verwijderd, worden ook op het doel gewist.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>De service inschakelen</h3>
 <h4>Om Gedeelde mapsynchronisatie in te schakelen:</h4>
-<p>schakel eerst de service in op de doel-Synology NAS.</p>
+<p>schakel eerst de service in op de doel-INTEGRA Server.</p>
 <ol>
 <li>Ga naar <strong>Configuratiescherm</strong> > <strong>Bestandsservice</strong> > <strong>rsync</strong></li>
 <li>Selecteer <strong>Rsync-service inschakelen</strong> om de service Gedeelde mapsynchronisatie in te schakelen.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Gedeelde mappen ontkoppelen van de Synology NAS:</h4>
+<h4>Gedeelde mappen ontkoppelen van de INTEGRA Server:</h4>
 
 <p>wanneer verschillende bronnen gelijktijdig dezelfde gedeelde map naar de doel-DiskStation synchroniseren, zal er een conflict optreden. U zult de gedeelde map aan bronzijde moeten ontkoppelen voordat een andere bron de map naar het doel kan synchroniseren. 
 
 <ol>
-<li>Meld u aan op de doel-Synology NAS en ga naar <strong>Configuratiescherm</strong> > <strong>Gedeelde mapsynchronisatie</strong> > <strong>Verbindingslijst</strong>.</li>
-<li>Selecteer de conflicterende verbinding van een bron-Synology NAS en klik op <strong>Ontkoppelen</strong> om de verbinding te verwijderen.</li>
+<li>Meld u aan op de doel-INTEGRA Server en ga naar <strong>Configuratiescherm</strong> > <strong>Gedeelde mapsynchronisatie</strong> > <strong>Verbindingslijst</strong>.</li>
+<li>Selecteer de conflicterende verbinding van een bron-INTEGRA Server en klik op <strong>Ontkoppelen</strong> om de verbinding te verwijderen.</li>
 </ol>
 
 <p>Nu kan een andere bron de gedeelde map synchroniseren naar de doel-DiskStation.</p>
@@ -52,11 +52,11 @@
 
 <h4>Om een synchronisatietaak te maken:</h4>
 <ol>
-<li>meld u aan op de bron-Synology NAS en ga naar <b>Configuratiescherm</b> > <b>Gedeelde mapsynchronisatie</b> > <strong>Takenlijst</strong>.</li>
+<li>meld u aan op de bron-INTEGRA Server en ga naar <b>Configuratiescherm</b> > <b>Gedeelde mapsynchronisatie</b> > <strong>Takenlijst</strong>.</li>
 <li>Klik op <b>Maken</b>.</li>
 <li>Voer een naam in voor de taak.</li>
 <li>Kies de gedeelde map die u met het doel wilt synchroniseren.</li>
-<li>Specificeer de doel-Synology NAS en de volgende synchronisatie-opties:</li>
+<li>Specificeer de doel-INTEGRA Server en de volgende synchronisatie-opties:</li>
 <ul>
 <li><strong>SSH-coderingspoort voor gecodeerde synchronisatie van gedeelde mappen</strong>: specificeer de gewenste coderingspoort voor SSH-overdrachtscodering.</li>
 <li><strong>SSH-overdrachtcodering inschakelen</strong>: Gegevens coderen tijdens de overdracht. Dit biedt een betere beveiliging, terwijl de niet-gecodeerde overdracht betere prestaties biedt. Bepaal zelf wat u het belangrijkste vindt.
@@ -74,7 +74,7 @@
 <li>Klik op <strong>Toepassen</strong>. Nu ziet u de synchronisatietaak in de taaklijst die wordt uitgevoerd op grond van het opgegeven schema.</li></ol>
 <h4>Om een synchronisatietaak te beheren:</h4>
 <ol>
-<li>op de bron-Synology NAS ga naar <strong>Configuratiescherm</strong> > <strong>Gedeelde mapsynchronisatie</strong>, klik op <strong>Takenlijst</strong> en selecteer de gewenste taak.</li>
+<li>op de bron-INTEGRA Server ga naar <strong>Configuratiescherm</strong> > <strong>Gedeelde mapsynchronisatie</strong>, klik op <strong>Takenlijst</strong> en selecteer de gewenste taak.</li>
 <li>Voer een van de volgende handelingen uit:</li>
 <ul>
 <li>

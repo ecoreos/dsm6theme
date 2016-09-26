@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>共用資料夾同步</h2>
-<p>透過共用資料夾同步服務，使用者可將共用資料夾從一台 Synology NAS 裝置 (來源) 同步至區域網路或網際網路上的其它 Synology NAS 裝置 (目的地)。</p>
+<p>透過共用資料夾同步服務，使用者可將共用資料夾從一台 INTEGRA Server 裝置 (來源) 同步至區域網路或網際網路上的其它 INTEGRA Server 裝置 (目的地)。</p>
 <p>第一次進行同步時，共用資料夾同步功能會將所選的共用資料夾進行完整的同步。之後則會僅同步檔案修改過的部分。若在來源端移除檔案，目的地也會移除對應的檔案。</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>啟動服務</h3>
 <h4>若要啟動共用資料夾同步：</h4>
-<p>您必須在目的地 Synology NAS 上啟動此服務。</p>
+<p>您必須在目的地 INTEGRA Server 上啟動此服務。</p>
 <ol>
 <li>請前往<strong>控制台</strong> &gt; <strong>檔案服務</strong> &gt; <strong>rsync</strong>。</li>
 <li>選擇<strong>啟動 rsync 服務</strong>，便可啟動共用資料夾同步服務。</li>
@@ -37,11 +37,11 @@
 </ol>
 
 
-<h4>若要取消共用資料夾與目的地 Synology NAS 的連結：</h4>
+<h4>若要取消共用資料夾與目的地 INTEGRA Server 的連結：</h4>
 
 <p>如果不同的來源端同時同步名稱相同的共用資料夾至相同目的地 DiskStation，將會產生衝突。在另一個來源端能夠同步資料夾至目的地前，須先在原先的來源端取消共用資料夾的連結。<ol>
-<li>登入目的地 Synology NAS，前往<strong>控制台</strong> &gt; <strong>共用資料夾同步</strong> &gt; <strong>連線清單</strong>。</li>
-<li>選擇發生衝突的來源端 Synology NAS 連線，然後按一下<strong>取消連結</strong>，便可移除。</li>
+<li>登入目的地 INTEGRA Server，前往<strong>控制台</strong> &gt; <strong>共用資料夾同步</strong> &gt; <strong>連線清單</strong>。</li>
+<li>選擇發生衝突的來源端 INTEGRA Server 連線，然後按一下<strong>取消連結</strong>，便可移除。</li>
 </ol>
 
 <p>現在，另一個來源端便可以同步共用資料夾至目的地 DiskStation。</p>
@@ -50,11 +50,11 @@
 
 <h4>若要新增同步任務：</h4>
 <ol>
-<li>登入來源端 Synology NAS，前往<b>控制台</b> &gt; <b>共用資料夾同步</b> &gt; <strong>任務清單</strong>。</li>
+<li>登入來源端 INTEGRA Server，前往<b>控制台</b> &gt; <b>共用資料夾同步</b> &gt; <strong>任務清單</strong>。</li>
 <li>按一下<b>新增</b>。</li>
 <li>輸入任務的名稱。</li>
 <li>選擇您要同步至目的地的共用資料夾。</li>
-<li>指定目的地 Synology NAS 及下列同步選項：</li>
+<li>指定目的地 INTEGRA Server 及下列同步選項：</li>
 <ul>
 <li><strong>自訂 SSH 加密連接埠</strong>：指定 SSH 傳輸加密的連接埠。</li>
 <li><strong>啟動 SSH 傳輸加密</strong>：傳輸資料時進行資料加密。此選項提供較高的安全性，但非加密傳輸的效能較佳。您可根據需要選擇。</li> 
@@ -71,7 +71,7 @@
 <li>按一下<strong>套用</strong>。現在，可在任務清單上看到同步任務，系統會根據所指定的排程執行任務。</li></ol>
 <h4>若要管理同步任務：</h4>
 <ol>
-<li>在來源端 Synology NAS 上前往<strong>控制台</strong> &gt; <strong>共用資料夾同步</strong>，按一下<strong>任務清單</strong>，然後選擇任務。</li>
+<li>在來源端 INTEGRA Server 上前往<strong>控制台</strong> &gt; <strong>共用資料夾同步</strong>，按一下<strong>任務清單</strong>，然後選擇任務。</li>
 <li>執行下列任何操作：</li>
 <ul>
 <li>按一下<b>編輯</b>來編輯任務。</li>

@@ -67,7 +67,7 @@
 </ul>
 </div>
 
-<h4>Sicherungsdaten nach öffentlichen Clouds oder Remote-Synology NAS exportieren:</h4>
+<h4>Sicherungsdaten nach öffentlichen Clouds oder Remote-INTEGRA Server exportieren:</h4>
 <p>Wenn Sie eine große Datenmenge in einer öffentlichen Cloud sichern, sollten Sie die erste Version zu einem externen Speichergerät (z. B. USB-Laufwerk) exportieren und das Gerät dem Cloud-Serviceanbieter übergeben. Dieser kann das Gerät anschließen und die Daten direkt zur Cloud hochladen. Auf diese Weise können Sie die Zeit für die erste Sicherung erheblich verkürzen.</p>
 <ol>
 <li>Klicken Sie unten links auf <strong>+</strong> und wählen Sie <strong>Remote-Synology-NAS</strong> oder den gewünschten Cloud-Serviceanbieter aus.</li>
@@ -166,11 +166,11 @@
 <li>Die folgenden Modi sind verfügbar, wenn Sie eine Datensicherungsaufgabe mit einem rsync-kompatiblen Server als Netzwerksicherungsziel erstellen: Der <b>rsync-Daemon-Modus</b> wird verwendet, wenn Sie ein Datensicherungsmodul (gemeinsamer Ordner auf dem rsync-kompatiblen Server) im Dropdown-Menü neben <b>Sicherungsmodul</b> und <b>Remote-Shell-Modus</b> auswählen, der nur aktiviert ist, wenn im <b>Sicherungsmodul</b> ein absoluter Pfad (beginnend mit „/“) eingegeben wurde.</li>
 <li>Für Linux-Benutzer dürfen nur die Konten „<strong>admin</strong>“, „<strong>root</strong>“ und „<strong>rsync</strong>“ eine Netzwerksicherung durchführen.</li>
 <li>Wenn Sie über das Internet auf einen Zielserver mithilfe seines Hostnamens zugreifen möchten, muss der Hostname ein FQDN (Fully Qualified Domain Name - vollständig qualifizierter Domainname) sein, etwa <strong>abc.bcd.com</strong>.</li>
-<li>Bei der Datensicherung von einem Synology NAS-Gerät auf ein anderes werden Sie aufgefordert, den Benutzernamen und das Passwort für ein Konto auf dem Zielgerät einzugeben. Die Datensicherung auf gemeinsamen Ordnern auf einem anderen DiskStation-Gerät ist den Zugriffsrechten auf die jeweiligen Ordner unterworfen. Nur freigegebene Ordner, für die das angegebene Benutzerkonto Zugriffsberechtigungen besitzt, werden angezeigt. Überprüfen Sie Ihre Zugriffsberechtigungen, wenn Sie den gewünschten freigegebenen Ordner auf dem Zielgerät nicht finden.</li>
+<li>Bei der Datensicherung von einem INTEGRA Server-Gerät auf ein anderes werden Sie aufgefordert, den Benutzernamen und das Passwort für ein Konto auf dem Zielgerät einzugeben. Die Datensicherung auf gemeinsamen Ordnern auf einem anderen DiskStation-Gerät ist den Zugriffsrechten auf die jeweiligen Ordner unterworfen. Nur freigegebene Ordner, für die das angegebene Benutzerkonto Zugriffsberechtigungen besitzt, werden angezeigt. Überprüfen Sie Ihre Zugriffsberechtigungen, wenn Sie den gewünschten freigegebenen Ordner auf dem Zielgerät nicht finden.</li>
 <li>Die Verschlüsselung der Übertragung wird nur unterstützt, wenn der Zielserver ebenfalls die Verschlüsselung von Netzwerksicherungskopien unterstützt. Das Authentifizierungskennwort darf nicht leer sein.</li>
 <li>Der Remote-Shell-Modus unterstützt nur die Übertragungsverschlüsselung.</li>
-<li>Wenn Sie Dateien über einen rsync-Client auf einem Synology NAS sichern, müssen die Dateinamen in UTF-8-Codierung vorliegen.</li>
-<li>Wenn Sie Dateien über einen rsync-kompatiblen Client auf einem Synology NAS sichern, können Sie die Aufgaben nur über die Konten <strong>admin</strong>, <strong>root</strong> und <strong>rsync</strong> des DiskStation ausführen.</li>
+<li>Wenn Sie Dateien über einen rsync-Client auf einem INTEGRA Server sichern, müssen die Dateinamen in UTF-8-Codierung vorliegen.</li>
+<li>Wenn Sie Dateien über einen rsync-kompatiblen Client auf einem INTEGRA Server sichern, können Sie die Aufgaben nur über die Konten <strong>admin</strong>, <strong>root</strong> und <strong>rsync</strong> des DiskStation ausführen.</li>
 <li>Wenn Sie Dateien von Ihrem DiskStation auf einen rsync-kompatiblen Server sichern, müssen sie den korrekten rsync-Kontonamen und das entsprechende Kennwort eingeben. Außerdem müssen Sie das korrekte Sicherungsmodul mit Schreibberechtigung auswählen.</li>
 </ul>
 

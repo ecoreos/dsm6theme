@@ -65,12 +65,12 @@
 </ul>
 </div>
 
-<h4>Export dat zálohy do veřejných cloudů nebo do vzdáleného zařízení Synology NAS:</h4>
+<h4>Export dat zálohy do veřejných cloudů nebo do vzdáleného zařízení INTEGRA Server:</h4>
 <p>Při zálohování velkého množství dat do veřejného cloudu se doporučuje exportovat počáteční verzi do externího úložného zařízení (např. do jednotky USB) a předat toto zařízení poskytovateli cloudových služeb. Tam zařízení připojí a odešlou data přímo do cloudu. Tak můžete významně snížit dobu prvního zálohování.</p>
 <ol>
-<li>V levém dolním rohu klikněte na znak <strong>+</strong> a vyberte možnost <strong>Vzdálené zařízení Synology NAS</strong> nebo požadovaného poskytovatele cloudových služeb.</li>
+<li>V levém dolním rohu klikněte na znak <strong>+</strong> a vyberte možnost <strong>Vzdálené zařízení INTEGRA Server</strong> nebo požadovaného poskytovatele cloudových služeb.</li>
 <li>Vyberte možnost <strong>Exportovat do místní sdílené složky (včetně externího úložného zařízení)</strong> a dokončete nastavení. Po zobrazení výzvy týkající se ochrany dat zálohy vyberte možnost <strong>Povolit šifrování na straně klienta</strong>.</li>
-<li>Přeneste externí úložné zařízení ke vzdálenému zařízení Synology NAS nebo jej předejte poskytovateli cloudových služeb. Importujte exportovaná data z externího úložného zařízení.</li>
+<li>Přeneste externí úložné zařízení ke vzdálenému zařízení INTEGRA Server nebo jej předejte poskytovateli cloudových služeb. Importujte exportovaná data z externího úložného zařízení.</li>
 <li>Po potvrzení se vraťte do funkce <strong>Zálohování a obnovení</strong> a klikněte na možnost <strong>Znovu připojit</strong>.</li>
 <li>Podle pokynů průvodce opětovného připojení připojte své zařízení DiskStation k úložišti. Pokud byla data exportována jako šifrovaná, bude nutné zadat heslo nebo šifrovací klíč.</li>
 </ol>
@@ -162,11 +162,11 @@
 <li>Při vytváření úloh zálohování se servery kompatibilními s nástrojem rsync, které slouží jako cíle síťového zálohování, jsou k dispozici následující režimy: <b>Režim rsync daemon</b>, který je aktivován, pokud z rozevírací nabídky vedle položky <b>Zálohovací modul</b> vyberete modul zálohování (sdílenou složku na serveru kompatibilním s nástrojem rsync); a <b>režim remote shell</b>, který je aktivován pouze tehdy, pokud v části <b>Zálohovací modul</b> zadáte absolutní cestu (začínající znakem „/“).</li>
 <li>Uživatelé systému Linux mohou provádět úlohy zálohování pouze s účty <strong>admin</strong>, <strong>root</strong> a <strong>rsync</strong>.</li>
 <li>Pokud chcete získat přístup k cílovému serveru přes internet pomocí jeho názvu hostitele, musí mít tento název formát FQDN (Fully Qualified Domain Name), například <strong>abc.bcd.com</strong>.</li>
-<li>Při zálohování z jednoho zařízení Synology NAS na druhé budete vyzváni k zadání uživatelského jména a hesla účtu na cílovém zařízení. Zálohování sdílených složek na zařízení DiskStation můžete provést podle nastavení oprávnění přístupu složek. Lze zobrazit pouze ty sdílené složky, ke kterým má příslušný uživatelský účet přístupová oprávnění. Pokud nelze požadovanou sdílenou složku cílového serveru vyhledat, ověřte přístupová oprávnění.</li>
+<li>Při zálohování z jednoho zařízení INTEGRA Server na druhé budete vyzváni k zadání uživatelského jména a hesla účtu na cílovém zařízení. Zálohování sdílených složek na zařízení DiskStation můžete provést podle nastavení oprávnění přístupu složek. Lze zobrazit pouze ty sdílené složky, ke kterým má příslušný uživatelský účet přístupová oprávnění. Pokud nelze požadovanou sdílenou složku cílového serveru vyhledat, ověřte přístupová oprávnění.</li>
 <li>Šifrování přenosu je podporováno pouze tehdy, pokud cílový server podporuje šifrované síťové zálohování. Současně nesmí být heslo pro ověřování prázdné.</li>
 <li>Režim remote shell podporuje pouze šifrování přenosu.</li>
-<li>Pokud zálohujete soubory na zařízení Synology NAS prostřednictvím klienta rsync, názvy klientů musí mít kódování UTF-8.</li>
-<li>Pokud zálohujete soubory na zařízení Synology NAS prostřednictvím klienta kompatibilního s nástrojem rsync, můžete tuto úlohu provést pouze pomocí účtu <strong>admin</strong>, <strong>root</strong> a <strong>rsync</strong> zařízení DiskStation.</li>
+<li>Pokud zálohujete soubory na zařízení INTEGRA Server prostřednictvím klienta rsync, názvy klientů musí mít kódování UTF-8.</li>
+<li>Pokud zálohujete soubory na zařízení INTEGRA Server prostřednictvím klienta kompatibilního s nástrojem rsync, můžete tuto úlohu provést pouze pomocí účtu <strong>admin</strong>, <strong>root</strong> a <strong>rsync</strong> zařízení DiskStation.</li>
 <li>Pokud zálohujete soubory ze svého zařízení DiskStation na server kompatibilní s nástrojem rsync, musíte zadat správný název a heslo účtu zálohování rsync. Budete také muset vybrat správný modul zálohování s oprávněním pro zápis.</li>
 </ul>
 

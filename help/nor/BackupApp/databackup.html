@@ -67,12 +67,12 @@
 </ul>
 </div>
 
-<h4>Slik eksporterer du sikkerhetskopidata til offentlige skyer eller en ekstern Synology NAS:</h4>
+<h4>Slik eksporterer du sikkerhetskopidata til offentlige skyer eller en ekstern INTEGRA Server:</h4>
 <p>Når du sikkerhetskopierer store mengder data til en offentlig sky, blir du anbefalt å eksportere den første versjonen til en ekstern lagringsenhet (f.eks. en USB-stasjon) og levere enheten til leverandøren av skytjenesten. Der kan enheten kobles til og dataene kan lastes opp direkte til skyen. På denne måten kan du redusere tiden du bruker på den første sikkerhetskopieringen betraktelig.</p>
 <ol>
-<li>Klikk på <strong>+</strong> nederst til venstre og velg <strong>Ekstern Synology NAS</strong> eller skytjenesteleverandøren du vil bruke.</li>
+<li>Klikk på <strong>+</strong> nederst til venstre og velg <strong>Ekstern INTEGRA Server</strong> eller skytjenesteleverandøren du vil bruke.</li>
 <li>Velg <strong>Eksporter til en lokal delt mappe (inkludert en ekstern lagringsenhet)</strong> og fullfør innstillingene. Når du får spørsmål om det, velger du <strong>Aktiver kryptering på klientsiden</strong> for beskyttet datasikkerhetskopiering.</li>
-<li>Lever den eksterne lagringsenheten til en ekstern Synology NAS eller skytjenesteleverandør. Importer de eksporterte dataene fra den eksterne lagringsenheten.</li>
+<li>Lever den eksterne lagringsenheten til en ekstern INTEGRA Server eller skytjenesteleverandør. Importer de eksporterte dataene fra den eksterne lagringsenheten.</li>
 <li>Når importeringen er bekreftet, går du tilbake til <strong>Sikkerhetskopier og gjenopprett</strong> og klikker på <strong>Koble til på nytt nå</strong>.</li>
 <li>Følg intruksjonene i Veiviser for tilkobling på nytt for å koble din DiskStation til arkivet. Et passord eller en krypteringsnøkkel kreves hvis dataene ble eksportert i kryptert tilstand.</li>
 </ol>
@@ -166,11 +166,11 @@
 <li>Følgende modi er tilgjengelig når du oppretter en sikkerhetskopioppgave med rsync-kompatible servere som sikkerhetskopimål for nettverk: <b>rsync daemon-modus,</b> som brukes når du velger en sikkerhetskopimodul (delte mapper på den rsync-kompatible serveren) fra rullergardinmenyen ved siden av <b>Sikkerhetskopimodul</b>; og <b>remote shell-modus,</b> som kun aktiveres når du angir en absolutt bane (som starter med "/") i <b>Sikkerhetskopimodul</b>.</li>
 <li>For Linux-brukere tillates bare <strong>admin</strong>-, <strong>root</strong>- og <strong>rsync</strong>-kontoene å utføre sikkerhetskopioppgaver.</li>
 <li>Hvis du vil oppnå tilgang til målserveren over Internett ved hjelp av vertsnavnet, må vertsnavnet være et FQDN (Fully Qualified Domain Name - fullstendig kvalifisert domenenavn), for eksempel <strong>abc.bcd.com</strong>.</li>
-<li>Når du sikkerhetskopierer fra en Synology NAS-enhet til en annen, blir du bedt om å angi brukernavn og passord for en konto på målet. Når du sikkerhetskopierer til delte mapper på en annen DiskStation, kan du gjøre dette i henhold til mappenes innstillinger for tilgangsrettigheter. Kun delte mapper som den spesifiserte brukerkontoen har tilgangsrettigheter til vil vises. Hvis du ikke finner den delte mappen du leter etter i målet, må du kontrollere tilgangsrettighetene dine.</li>
+<li>Når du sikkerhetskopierer fra en INTEGRA Server-enhet til en annen, blir du bedt om å angi brukernavn og passord for en konto på målet. Når du sikkerhetskopierer til delte mapper på en annen DiskStation, kan du gjøre dette i henhold til mappenes innstillinger for tilgangsrettigheter. Kun delte mapper som den spesifiserte brukerkontoen har tilgangsrettigheter til vil vises. Hvis du ikke finner den delte mappen du leter etter i målet, må du kontrollere tilgangsrettighetene dine.</li>
 <li>Overføringskryptering støttes bare hvis målserveren også støtter kryptering av nettverkssikkerhetskopier og passordgodkjenning ikke står tomt.</li>
 <li>Fjernbehandlingsmodus støtter kun overføringskryptering.</li>
-<li>Hvis du sikkerhetskopierer filer til en Synology NAS-enhet gjennom en rsync-klient, må filnavnene være i UTF-8-koding.</li>
-<li>Hvis du sikkerhetskopierer filer til en Synology NAS-enhet gjennom en rsync-kompatibel klient, kan du bare utføre oppgaven med <strong>admin</strong>-, <strong>root</strong>- og <strong>rsync</strong>-kontoene til DiskStation.</li>
+<li>Hvis du sikkerhetskopierer filer til en INTEGRA Server-enhet gjennom en rsync-klient, må filnavnene være i UTF-8-koding.</li>
+<li>Hvis du sikkerhetskopierer filer til en INTEGRA Server-enhet gjennom en rsync-kompatibel klient, kan du bare utføre oppgaven med <strong>admin</strong>-, <strong>root</strong>- og <strong>rsync</strong>-kontoene til DiskStation.</li>
 <li>Hvis du sikkerhetskopierer filer fra din DiskStation til en rsync-kompatibel server, må du legge inn riktig kontonavn og -passord for rsync-sikkerhetskopien. Du må også velge riktig sikkerhetskopimodul med skriverettigheten.</li>
 </ul>
 

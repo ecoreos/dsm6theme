@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Shared Folder Sync</h2>
-<p>The Shared Folder Sync service allows users to sync shared folders from one Synology NAS device (the source) to other Synology NAS devices (the destination) in LAN or over the Internet.</p>
+<p>The Shared Folder Sync service allows users to sync shared folders from one INTEGRA Server device (the source) to other INTEGRA Server devices (the destination) in LAN or over the Internet.</p>
 <p>Shared Folder Sync will perform a full sync of the selected shared folder(s) for the first time. Afterwards, only changed files will be synced. Files that have been removed from the source will also be removed from the destination.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Enabling the Service</h3>
 <h4>To enable Shared Folder Sync:</h4>
-<p>You have to enable the service on the destination Synology NAS first.</p>
+<p>You have to enable the service on the destination INTEGRA Server first.</p>
 <ol>
 <li>Go to <strong>Control Panel</strong> > <strong>File Service</strong> > <strong>rsync</strong></li>
 <li>Select <strong>Enable rsync service</strong> to enable the Shared Folder Sync service.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>To unlink shared folders from  destination Synology NAS:</h4>
+<h4>To unlink shared folders from  destination INTEGRA Server:</h4>
 
 <p>If different sources simultaneously sync an identical shared folder to one destination DiskStation, there will be a conflict. You will need to unlink the shared folder on the source side before another source can sync its folder to the destination. 
 
 <ol>
-<li>Log in to the destination Synology NAS, and go to <strong>Control Panel</strong> > <strong>Shared Folder Sync</strong> > <strong>Connection List</strong>.</li>
-<li>Select the conflicting connection from a source Synology NAS, and click <strong>Unlink</strong> to remove it.</li>
+<li>Log in to the destination INTEGRA Server, and go to <strong>Control Panel</strong> > <strong>Shared Folder Sync</strong> > <strong>Connection List</strong>.</li>
+<li>Select the conflicting connection from a source INTEGRA Server, and click <strong>Unlink</strong> to remove it.</li>
 </ol>
 
 <p>Now another source can sync the shared folder to the destination DiskStation.</p>
@@ -52,11 +52,11 @@
 
 <h4>To create a sync task:</h4>
 <ol>
-<li>Log in to the source Synology NAS, and go to <b>Control Panel</b> > <b>Shared Folder Sync</b> > <strong>Task List</strong>.</li>
+<li>Log in to the source INTEGRA Server, and go to <b>Control Panel</b> > <b>Shared Folder Sync</b> > <strong>Task List</strong>.</li>
 <li>Click <b>Create</b>.</li>
 <li>Enter a name for the task.</li>
 <li>Select the shared folder you want to sync to the destination.</li>
-<li>Specify the destination Synology NAS and the following sync options:</li>
+<li>Specify the destination INTEGRA Server and the following sync options:</li>
 <ul>
 <li><strong>Customize SSH encryption port for encrypted shared folder sync</strong>: Specify the desired encryption port for SSH transfer encryption.</li>
 <li><strong>Enable SSH transfer encryption</strong>: Encrypt data during transfer. This provides better security, while non-encrypted transfer provides better performance. You can choose according to your needs.
@@ -74,7 +74,7 @@
 <li>Click <strong>Apply</strong>. Now you can see the sync task on the task list, which will be performed according to the specified schedule.</li></ol>
 <h4>To manage a sync task:</h4>
 <ol>
-<li>On the source Synology NAS, go to <strong>Control Panel</strong> > <strong>Shared Folder Sync</strong>, click <strong>Task List</strong>, and select the desired task.</li>
+<li>On the source INTEGRA Server, go to <strong>Control Panel</strong> > <strong>Shared Folder Sync</strong>, click <strong>Task List</strong>, and select the desired task.</li>
 <li>Do any of the following:</li>
 <ul>
 <li>

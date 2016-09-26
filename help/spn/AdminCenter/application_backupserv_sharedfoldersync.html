@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Sincronización de carpetas compartidas</h2>
-<p>El servicio de sincronización de carpetas compartidas permite a los usuarios sincronizar las carpetas compartidas de un dispositivo Synology NAS (el origen) con otros dispositivos Synology NAS (los destinos) en LAN o a través de Internet.</p>
+<p>El servicio de sincronización de carpetas compartidas permite a los usuarios sincronizar las carpetas compartidas de un dispositivo INTEGRA Server (el origen) con otros dispositivos INTEGRA Server (los destinos) en LAN o a través de Internet.</p>
 <p>La primera vez que se haga, la sincronización de carpetas compartidas realizará una sincronización completa de las carpetas seleccionadas. Después, solo se sincronizarán los archivos modificados. Los archivos que se eliminen del origen también se eliminarán del destino.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Habilitar el servicio</h3>
 <h4>Para habilitar la sincronización de carpetas compartidas:</h4>
-<p>En primer lugar, debe habilitar el servicio en el Synology NAS de destino.</p>
+<p>En primer lugar, debe habilitar el servicio en el INTEGRA Server de destino.</p>
 <ol>
 <li>Vaya a <strong>Panel de control</strong> > <strong>Servicio de archivos</strong> > <strong>rsync</strong>.</li>
 <li>Seleccione <strong>Habilitar servicio rsync</strong> para activar el servicio de sincronización de carpetas compartidas.</li>
@@ -37,11 +37,11 @@
 </ol>
 
 
-<h4>Para desvincular carpetas compartidas del Synology NAS de destino:</h4>
+<h4>Para desvincular carpetas compartidas del INTEGRA Server de destino:</h4>
 
 <p>Si distintos orígenes sincronizan simultáneamente una carpeta compartida idéntica en un DiskStation de destino, se producirá un conflicto. Deberá desvincular la carpeta compartida del origen para que otro origen pueda sincronizar su carpeta en el destino.<ol>
-<li>Inicie sesión en el Synology NAS de destino y vaya a <strong>Panel de control</strong> > <strong>Sincronización de carpetas compartidas</strong> > <strong>Lista de conexiones</strong>.</li>
-<li>Seleccione la conexión en conflicto desde un Synology NAS de origen y haga clic en <strong>Desvincular</strong> para eliminarla.</li>
+<li>Inicie sesión en el INTEGRA Server de destino y vaya a <strong>Panel de control</strong> > <strong>Sincronización de carpetas compartidas</strong> > <strong>Lista de conexiones</strong>.</li>
+<li>Seleccione la conexión en conflicto desde un INTEGRA Server de origen y haga clic en <strong>Desvincular</strong> para eliminarla.</li>
 </ol>
 
 <p>Ahora otro origen puede sincronizar la carpeta compartida en el DiskStation de destino.</p>
@@ -50,11 +50,11 @@
 
 <h4>Para crear una tarea de sincronización:</h4>
 <ol>
-<li>Inicie sesión en el Synology NAS de origen y vaya a <b>Panel de control</b> > <b>Sincronización de carpetas compartidas</b> > <strong>Lista de tareas</strong>.</li>
+<li>Inicie sesión en el INTEGRA Server de origen y vaya a <b>Panel de control</b> > <b>Sincronización de carpetas compartidas</b> > <strong>Lista de tareas</strong>.</li>
 <li>Haga clic en <b>Crear</b>.</li>
 <li>Introduzca un nombre para la tarea.</li>
 <li>Seleccione la carpeta compartida que desea sincronizar con el destino.</li>
-<li>Especifique el Synology NAS de destino y las siguientes opciones de sincronización:</li>
+<li>Especifique el INTEGRA Server de destino y las siguientes opciones de sincronización:</li>
 <ul>
 <li><strong>Personalizar el puerto de cifrado SSH para la sincronización de carpetas compartidas cifradas</strong>: permite especificar el puerto de cifrado deseado para el cifrado de transferencia SSH.</li>
 <li><strong>Habilitar cifrado de transferencia SSH</strong>: los datos se cifran durante la transferencia. Este cifrado proporciona una mayor seguridad, mientras que la transferencia no cifrada proporciona un mayor rendimiento. Puede elegir el que prefiera, según sus necesidades.</li> 
@@ -71,7 +71,7 @@
 <li>Haga clic en <strong>Aplicar</strong>. Ahora puede ver la tarea de sincronización en la lista de tareas, que se llevará a cabo según la programación especificada.</li></ol>
 <h4>Para administrar una tarea de sincronización:</h4>
 <ol>
-<li>En el Synology NAS de origen, vaya a <strong>Panel de control </strong> > <strong>Sincronización de carpetas compartidas</strong>, haga clic en <strong>Lista de tareas</strong> y, a continuación, seleccione la tarea que desee.</li>
+<li>En el INTEGRA Server de origen, vaya a <strong>Panel de control </strong> > <strong>Sincronización de carpetas compartidas</strong>, haga clic en <strong>Lista de tareas</strong> y, a continuación, seleccione la tarea que desee.</li>
 <li>Realice cualquiera de las siguientes operaciones:</li>
 <ul>
 <li>Haga clic en <b>Editar</b> para editar la tarea.</li>

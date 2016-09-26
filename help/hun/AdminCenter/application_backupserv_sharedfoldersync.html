@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Megosztott mappa szinkronizálása</h2>
-<p>A Megosztott mappa szinkronizálása szolgáltatás lehetővé teszi, hogy a felhasználók megosztott mappákat szinkronizáljanak egyik Synology NAS eszközükről (forrás) egy másik Synology NAS eszközre (cél) a helyi vagy internetes hálózaton keresztül.</p>
+<p>A Megosztott mappa szinkronizálása szolgáltatás lehetővé teszi, hogy a felhasználók megosztott mappákat szinkronizáljanak egyik INTEGRA Server eszközükről (forrás) egy másik INTEGRA Server eszközre (cél) a helyi vagy internetes hálózaton keresztül.</p>
 <p>Az első használatkor a Megosztott mappa szinkronizálása funkció teljes szinkronizálást végez a megosztott mappá(ko)n. Ezt követően mindig csak a módosított fájlok kerülnek szinkronizálásra. A forrásról eltávolított fájlok a célállomásról is eltávolításra kerülnek.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>A szolgáltatás engedélyezése</h3>
 <h4>A Megosztott mappa szinkronizálása funkció engedélyezése:</h4>
-<p>A szolgáltatást először a célként használt Synology NAS eszközön kell engedélyezni.</p>
+<p>A szolgáltatást először a célként használt INTEGRA Server eszközön kell engedélyezni.</p>
 <ol>
 <li>Lépjen a <strong>Vezérlőpult</strong> > <strong>Fájlszolgáltatások</strong> > <strong>rsync</strong> menüpontra</li>
 <li>A Megosztott mappa szinkronizálása szolgáltatás engedélyezéséhez válassza az <strong>Rsync-szolgáltatás engedélyezése</strong> lehetőséget.</li>
@@ -37,11 +37,11 @@
 </ol>
 
 
-<h4>Megosztott mappák leválasztása a célként használt Synology NAS eszközről:</h4>
+<h4>Megosztott mappák leválasztása a célként használt INTEGRA Server eszközről:</h4>
 
 <p>Ha több különböző forrás egyszerre szinkronizálja ugyanazt a megosztott mappát egy célként használt DiskStation eszközre, ütközés alakul ki. Egy másik forráson található mappát csak akkor szinkronizálhat a céllal, ha előbb leválasztja az aktuálisan csatolt megosztott mappát a forrásoldalon.<ol>
-<li>Jelentkezzen be a célként használt Synology NAS eszközre, majd lépjen a <strong>Vezérlőpult</strong> > <strong>Megosztott mappa szinkronizálása</strong> > <strong>Csatlakozási lista</strong> menüpontra.</li>
-<li>Válassza ki az ütköző kapcsolatot a hozzá tartozó forrásként használt Synology NAS eszközről, majd eltávolításához kattintson a <strong>Leválasztás</strong> elemre.</li>
+<li>Jelentkezzen be a célként használt INTEGRA Server eszközre, majd lépjen a <strong>Vezérlőpult</strong> > <strong>Megosztott mappa szinkronizálása</strong> > <strong>Csatlakozási lista</strong> menüpontra.</li>
+<li>Válassza ki az ütköző kapcsolatot a hozzá tartozó forrásként használt INTEGRA Server eszközről, majd eltávolításához kattintson a <strong>Leválasztás</strong> elemre.</li>
 </ol>
 
 <p>Ezt követően a másik forráseszköz képes lesz a megosztott mappa szinkronizálására a célként használt DiskStation eszközzel.</p>
@@ -50,11 +50,11 @@
 
 <h4>Szinkronizálási feladat létrehozása:</h4>
 <ol>
-<li>Jelentkezzen be a forrásként használt Synology NAS eszközre, majd lépjen a <b>Vezérlőpult</b> > <b>Megosztott mappa szinkronizálása</b> > <strong>Feladatlista</strong> menüpontra.</li>
+<li>Jelentkezzen be a forrásként használt INTEGRA Server eszközre, majd lépjen a <b>Vezérlőpult</b> > <b>Megosztott mappa szinkronizálása</b> > <strong>Feladatlista</strong> menüpontra.</li>
 <li>Kattintson a <b>Létrehozás</b> gombra.</li>
 <li>Adja meg a feladat nevét.</li>
 <li>Válassza ki a célhelyre szinkronizálni kívánt megosztott mappát.</li>
-<li>Adja meg a célként használni kívánt Synology NAS eszközt, valamint az alábbi szinkronizálási beállításokat:</li>
+<li>Adja meg a célként használni kívánt INTEGRA Server eszközt, valamint az alábbi szinkronizálási beállításokat:</li>
 <ul>
 <li><strong>SSH titkosítási port testre szabása titkosított megosztott mappa szinkronizáláshoz</strong>: Az SSH-átvitel titkosításához használt titkosítási port kiválasztása.</li>
 <li><strong>SSH küldési titkosítás engedélyezése</strong>: Az adatok titkosítása az átvitel során. Ez a funkció biztonságosabb átvitelt tesz lehetővé, míg a titkosítás kihagyása esetén gyorsabb lesz az átvitel. Válassza ki az igényeinek megfelelő módot.</li> 
@@ -71,7 +71,7 @@
 <li>Kattintson az <strong>Alkalmaz</strong> gombra. Ezt követően megtekintheti a szinkronizálási feladatot a feladatlistán. Ezt a beállított ütemezés alapján végzi el a rendszer.</li></ol>
 <h4>Szinkronizálási feladat kezelése:</h4>
 <ol>
-<li>A forrásként használt Synology NAS eszközön lépjen a <strong>Vezérlőpult</strong> > <strong>Megosztott mappa szinkronizálása</strong> menüpontra, kattintson a <strong>Feladatlista</strong> elemre, majd válassza ki a kívánt feladatot.</li>
+<li>A forrásként használt INTEGRA Server eszközön lépjen a <strong>Vezérlőpult</strong> > <strong>Megosztott mappa szinkronizálása</strong> menüpontra, kattintson a <strong>Feladatlista</strong> elemre, majd válassza ki a kívánt feladatot.</li>
 <li>Tegye a következők valamelyikét:</li>
 <ul>
 <li>A feladat szerkesztéséhez kattintson a <b>Szerkesztés</b> gombra.</li>

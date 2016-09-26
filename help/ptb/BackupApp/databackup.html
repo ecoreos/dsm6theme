@@ -53,12 +53,12 @@
 <li>Todos os destinos de backup podem fazer o backup das configura&ccedil;&otilde;es do Windows ACL independentemente do sistema de arquivos de destino</li>
 </ul>
 </div>
-<h4>Para exportar os dados de backup para nuvens p&uacute;blicas ou Synology NAS remoto:</h4>
+<h4>Para exportar os dados de backup para nuvens p&uacute;blicas ou INTEGRA Server remoto:</h4>
 <p>Quando fizer backup de uma grande quantidade de dados para uma nuvem p&uacute;blica, recomendamos que voc&ecirc; exporte a vers&atilde;o inicial para um dispositivo de armazenamento externo (ex: unidade USB) e entregue o dispositivo ao fornecedor de servi&ccedil;os de nuvem. L&aacute; o dispositivo poder&aacute; ser conectado e os dados, carregados diretamente na nuvem. Desse modo voc&ecirc; pode reduzir significativamente o tempo do primeiro backup.</p>
 <ol>
-<li>Clique em <strong>+</strong> no canto inferior esquerdo e selecione <strong>Synology NAS remoto</strong> ou o fornecedor de servi&ccedil;o de nuvem desejado.</li>
+<li>Clique em <strong>+</strong> no canto inferior esquerdo e selecione <strong>INTEGRA Server remoto</strong> ou o fornecedor de servi&ccedil;o de nuvem desejado.</li>
 <li>Selecione <strong>Exportar para uma pasta compartilhada local (incluindo um dispositivo de armazenamento externo)</strong> e conclua as configura&ccedil;&otilde;es. Quando solicitado, selecione <strong>Habilitar criptografia do lado do cliente</strong> para obter um backup de dados protegido.</li>
-<li>Entregue o dispositivo de armazenamento externo para o Synology NAS remoto ou fornecedor de servi&ccedil;os de nuvem. Importe os dados exportados do dispositivo de armazenamento externo.</li>
+<li>Entregue o dispositivo de armazenamento externo para o INTEGRA Server remoto ou fornecedor de servi&ccedil;os de nuvem. Importe os dados exportados do dispositivo de armazenamento externo.</li>
 <li>Depois de confirmado, volte para <strong>Backup e restaura&ccedil;&atilde;o</strong> e clique em <strong>Revincular agora</strong>.</li>
 <li>Siga as instru&ccedil;&otilde;es do Assistente de revincula&ccedil;&atilde;o para vincular seu DiskStation ao reposit&oacute;rio. &Eacute; necess&aacute;ria uma senha/chave de criptografia se os dados foram exportados criptografados.</li>
 </ol>
@@ -128,11 +128,11 @@
 <li>Os modos a seguir est&atilde;o dispon&iacute;veis ao criar uma tarefa de backup com servidores compat&iacute;veis com rsync como o destino do backup em rede: <b>modo de daemon rsync,</b> que &eacute; usado quando voc&ecirc; seleciona um m&oacute;dulo de backup (pasta compartilhada no servidor compat&iacute;vel com rsync) do menu suspenso pr&oacute;ximo a <b>M&oacute;dulo de backup</b>; e <b>modo de shell remoto,</b> que &eacute; usado somente quando voc&ecirc; digita um caminho absoluto (iniciando por &quot;/&quot;) no <b>M&oacute;dulo de backup</b>.</li>
 <li>Para usu&aacute;rios de Linux, somente as contas <strong>admin</strong>, <strong>root</strong> e <strong>rsync</strong> s&atilde;o autorizadas a executar tarefas de backup.</li>
 <li>Para acessar o servidor de destino pela Internet usando o nome do host, o nome do host deve ser um FQDN (Fully Qualified Domain Name &ndash; Nome de dom&iacute;nio completamente qualificado), por exemplo <strong>abc.bcd.com</strong>.</li>
-<li>Ao fazer backup de um dispositivo Synology NAS para outro, voc&ecirc; ser&aacute; solicitado a inserir o nome de usu&aacute;rio e a senha de uma conta no destino. Ao fazer backup de pastas compartilhadas em outro DiskStation, &eacute; poss&iacute;vel faz&ecirc;-lo de acordo com as configura&ccedil;&otilde;es de privil&eacute;gios de acesso das pastas. Somente pastas compartilhadas para as quais a conta de usu&aacute;rio especificada possui privil&eacute;gios de acesso estar&atilde;o vis&iacute;veis. Se voc&ecirc; n&atilde;o localizar a pasta compartilhada desejada no destino, verifique seus privil&eacute;gios de acesso.</li>
+<li>Ao fazer backup de um dispositivo INTEGRA Server para outro, voc&ecirc; ser&aacute; solicitado a inserir o nome de usu&aacute;rio e a senha de uma conta no destino. Ao fazer backup de pastas compartilhadas em outro DiskStation, &eacute; poss&iacute;vel faz&ecirc;-lo de acordo com as configura&ccedil;&otilde;es de privil&eacute;gios de acesso das pastas. Somente pastas compartilhadas para as quais a conta de usu&aacute;rio especificada possui privil&eacute;gios de acesso estar&atilde;o vis&iacute;veis. Se voc&ecirc; n&atilde;o localizar a pasta compartilhada desejada no destino, verifique seus privil&eacute;gios de acesso.</li>
 <li>A criptografia de transfer&ecirc;ncia &eacute; suportada apenas se o servidor de destino suportar backup criptografado em rede e se a senha de autentica&ccedil;&atilde;o n&atilde;o estiver vazia.</li>
 <li>O modo shell remoto suporta somente a criptografia de transfer&ecirc;ncia.</li>
-<li>Se voc&ecirc; estiver fazendo backup de arquivos para um Synology NAS por meio de um cliente rsync, os nomes dos arquivos devem estar em codifica&ccedil;&atilde;o UTF-8.</li>
-<li>Se voc&ecirc; estiver fazendo backup de arquivos em um Synology NAS por meio de um cliente compat&iacute;vel com rsync, s&oacute; pode executar a tarefa com contas de <strong>admin</strong>, <strong>root</strong> e <strong>rsync</strong> do DiskStation.</li>
+<li>Se voc&ecirc; estiver fazendo backup de arquivos para um INTEGRA Server por meio de um cliente rsync, os nomes dos arquivos devem estar em codifica&ccedil;&atilde;o UTF-8.</li>
+<li>Se voc&ecirc; estiver fazendo backup de arquivos em um INTEGRA Server por meio de um cliente compat&iacute;vel com rsync, s&oacute; pode executar a tarefa com contas de <strong>admin</strong>, <strong>root</strong> e <strong>rsync</strong> do DiskStation.</li>
 <li>Se voc&ecirc; estiver fazendo backup de arquivos de seu DiskStation para um servidor compat&iacute;vel com rsync, voc&ecirc; precisar&aacute; digitar a senha e o nome da conta de backup rsync corretos. Voc&ecirc; tamb&eacute;m precisar&aacute; escolher o m&oacute;dulo de backup correto com o privil&eacute;gio de Grava&ccedil;&atilde;o.</li>
 </ul>
 <h4>Tarefas de backup Amazon S3:</h4>

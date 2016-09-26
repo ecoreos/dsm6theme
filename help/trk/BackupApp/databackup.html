@@ -67,12 +67,12 @@
 </ul>
 </div>
 
-<h4>Yedekleme verilerini genel bulutlara veya uzak Synology NAS'a aktarmak için:</h4>
+<h4>Yedekleme verilerini genel bulutlara veya uzak INTEGRA Server'a aktarmak için:</h4>
 <p>Bir genel buluta büyük miktarda veriyi yedeklerken, ilk sürümü bir harici depolama aygıtına (ör. bir USB sürücü) göndermeniz ve cihazı bulut hizmet sağlayıcısına teslim etmeniz önerilir. Orada cihaz bağlanabilir ve verileri doğrudan buluta yükleyebilir. Bu yolla, ilk yedekleme için zamanı ciddi şekilde azaltabilirsiniz.</p>
 <ol>
-<li>Sol alt köşede <strong>+</strong> üzerine tıklayın ve <strong>Uzak Synology NAS</strong> öğesini veya istenilen bulut hizmeti sağlayıcısını seçin.</li>
+<li>Sol alt köşede <strong>+</strong> üzerine tıklayın ve <strong>Uzak INTEGRA Server</strong> öğesini veya istenilen bulut hizmeti sağlayıcısını seçin.</li>
 <li><strong>Yerel bir paylaşımlı klasöre aktar (harici bir depolama cihazı dahil)</strong> öğesini seçin ve ayarları tamamlayın. İstendiğinde, korumalı veri yedeklemesi için <strong>İstemci tarafı şifrelemesini etkinleştir</strong>'i seçin.</li>
-<li>Harici depolama aygıtınıu uzak Synology NAS'a veya bulut hizmet sağlayıcısına teslim edin. Harici depolama aygıtından dışarı aktarılan verileri alın.</li>
+<li>Harici depolama aygıtınıu uzak INTEGRA Server'a veya bulut hizmet sağlayıcısına teslim edin. Harici depolama aygıtından dışarı aktarılan verileri alın.</li>
 <li>Teyit edildiğinde, <strong>Yedekle ve Geri Yükle</strong>'ye geri dönün ve <strong>Şimdi yeniden bağla</strong>'ya tıklayın.</li>
 <li>DiskStation sunucunuzu veri havuzuna bağlamak için Yeniden Bağlama Sihirbazının talimatlarını izleyin. Veri şifrelenmiş halde dışarı aktarılmışsa bir parola/şifreleme anahtarı gereklidir.</li>
 </ol>
@@ -166,11 +166,11 @@
 <li>Ağ yedekleme hedefi olarak rsync uyumlu bir sunucuyla bir yedekleme görevi oluştururken aşağıdaki modlar kullanılabilir: <b>rsync daemon modu,</b> <b>Yedekleme modülü</b> yanındaki açılır menüden bir yedekleme modülü (rsync-uyumlu sunucu üzerindeki paylaşımlı klasör) seçtiğinizde kullanılır; ve <b>uzaktan shell modu,</b> sadece <b>Yedekleme modülü</b> içinde bir mutlak yol ("/" ile başlayan) girdiğinizde etkinleştirilir.</li>
 <li>Linux kullanıcıları için yedekleme görevlerini sadece <strong>admin</strong>, <strong>root</strong> ve <strong>rsync</strong> hesaplarının gerçekleştirmesine izin verilir.</li>
 <li>Eğer bir hedef sunucuya internet üzerinden ana bilgisayar adını kullanarak erişmek istiyorsanız, ana bilgisayar adı bir FQDN (Tam Nitelikli Etki Alanı Adı) olmalıdır, örneğin, <strong>abc.bcd.com</strong>.</li>
-<li>Bir Synology NAS cihazından diğerine yedekleme yaparken, hedefteki bir hesap için kullanıcı adı ve şifre girmeniz istenir. Başka bir DiskStation üzerindeki paylaşımlı klasörlere yedekleme yaparken, klasörlerin erişim ayrıcalığı ayarları ile bunu yapabilirsiniz. Sadece belirtilen kullanıcı hesabının erişim ayrıcalıklarına sahip olduğu paylaşımlı klasörler görülebilecektir. Hedefte istenilen paylaşımlı klasörü bulamazsanız, lütfen erişim ayrıcalıklarınızı kontrol edin.</li>
+<li>Bir INTEGRA Server cihazından diğerine yedekleme yaparken, hedefteki bir hesap için kullanıcı adı ve şifre girmeniz istenir. Başka bir DiskStation üzerindeki paylaşımlı klasörlere yedekleme yaparken, klasörlerin erişim ayrıcalığı ayarları ile bunu yapabilirsiniz. Sadece belirtilen kullanıcı hesabının erişim ayrıcalıklarına sahip olduğu paylaşımlı klasörler görülebilecektir. Hedefte istenilen paylaşımlı klasörü bulamazsanız, lütfen erişim ayrıcalıklarınızı kontrol edin.</li>
 <li>Aktarım şifrelemesi sadece hedef sunucu şifreli ağ yedeklemeyi desteklediği zaman yapılabilir ve kimlik denetleme parolası boş olamaz.</li>
 <li>Uzaktan shell modu sadece aktarım şifrelemesini destekler.</li>
-<li>Bir rsync istemcisi yoluyla bir Synology NAS aygıtına dosyaları yedekliyorsanız, dosya adları UTF-8 kodlamasına sahip olmalıdır.</li>
-<li>Eğer dosyaları rsync-uyumlu bir istemciden bir Synology NAS aygıtına yedekliyorsanız, görevi sadece DiskStation'ın <strong>admin</strong>, <strong>root</strong> ve <strong>rsync</strong> hesapları ile yapabilirsiniz.</li>
+<li>Bir rsync istemcisi yoluyla bir INTEGRA Server aygıtına dosyaları yedekliyorsanız, dosya adları UTF-8 kodlamasına sahip olmalıdır.</li>
+<li>Eğer dosyaları rsync-uyumlu bir istemciden bir INTEGRA Server aygıtına yedekliyorsanız, görevi sadece DiskStation'ın <strong>admin</strong>, <strong>root</strong> ve <strong>rsync</strong> hesapları ile yapabilirsiniz.</li>
 <li>Eğer dosyaları DiskStation sunucunuzdan bir rsync uyumlu sunucuya yedekliyorsanız, doğru rsync yedekleme hesap adını ve parolasını girmeniz gereklidir. Aynı zamanda Yazma önceliğine sahip doğru yedekleme modülünü seçmeniz de gerekecektir.</li>
 </ul>
 

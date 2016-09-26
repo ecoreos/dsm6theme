@@ -41,7 +41,7 @@
 <h4>ユーザーを作成する：</h4>
 <ol>
 <li><b>+</b> をタップして新しいユーザーのユーザー名、パスワード、電子メールアドレスを入力します。</li>
-<li><b>[通知の送信]</b> を有効にすると、DSM ユーザーアカウントを作成するとユーザーの電子メールアドレスに通知のメールが送信されます。<br><span class="note_head">注意:</span>通知を送信する前に、通知の設定が Synology NAS で完了しているか確認してください。コンピュータの Web ブラウザで DSM のデスクトップエディションにログインし、<b>[メイン メニュー]</b> &gt; <b>[コントロール パネル]</b> &gt; <b>[通知]</b> &gt; <b>電子メール]</b> の順に選択して設定を変更します。</li>
+<li><b>[通知の送信]</b> を有効にすると、DSM ユーザーアカウントを作成するとユーザーの電子メールアドレスに通知のメールが送信されます。<br><span class="note_head">注意:</span>通知を送信する前に、通知の設定が INTEGRA Server で完了しているか確認してください。コンピュータの Web ブラウザで DSM のデスクトップエディションにログインし、<b>[メイン メニュー]</b> &gt; <b>[コントロール パネル]</b> &gt; <b>[通知]</b> &gt; <b>電子メール]</b> の順に選択して設定を変更します。</li>
 <li><b>[終了]</b> をタップして確定します。または、キャンセルするには左矢印をタップします。</li>
 </ol>
 
@@ -70,7 +70,7 @@
 <h2>共有フォルダの管理</h2>
 
 <div name="contents" id="shared">
-<p><b>[共有フォルダ]</b> をホームページでタップするか (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして Synology NAS の共有フォルダのリストを表示します。</p>
+<p><b>[共有フォルダ]</b> をホームページでタップするか (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして INTEGRA Server の共有フォルダのリストを表示します。</p>
 
 <h4>共有フォルダを作成する：</h4>
 <ol>
@@ -90,36 +90,36 @@
 <h2>サービスを有効にする</h2>
 
 <div name="contents" id="services">
-<p><b>[サービス]</b> をホームページ (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして Synology NAS サービスを有効または無効にします。</p>
+<p><b>[サービス]</b> をホームページ (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして INTEGRA Server サービスを有効または無効にします。</p>
 
-<h4>Synology NAS の LAN サービスを管理する：</h4>
+<h4>INTEGRA Server の LAN サービスを管理する：</h4>
 <ul>
 <li>以下のいずれかを有効または無効にします。
     <ul>
-<li><b>Windows のファイルサービス</b>では、Synology NAS を LAN 内の Windows (CIFS) ファイルサーバーにすることができます。</li>
-<li><b>Mac ファイルサービス</b>では、Synology NAS を LAN 内の Mac (AFP) ファイルサーバーにすることができます。</li>
-<li><b>NFS サービス</b>は LAN 内の Linux クライアントが Synology NAS データへアクセスできるようにします。</li>
-<li><b>Bonjour プリンタ</b>は Mac クライアントが Synology NAS へ接続した USB プリンタに印刷できるようにします。</li>
-<li><b>メディアサーバー</b>は LAN 内の DLNA/UPnP ホームデバイスが Synology NAS のコンテンツを参照および再生できるようにします。</li>
-<li><b>iTunes</b> は LAN 内の iTunes クライアントが Synology NAS の音楽やビデオを参照および再生できるようにします。</li>
+<li><b>Windows のファイルサービス</b>では、INTEGRA Server を LAN 内の Windows (CIFS) ファイルサーバーにすることができます。</li>
+<li><b>Mac ファイルサービス</b>では、INTEGRA Server を LAN 内の Mac (AFP) ファイルサーバーにすることができます。</li>
+<li><b>NFS サービス</b>は LAN 内の Linux クライアントが INTEGRA Server データへアクセスできるようにします。</li>
+<li><b>Bonjour プリンタ</b>は Mac クライアントが INTEGRA Server へ接続した USB プリンタに印刷できるようにします。</li>
+<li><b>メディアサーバー</b>は LAN 内の DLNA/UPnP ホームデバイスが INTEGRA Server のコンテンツを参照および再生できるようにします。</li>
+<li><b>iTunes</b> は LAN 内の iTunes クライアントが INTEGRA Server の音楽やビデオを参照および再生できるようにします。</li>
     </ul>
   </li>
 </ul>
 
-<h4>Synology NAS のインターネット サービスを管理する：</h4>
+<h4>INTEGRA Server のインターネット サービスを管理する：</h4>
 <ul>
 <li>以下のいずれかを有効または無効にします。
     <ul>
-<li><b>FTP</b> は Synology NAS を FTP サーバーにすることができます。</li>
-<li><b>Web サービス</b>は Synology NAS で Web サイトをホストすることができます (PHP+MySQL のサポートで)。</li>
-<li><b>WebDAV</b> はクライアントのプログラムが HTTP プロトコルを介して Synology NAS を管理および編集できるようにします。</li>
-<li><b>WebDAV (HTTPS)</b> はクライアントのプログラムが HTTP プロトコルを介して Synology NAS を管理および編集できるようにします。</li>
-<li><b><a name="filestationservice"></a>File Station</b> は Web ベースのアプリケーションで、DSM にログインしないでカスタマイズポートからの Synology NAS ファイルの管理を可能にします。</li>
+<li><b>FTP</b> は INTEGRA Server を FTP サーバーにすることができます。</li>
+<li><b>Web サービス</b>は INTEGRA Server で Web サイトをホストすることができます (PHP+MySQL のサポートで)。</li>
+<li><b>WebDAV</b> はクライアントのプログラムが HTTP プロトコルを介して INTEGRA Server を管理および編集できるようにします。</li>
+<li><b>WebDAV (HTTPS)</b> はクライアントのプログラムが HTTP プロトコルを介して INTEGRA Server を管理および編集できるようにします。</li>
+<li><b><a name="filestationservice"></a>File Station</b> は Web ベースのアプリケーションで、DSM にログインしないでカスタマイズポートからの INTEGRA Server ファイルの管理を可能にします。</li>
 <li><b>File Station (HTTPS)</b> は File Station に HTTPS プロトコルを介して接続します。</li>
 <li><b>Surveillance Station</b> は、IP カメラを管理して自宅や会社の環境を守るウェブベースのアプリケーションです。</li>
-<li><b>Audio Station</b> は Web ベースのアプリケーションで、Synology NAS の音楽ライブラリを利用することを可能にします。</li>
-<li><b>Photo Station</b> は、Synology NAS に保存されているブログと一体化したオンラインフォトアルバムです。</li>
-<li><b><a name="downloadsationservice"></a>Download Station</b> (BT/HTTP/FTP/NZB/RSS) は Web ベースのアプリケーションで、ファイルをインターネットから Synology NAS にダウンロードすることができます。</li>
+<li><b>Audio Station</b> は Web ベースのアプリケーションで、INTEGRA Server の音楽ライブラリを利用することを可能にします。</li>
+<li><b>Photo Station</b> は、INTEGRA Server に保存されているブログと一体化したオンラインフォトアルバムです。</li>
+<li><b><a name="downloadsationservice"></a>Download Station</b> (BT/HTTP/FTP/NZB/RSS) は Web ベースのアプリケーションで、ファイルをインターネットから INTEGRA Server にダウンロードすることができます。</li>
 <li><b>eMule</b> は、Download Station の eMule サポートを有効にします。</li>
     </ul>
   </li>
@@ -137,21 +137,21 @@
 <h2>システムリソースの監視</h2>
 
 <div name="contents" id="resourcemonitor">
-<p><b>[リソース モニタ]</b> をホームページでタップするか (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして Synology NAS の CPU とメモリの使用状況を監視します。</p>
+<p><b>[リソース モニタ]</b> をホームページでタップするか (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして INTEGRA Server の CPU とメモリの使用状況を監視します。</p>
 </div>
 
 <h2>システム情報の表示</h2>
 
 <div name="contents" id="sysinfo">
-<p><b>[システム情報]</b> をホームページでタップするか (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして Synology NAS の状態を表示します。</p>
+<p><b>[システム情報]</b> をホームページでタップするか (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして INTEGRA Server の状態を表示します。</p>
 
-<h4>Synology NAS のシステム情報を表示する：</h4>
+<h4>INTEGRA Server のシステム情報を表示する：</h4>
 <ol>
 <li>以下のいずれかを行います。
     <ul>
-<li><b>[全般]</b> をタップして、シリアル番号、モデル名、実メモリの容量、DSM バージョン、時間情報、温度の状態など、Synology NAS の基本情報を表示する。</li>
-<li><b>[ネットワーク]</b> をタップして Synology NAS のネットワーク設定と各インターフェイスの状態を表示する。</li>
-<li><b>[ストレージ]</b> をタップして Synology NAS のボリューム使用状況を表示する。</li>
+<li><b>[全般]</b> をタップして、シリアル番号、モデル名、実メモリの容量、DSM バージョン、時間情報、温度の状態など、INTEGRA Server の基本情報を表示する。</li>
+<li><b>[ネットワーク]</b> をタップして INTEGRA Server のネットワーク設定と各インターフェイスの状態を表示する。</li>
+<li><b>[ストレージ]</b> をタップして INTEGRA Server のボリューム使用状況を表示する。</li>
     </ul>
   </li>
 <li>右上隅の <b>[最新の情報に更新]</b> ボタンをタップしてシステム情報を最新にする。</li>
@@ -207,7 +207,7 @@
 
 <div name="contents" id="package">
 
-<p>Synology は、サードパーティや Synology デザインのアプリケーションを簡単にインストールできるようにパッケージに統合し、Synology NAS で簡単に有効にできるようにしました。</p>
+<p>Synology は、サードパーティや Synology デザインのアプリケーションを簡単にインストールできるようにパッケージに統合し、INTEGRA Server で簡単に有効にできるようにしました。</p>
 
 <h4>パッケージ センター の管理：</h4>
 <p>ホームページ (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) で <strong>[パッケージ センター]</strong> をタップして、パッケージ情報を表示したり、パッケージを実行したり、停止したり、最新版に更新したりすることができます。</p>
@@ -229,11 +229,11 @@
 <h2>ログまたは現在の接続を表示する</h2>
 
 <div name="contents" id="log">
-<p><b>[ログ]</b> をホームページ (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして、現在の接続状況をモニターしたり、Synology NAS サービスのログを見たりすることができます。</p>
+<p><b>[ログ]</b> をホームページ (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) からタップして、現在の接続状況をモニターしたり、INTEGRA Server サービスのログを見たりすることができます。</p>
 
 <h4>現在の接続状況をモニターする：</h4>
 <ul>
-<li><b>[概要]</b> セクションで <b>[最新の [number] ログ]</b> をタップして、Synology NAS サービスに最近アクセスしたユーザーをリストします。</li>
+<li><b>[概要]</b> セクションで <b>[最新の [number] ログ]</b> をタップして、INTEGRA Server サービスに最近アクセスしたユーザーをリストします。</li>
 </ul>
 
 <h4>特定のサービスのログ記録を見る：</h4>
@@ -263,19 +263,19 @@
      </ul> 
 </div>
 
-<h2>Synology NAS の操作設定<br><span style="font-size:80%;">(再起動、シャットダウン、ビープ音)</span></h2>
+<h2>INTEGRA Server の操作設定<br><span style="font-size:80%;">(再起動、シャットダウン、ビープ音)</span></h2>
 
 <div name="contents" id="restart">
-<p>DSM mobile を使用すると、iOS や Android モバイルデバイスを使って Synology NAS の再起動やシャットダウンを行うことができます。さらに、近くに複数の Synology NAS がある場合は、ビープ音を出させることで、見つけたい Synology NAS を簡単に探し出すことができます。</p>
+<p>DSM mobile を使用すると、iOS や Android モバイルデバイスを使って INTEGRA Server の再起動やシャットダウンを行うことができます。さらに、近くに複数の INTEGRA Server がある場合は、ビープ音を出させることで、見つけたい INTEGRA Server を簡単に探し出すことができます。</p>
 
-<h4>操作中に Synology NAS を設定する：</h4>
+<h4>操作中に INTEGRA Server を設定する：</h4>
 <ol>
 <li>ホームページ (iPhone/iPod touch または Android 携帯電話)、または左パネル (iPad または Android タブレット) の右上隅にある [オプション] ボタンをタップします。</li>
 <li>以下のいずれかを行います。
     <ul>
-<li><b>[再起動]</b>、<b>[はい]</b> の順にタップして Synology NAS をシャットダウンする。</li>
-<li><b>[シャットダウン]</b>、<b>[はい]</b> の順にタップして Synology NAS をシャットダウンする。</li>
-<li><b>[サーバー検出]</b> をタップして、Synology NAS に警告音を鳴らさせます。<b>[OK]</b> をタップすると、警告音が停止します。</li>
+<li><b>[再起動]</b>、<b>[はい]</b> の順にタップして INTEGRA Server をシャットダウンする。</li>
+<li><b>[シャットダウン]</b>、<b>[はい]</b> の順にタップして INTEGRA Server をシャットダウンする。</li>
+<li><b>[サーバー検出]</b> をタップして、INTEGRA Server に警告音を鳴らさせます。<b>[OK]</b> をタップすると、警告音が停止します。</li>
     </ul>
   </li>
 </ol>

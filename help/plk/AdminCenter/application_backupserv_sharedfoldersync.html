@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synchronizacja folderów współdzielonych</h2>
-<p>Usługa Synchronizacja folderów współdzielonych umożliwia użytkownikom synchronizację folderów współdzielonych z jednego urządzenia Synology NAS (źródło) na innych urządzeniach Synology NAS (cele) w sieci LAN lub przez Internet.</p>
+<p>Usługa Synchronizacja folderów współdzielonych umożliwia użytkownikom synchronizację folderów współdzielonych z jednego urządzenia INTEGRA Server (źródło) na innych urządzeniach INTEGRA Server (cele) w sieci LAN lub przez Internet.</p>
 <p>Za pierwszym razem usługa Synchronizacja folderów współdzielonych dokonuje pełnej synchronizacji wybranych folderów współdzielonych. Podczas kolejnych aktywacji synchronizowane są tylko zmienione pliki. Pliki, które zostały usunięte z lokalizacji źródłowej, zostaną również usunięte z lokalizacji docelowej.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Włączanie usługi</h3>
 <h4>Aby włączyć usługę synchronizacji folderów współdzielonych:</h4>
-<p>Usługę należy najpierw włączyć w lokalizacji docelowej Synology NAS.</p>
+<p>Usługę należy najpierw włączyć w lokalizacji docelowej INTEGRA Server.</p>
 <ol>
 <li>Wybierz kolejno <strong>Panel sterowania</strong> > <strong>Usługi plików</strong> > <strong>rsync</strong>.</li>
 <li>Wybierz opcję <strong>Włącz usługę rsync</strong>, aby włączyć usługę Synchronizacji folderów współdzielonych.</li>
@@ -37,11 +37,11 @@
 </ol>
 
 
-<h4>Aby usunąć połączenie folderów współdzielonych z lokalizacją docelową Synology NAS:</h4>
+<h4>Aby usunąć połączenie folderów współdzielonych z lokalizacją docelową INTEGRA Server:</h4>
 
 <p>Jeśli synchronizowane są jednocześnie dwa identyczne foldery współdzielone z jedną lokalizacją docelową DiskStation, wystąpi konflikt. Należy wtedy usunąć połączenie współdzielonego folderu w lokalizacji źródłowej, zanim folder z innego źródła będzie mógł być zsynchronizowany z lokalizacją docelową.<ol>
-<li>Zaloguj się do lokalizacji docelowej Synology NAS i wybierz kolejno <strong>Panel sterowania</strong> > <strong>Synchronizacja folderów współdzielonych</strong> > <strong>Lista połączeń</strong>.</li>
-<li>Wybierz połączenie generujące konflikt z lokalizacji źródłowej Synology NAS i kliknij <strong>Usuń połączenie</strong>, aby je usunąć.</li>
+<li>Zaloguj się do lokalizacji docelowej INTEGRA Server i wybierz kolejno <strong>Panel sterowania</strong> > <strong>Synchronizacja folderów współdzielonych</strong> > <strong>Lista połączeń</strong>.</li>
+<li>Wybierz połączenie generujące konflikt z lokalizacji źródłowej INTEGRA Server i kliknij <strong>Usuń połączenie</strong>, aby je usunąć.</li>
 </ol>
 
 <p>Umożliwi to synchronizację folderu współdzielonego lokalizacji źródłowej z lokalizacją docelową DiskStation.</p>
@@ -50,11 +50,11 @@
 
 <h4>Aby utworzyć zadanie synchronizacji:</h4>
 <ol>
-<li>Zaloguj się do lokalizacji źródłowej Synology NAS i wybierz kolejno <b>Panel sterowania</b> > <b>Synchronizacja folderów współdzielonych</b> > <strong>Lista zadań</strong>.</li>
+<li>Zaloguj się do lokalizacji źródłowej INTEGRA Server i wybierz kolejno <b>Panel sterowania</b> > <b>Synchronizacja folderów współdzielonych</b> > <strong>Lista zadań</strong>.</li>
 <li>Kliknij przycisk <b>Utwórz</b>.</li>
 <li>Wprowadź nazwę zadania.</li>
 <li>Wybierz folder udostępniony, który ma być zsynchronizowany z lokalizacją docelową.</li>
-<li>Określ lokalizację docelową Synology NAS i następujące opcje synchronizacji:</li>
+<li>Określ lokalizację docelową INTEGRA Server i następujące opcje synchronizacji:</li>
 <ul>
 <li><strong>Dostosuj port szyfrowania SSH dla zaszyfrowanej synchronizacji folderów współdzielonych</strong>: Określ żądany port szyfrowania dla szyfrowania przesyłania SSH.</li>
 <li><strong>Włącz szyfrowanie przesyłania SSH</strong>: szyfrowanie danych podczas przesyłania. Zapewnia to większe bezpieczeństwo, podczas gdy tryb nieszyfrowany zapewnia lepszą wydajność. Wyboru można dokonać zależnie od potrzeb.</li> 
@@ -71,7 +71,7 @@
 <li>Kliknij przycisk <strong>Zastosuj</strong>. Zadanie synchronizacji zostanie wyświetlone na liście zadań i zostanie ono wykonane zgodnie z określonym harmonogramem.</li></ol>
 <h4>Aby zarządzać zadaniem synchronizacji:</h4>
 <ol>
-<li>W lokalizacji źródłowej Synology NAS przejdź kolejno do opcji <strong>Panel sterowania</strong> > <strong>Synchronizacja folderów współdzielonych</strong>, kliknij <strong>Lista zadań</strong> i wybierz żądane zadanie.</li>
+<li>W lokalizacji źródłowej INTEGRA Server przejdź kolejno do opcji <strong>Panel sterowania</strong> > <strong>Synchronizacja folderów współdzielonych</strong>, kliknij <strong>Lista zadań</strong> i wybierz żądane zadanie.</li>
 <li>Wykonaj dowolną z następujących czynności:</li>
 <ul>
 <li>Kliknij przycisk <b>Edytuj</b>, aby edytować zadanie.</li>

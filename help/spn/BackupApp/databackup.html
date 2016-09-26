@@ -65,12 +65,12 @@
 </ul>
 </div>
 
-<h4>Para exportar los datos de copia de seguridad a nubes públicas o Synology NAS remotos:</h4>
+<h4>Para exportar los datos de copia de seguridad a nubes públicas o INTEGRA Server remotos:</h4>
 <p>Al realizar una copia de seguridad de una gran cantidad de datos a una nube pública, se recomienda exportar la versión inicial a un dispositivo de almacenamiento externo (p. ej., una unidad USB) y vincular el dispositivo con el proveedor de servicios en la nube. De este modo, dispositivo se puede conectar y cargar los datos directamente a la nube. De este modo, se puede reducir significativamente el tiempo de la primera copia de seguridad.</p>
 <ol>
-<li>Haga clic en <strong>+</strong> en la esquina inferior izquierda y, a continuación, seleccione <strong>Synology NAS remoto</strong> o el proveedor de servicios en la nube que desee.</li>
+<li>Haga clic en <strong>+</strong> en la esquina inferior izquierda y, a continuación, seleccione <strong>INTEGRA Server remoto</strong> o el proveedor de servicios en la nube que desee.</li>
 <li>Seleccione <strong>Exportar a una carpeta compartida local (incluido un dispositivo de almacenamiento externo)</strong> y finalice la configuración. Cuando se le solicite, seleccione <strong>Habilitar cifrado del lado cliente</strong> para los datos de copia de seguridad protegidos.</li>
-<li>Entregue el dispositivo de almacenamiento externo al Synology NAS remoto o al proveedor de servicios en la nube. Importe los datos exportados desde el dispositivo de almacenamiento externo.</li>
+<li>Entregue el dispositivo de almacenamiento externo al INTEGRA Server remoto o al proveedor de servicios en la nube. Importe los datos exportados desde el dispositivo de almacenamiento externo.</li>
 <li>Una vez obtenida la confirmación, vuelva a <strong>Copia de seguridad y restauración</strong> y haga clic en <strong> Volver a vincular ahora</strong>.</li>
 <li>Siga las instrucciones del asistente para volver a vincular para vincular su DiskStation al repositorio. Será necesaria una contraseña o clave de cifrado si los datos se exportaron cifrados.</li>
 </ol>
@@ -162,11 +162,11 @@
 <li>Los siguientes modos están disponibles al crear tareas de copias de seguridad con servidores compatibles con rsync como destino de copias de seguridad de red: <b>modo rsync daemon,</b> que se usa si se selecciona un módulo de copia de seguridad (carpeta compartida en el servidor compatible con rsync) desde el menú desplegable situado junto a <b>Módulo de copia de seguridad</b>; y <b>modo shell remoto,</b> que se habilita solo cuando se introduce una ruta (que comience por "/") en <b>Módulo de copia de seguridad</b>.</li>
 <li>Para usuarios de Linux, sólo pueden realizar una copia de seguridad de red las cuentas <strong>admin</strong>, <strong>root</strong> y <strong>rsync</strong>.</li>
 <li>Si desea acceder al servidor de destino a través de Internet con el nombre de host, este debe ser FQDN (Nombre de dominio totalmente cualificado), por ejemplo, <strong>abc.bcd.com</strong>.</li>
-<li>Al hacer copias de seguridad de un dispositivo Synology NAS a otro, se le pedirá que introduzca un nombre de usuario y una contraseña para una cuenta en el servidor de destino. Cuando realice copias de seguridad de carpetas compartidas en otro DiskStation, podrá hacerlo de acuerdo con la configuración de privilegios de acceso de las carpetas. Solo serán visibles carpetas compartidas en las que las cuentas de usuarios especificadas tienen privilegios de acceso. Si no puede encontrar la carpeta compartida deseada en el destino, compruebe sus privilegios de acceso.</li>
+<li>Al hacer copias de seguridad de un dispositivo INTEGRA Server a otro, se le pedirá que introduzca un nombre de usuario y una contraseña para una cuenta en el servidor de destino. Cuando realice copias de seguridad de carpetas compartidas en otro DiskStation, podrá hacerlo de acuerdo con la configuración de privilegios de acceso de las carpetas. Solo serán visibles carpetas compartidas en las que las cuentas de usuarios especificadas tienen privilegios de acceso. Si no puede encontrar la carpeta compartida deseada en el destino, compruebe sus privilegios de acceso.</li>
 <li>El cifrado de transferencia solo se admite si el servidor de destino admite la copia de seguridad cifrada en red y la contraseña de autenticación no está vacía.</li>
 <li>El modo de shell remoto solo admite el cifrado de transferencia.</li>
-<li>Si desea realizar copias de seguridad a un dispositivo Synology NAS a través de un cliente con rsync, los nombres de los archivos deben tener formato UTF-8.</li>
-<li>Si realiza copias de seguridad en un dispositivo Synology NAS a través de un cliente compatible con rsync, sólo puede realizar la tarea mediante cuentas <strong>admin</strong>, <strong>root</strong> y <strong>rsync</strong> de DiskStation.</li>
+<li>Si desea realizar copias de seguridad a un dispositivo INTEGRA Server a través de un cliente con rsync, los nombres de los archivos deben tener formato UTF-8.</li>
+<li>Si realiza copias de seguridad en un dispositivo INTEGRA Server a través de un cliente compatible con rsync, sólo puede realizar la tarea mediante cuentas <strong>admin</strong>, <strong>root</strong> y <strong>rsync</strong> de DiskStation.</li>
 <li>Si realiza copias de seguridad desde su DiskStation a un servidor compatible con rsync, deberá introducir la contraseña y el nombre de cuenta rsync de copias de seguridad correctos. También deberá elegir el módulo de copia de seguridad correcto con privilegios de escritura.</li>
 </ul>
 

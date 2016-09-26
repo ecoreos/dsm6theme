@@ -65,12 +65,12 @@
 </ul>
 </div>
 
-<h4>Aby wyeksportować dane do publicznych chmur lub zdalnego serwera Synology NAS:</h4>
+<h4>Aby wyeksportować dane do publicznych chmur lub zdalnego serwera INTEGRA Server:</h4>
 <p>Podczas tworzenia kopii zapasowej dużej ilości danych w publicznej chmurze, zaleca się wyeksportowanie jej pierwotnej wersji do zewnętrznego urządzenia pamięci masowej (np. dysku USB), a następnie dostarczenie urządzenia do dostawcy usługi w chmurze. Tam można będzie podłączyć urządzenie i przesłać dane bezpośrednio do chmury. W ten sposób można znacznie skrócić czas wykonania pierwszej kopii zapasowej.</p>
 <ol>
-<li>Kliknij symbol <strong>+</strong> w lewym dolnym rogu, a następnie wybierz opcję <strong>Zdalny serwer Synology NAS</strong> lub żądanego dostawcę usług w chmurze.</li>
+<li>Kliknij symbol <strong>+</strong> w lewym dolnym rogu, a następnie wybierz opcję <strong>Zdalny serwer INTEGRA Server</strong> lub żądanego dostawcę usług w chmurze.</li>
 <li>Wybierz opcję <strong>Eksportuj do lokalnego folderu współdzielonego (włączając zewnętrzne urządzenia pamięci masowej)</strong> i zakończ konfigurację. Po wyświetleniu monitu, wybierz opcję <strong>Włącz szyfrowanie po stronie klienta</strong> w celu ochrony danych kopii zapasowej.</li>
-<li>Dostarcz zewnętrzne urządzenie pamięci masowej do zdalnego serwera Synology NAS lub dostawcy usług w chmurze. Dokonaj importu wyeksportowanych danych z zewnętrznego urządzenia pamięci masowej.</li>
+<li>Dostarcz zewnętrzne urządzenie pamięci masowej do zdalnego serwera INTEGRA Server lub dostawcy usług w chmurze. Dokonaj importu wyeksportowanych danych z zewnętrznego urządzenia pamięci masowej.</li>
 <li>Po potwierdzeniu wróć do okna <strong>Kopia zapasowa i przywracanie</strong> i kliknij przycisk <strong>Połącz ponownie teraz</strong>.</li>
 <li>Postępuj zgodnie z instrukcjami, aby połączyć serwer DiskStation z repozytorium. Jeżeli dane zostały wyeksportowane w zaszyfrowanej postaci, konieczne jest podanie hasła/klucza szyfrowania.</li>
 </ol>
@@ -162,11 +162,11 @@
 <li>Podczas tworzenia zadania kopii zapasowej z serwerami zgodnymi z protokołem rsync jako sieciowym miejscem docelowym są dostępne następujące tryby: <b>tryb rsync daemon</b> używany po wybraniu modułu kopii zapasowej (folderu udostępnionego na serwerze zgodnym z protokołem rsync) z listy rozwijanej <b>Moduł kopii zapasowej</b> oraz <b>tryb powłoki zdalnej</b> włączany tylko po wprowadzeniu ścieżki bezwzględnej (zaczynającej się od „/”) w polu <b>Moduł kopii zapasowej</b>.</li>
 <li>W przypadku użytkowników systemu Linux tylko konta <strong>admin</strong>, <strong>root</strong> i <strong>rsync</strong> mają uprawnienia do wykonywania zadań kopii zapasowej.</li>
 <li>Aby uzyskać dostęp do serwera docelowego za pośrednictwem Internetu przy użyciu jego nazwy hosta, wprowadź nazwę hosta w postaci w pełni kwalifikowanej nazwy domeny (FQDN), na przykład <strong>abc.bcd.com</strong>.</li>
-<li>Podczas tworzenia kopii zapasowej danych z jednego serwera Synology NAS na innym pojawia się monit o wprowadzenie nazwy użytkownika i hasła do konta w miejscu docelowym. W przypadku tworzenia kopii zapasowej w folderach udostępnionych na innym serwerze DiskStation można to zrobić zgodnie z ustawieniami uprawnień dostępu do tych folderów. Widoczne będą tylko te foldery udostępnione, do których dane konto użytkownika ma uprawnienia dostępu. Jeżeli nie można znaleźć żądanego folderu udostępnionego w miejscu docelowym, sprawdź uprawnienia dostępu.</li>
+<li>Podczas tworzenia kopii zapasowej danych z jednego serwera INTEGRA Server na innym pojawia się monit o wprowadzenie nazwy użytkownika i hasła do konta w miejscu docelowym. W przypadku tworzenia kopii zapasowej w folderach udostępnionych na innym serwerze DiskStation można to zrobić zgodnie z ustawieniami uprawnień dostępu do tych folderów. Widoczne będą tylko te foldery udostępnione, do których dane konto użytkownika ma uprawnienia dostępu. Jeżeli nie można znaleźć żądanego folderu udostępnionego w miejscu docelowym, sprawdź uprawnienia dostępu.</li>
 <li>Szyfrowanie przesyłania jest obsługiwane tylko wtedy, gdy docelowy serwer obsługuje szyfrowanie sieciowej kopii zapasowej, a hasło autoryzacji nie może być puste.</li>
 <li>W trybie powłoki zdalnej obsługiwane jest tylko szyfrowanie przesyłania.</li>
-<li>W przypadku tworzenia kopii zapasowej plików na serwerze Synology NAS za pośrednictwem klienta rsync nazwy plików muszą mieć kodowanie UTF-8.</li>
-<li>W przypadku tworzenia kopii zapasowej plików na serwerze Synology NAS za pośrednictwem klienta zgodnego z protokołem rsync można zrealizować tę operację tylko za pomocą kont <strong>admin</strong>, <strong>root</strong> i <strong>rsync</strong> serwera DiskStation.</li>
+<li>W przypadku tworzenia kopii zapasowej plików na serwerze INTEGRA Server za pośrednictwem klienta rsync nazwy plików muszą mieć kodowanie UTF-8.</li>
+<li>W przypadku tworzenia kopii zapasowej plików na serwerze INTEGRA Server za pośrednictwem klienta zgodnego z protokołem rsync można zrealizować tę operację tylko za pomocą kont <strong>admin</strong>, <strong>root</strong> i <strong>rsync</strong> serwera DiskStation.</li>
 <li>W przypadku tworzenia kopii zapasowej plików z serwera DiskStation na serwerze zgodnym z protokołem rsync należy wprowadzić prawidłową nazwę konta kopii zapasowej rsync oraz hasło. Trzeba będzie również wybrać właściwy moduł kopii zapasowej z uprawnieniem zapisu.</li>
 </ul>
 

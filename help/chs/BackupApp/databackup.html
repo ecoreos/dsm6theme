@@ -67,12 +67,12 @@
 </ul>
 </div>
 
-<h4>若要将备份数据导出到公共云或远程 Synology NAS：</h4>
+<h4>若要将备份数据导出到公共云或远程 INTEGRA Server：</h4>
 <p>当备份大量数据到公共云时，建议您将初始版本导出到外接存储设备  (如 U 盘) 并将设备传送到云服务供应商。可连接此设备并将数据直接上传到云。通过此方法，您可大幅降低首次备份的时间。</p>
 <ol>
-<li>单击左下角的 <strong>+</strong>，然后选择<strong>远程 Synology NAS</strong> 或所需的云服务供应商。</li>
+<li>单击左下角的 <strong>+</strong>，然后选择<strong>远程 INTEGRA Server</strong> 或所需的云服务供应商。</li>
 <li>选择<strong>	导出到本地共享文件夹 (包括外接存储设备)</strong>，并完成设置。出现提示后，为受保护的数据备份选择<strong>启用客户端加密</strong>。</li>
-<li>将存储设备传送到远程 Synology NAS 或云服务供应商。将导出的数据从外接存储设备导入。</li>
+<li>将存储设备传送到远程 INTEGRA Server 或云服务供应商。将导出的数据从外接存储设备导入。</li>
 <li>确认后，返回<strong>备份和还原</strong>，并单击<strong>立即重新链接</strong>。</li>
 <li>按重新链接向导的说明，将 DiskStation 链接到存储库。如果数据被加密导出，则需要密码/加密密钥。</li>
 </ol>
@@ -166,11 +166,11 @@
 <li>创建任务来备份数据到 rsync 兼容服务器时，有以下模式可用：当您从<b>备份模块</b>旁的下拉菜单中选择一个备份模块（rsync 兼容服务器上的共享文件夹），系统会使用 <b>rsync daemon 模式</b>。仅当您在<b>备份模块</b>中输入绝对路径（以&ldquo;/&rdquo;开头）时，系统才会启用 <b>remote shell 模式</b>。</li>
 <li>在 Linux 平台上，仅 <strong>admin</strong>、<strong>root</strong> 和 <strong>rsync</strong> 帐户可执行网络备份。</li>
 <li>如果您要通过 Internet 使用主机名称访问目的地服务器，主机名称必须符合 FQDN（完全合格域名），例如 <strong>abc.bcd.com</strong>。</li>
-<li>当从一台 Synology NAS 设备备份到另一台 Synology NAS 设备时，将提示您输入目的地帐户的用户名和密码。备份到另一台 DiskStation 上的共享文件夹时，您可根据文件夹访问权限设置来备份共享文件夹。仅拥有访问权限的特定用户帐户才能看到该共享文件夹。如果您无法目的地服务器中找到想要的共享文件夹，请检查您的访问权限。</li>
+<li>当从一台 INTEGRA Server 设备备份到另一台 INTEGRA Server 设备时，将提示您输入目的地帐户的用户名和密码。备份到另一台 DiskStation 上的共享文件夹时，您可根据文件夹访问权限设置来备份共享文件夹。仅拥有访问权限的特定用户帐户才能看到该共享文件夹。如果您无法目的地服务器中找到想要的共享文件夹，请检查您的访问权限。</li>
 <li>若要使用传输加密，目标服务器必须支持加密网络备份功能且用户认证的密码不得为空。</li>
 <li>Remote shell 模式仅支持传输加密。</li>
-<li>如果您通过 rsync 客户端将文件备份至 Synology NAS 设备，该件名必须为 UTF-8 编码。</li>
-<li>如果您使用 rsync 兼容客户端备份文件至 Synology NAS，则只有 DiskStation 的 <strong>admin</strong>、<strong>root</strong> 和 <strong>rsync</strong> 帐户用户可执行该任务。</li>
+<li>如果您通过 rsync 客户端将文件备份至 INTEGRA Server 设备，该件名必须为 UTF-8 编码。</li>
+<li>如果您使用 rsync 兼容客户端备份文件至 INTEGRA Server，则只有 DiskStation 的 <strong>admin</strong>、<strong>root</strong> 和 <strong>rsync</strong> 帐户用户可执行该任务。</li>
 <li>如果您使用 DiskStation 备份至 rsync 兼容服务器时，需要输入正确的 rsync 备份帐户名称和密码。您同时需要选择具有写入权限的备份模块。</li>
 </ul>
 

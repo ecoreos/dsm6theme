@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synchronisierung gemeinsamer Ordner</h2>
-<p>Mit dem Dienst für die Synchronisierung freigegebener Ordner können freigegebene Ordner von einem Synology NAS (Quelle) auf andere Synology NAS (Ziele) im LAN oder über das Internet synchronisiert werden.</p>
+<p>Mit dem Dienst für die Synchronisierung freigegebener Ordner können freigegebene Ordner von einem INTEGRA Server (Quelle) auf andere INTEGRA Server (Ziele) im LAN oder über das Internet synchronisiert werden.</p>
 <p>Bei der ersten Synchronisierung von gemeinsamen Ordnern wird eine vollständige Synchronisierung des oder der ausgewählten Ordner durchgeführt. Danach werden nur geänderte Dateien synchronisiert. Dateien, die in der Quelle entfernt wurden, werden auch am Ziel entfernt.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Aktivieren des Dienstes</h3>
 <h4>Synchronisierung gemeinsamer Ordner aktivieren:</h4>
-<p>Sie müssen zunächst den Dienst auf dem Ziel-Synology NAS aktivieren.</p>
+<p>Sie müssen zunächst den Dienst auf dem Ziel-INTEGRA Server aktivieren.</p>
 <ol>
 <li>Gehen Sie zu <strong>Systemsteuerung</strong> > <strong>Dateidienst</strong> > <strong>rsync</strong>.</li>
 <li>Wählen Sie <strong>rsync-Dienst aktivieren</strong> aus, um den Dienst zum Synchronisieren freigegebener Ordner zu aktivieren.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Verknüpfung freigegebener Ordner mit dem Ziel-Synology NAS aufheben:</h4>
+<h4>Verknüpfung freigegebener Ordner mit dem Ziel-INTEGRA Server aufheben:</h4>
 
 <p>Wenn verschiedene Quellen denselben freigegebenen Ordner gleichzeitig mit dem Ziel-DiskStation synchronisieren, kommt es zum Konflikt. Sie müssen die Verknüpfung des freigegebenen Ordners in der Quelle aufheben, bevor eine andere Quelle ihren Ordner mit dem Ziel synchronisieren kann. 
 
 <ol>
-<li>Melden Sie sich beim Ziel-Synology NAS an und gehen Sie zu <strong>Systemsteuerung</strong> > <strong>Synchronisierung freigegebener Ordner</strong> > <strong>Verbindungsliste</strong>.</li>
-<li>Wählen Sie die im Konflikt stehende Verbindung von einem Quell-Synology NAS aus und klicken Sie auf <strong>Verknüpfung aufheben</strong>, um sie zu entfernen.</li>
+<li>Melden Sie sich beim Ziel-INTEGRA Server an und gehen Sie zu <strong>Systemsteuerung</strong> > <strong>Synchronisierung freigegebener Ordner</strong> > <strong>Verbindungsliste</strong>.</li>
+<li>Wählen Sie die im Konflikt stehende Verbindung von einem Quell-INTEGRA Server aus und klicken Sie auf <strong>Verknüpfung aufheben</strong>, um sie zu entfernen.</li>
 </ol>
 
 <p>Jetzt kann eine andere Quelle den freigegebenen Ordner mit dem Ziel-DiskStation synchronisieren.</p>
@@ -52,11 +52,11 @@
 
 <h4>Synchronisierungsaufgabe erstellen:</h4>
 <ol>
-<li>Melden Sie sich beim Quell-Synology NAS an und gehen Sie zu <b>Systemsteuerung</b> > <b>Synchronisierung freigegebener Ordner</b> > <strong>Aufgabenliste</strong>.</li>
+<li>Melden Sie sich beim Quell-INTEGRA Server an und gehen Sie zu <b>Systemsteuerung</b> > <b>Synchronisierung freigegebener Ordner</b> > <strong>Aufgabenliste</strong>.</li>
 <li>Klicken Sie auf <b>Erstellen</b>.</li>
 <li>Geben Sie einen Namen für die Aufgabe ein.</li>
 <li>Wählen Sie den gemeinsamen Ordner aus, den Sie mit dem Ziel synchronisieren möchten.</li>
-<li>Geben Sie den Ziel-Synology NAS und die folgenden Synchronisierungsoptionen an:</li>
+<li>Geben Sie den Ziel-INTEGRA Server und die folgenden Synchronisierungsoptionen an:</li>
 <ul>
 <li><strong>SSH-Verschlüsselungsport für verschlüsselte Synchronisierung freigegebener Ordner anpassen</strong>: Geben Sie den gewünschten Verschlüsselungsport für die Verschlüsselung der SSH-Übertragung an.</li>
 <li><strong>SSH-Übertragungsverschlüsselung aktivieren</strong>: Die Daten werden während der Übertragung verschlüsselt. Diese Option bietet mehr Sicherheit, während die unverschlüsselte Übertragung leistungsfähiger ist. Treffen Sie Ihre Auswahl je nach Bedarf.
@@ -74,7 +74,7 @@
 <li>Klicken Sie auf <strong>Übernehmen</strong>. Sie können die Synchronisierungsaufgabe jetzt in der Aufgabenliste sehen, die nach dem angegebenen Zeitplan durchgeführt wird.</li></ol>
 <h4>Synchronisierungsaufgabe verwalten:</h4>
 <ol>
-<li>Gehen Sie auf dem Quell-Synology NAS zu <strong>Systemsteuerung</strong> > <strong>Synchronisierung freigegebener Ordner</strong>, klicken Sie auf <strong>Aufgabenliste</strong> und wählen Sie die gewünschte Aufgabe aus.</li>
+<li>Gehen Sie auf dem Quell-INTEGRA Server zu <strong>Systemsteuerung</strong> > <strong>Synchronisierung freigegebener Ordner</strong>, klicken Sie auf <strong>Aufgabenliste</strong> und wählen Sie die gewünschte Aufgabe aus.</li>
 <li>Führen Sie einen der folgenden Schritte durch:</li>
 <ul>
 <li>

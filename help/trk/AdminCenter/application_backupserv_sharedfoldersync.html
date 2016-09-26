@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Paylaşımlı Klasör Senkronizasyonu</h2>
-<p>Paylaşımlı Klasör Senkronizasyonu hizmeti, kullanıcıların paylaşımlı klasörleri bir Synology NAS cihazından (kaynak) diğer Synology NAS cihazına (hedef) LAN ortamında veya Internet üzerinden senkronize etmelerine olanak sağlar.</p>
+<p>Paylaşımlı Klasör Senkronizasyonu hizmeti, kullanıcıların paylaşımlı klasörleri bir INTEGRA Server cihazından (kaynak) diğer INTEGRA Server cihazına (hedef) LAN ortamında veya Internet üzerinden senkronize etmelerine olanak sağlar.</p>
 <p>İlk seferinde, Paylaşımlı Klasör Senkronizasyonu seçilen paylaşımlı klasör(ler) için tam senkronizasyon yapacaktır. Ardından, sadece değiştirilen dosyalar senkronize edilecektir. Kaynaktan çıkarılan dosyalar hedeften de çıkarılacaktır.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Hizmeti Etkinleştirme</h3>
 <h4>Paylaşımlı Klasör Senkronizasyonunu etkinleştirmek için:</h4>
-<p>Önce hedef Synology NAS'da hizmeti etkinleştirmeniz gereklidir.</p>
+<p>Önce hedef INTEGRA Server'da hizmeti etkinleştirmeniz gereklidir.</p>
 <ol>
 <li><strong>Denetim Masası</strong> > <strong>Dosya Hizmeti</strong> > <strong>rsync</strong>'ye gidin.</li>
 <li>Paylaşımlı Klasör Senkronizasyonu hizmetini etkinleştirmek için <strong>Rsync hizmetini etkinleştir</strong> öğesini seçin.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Hedef Synology NAS'tan paylaşımlı klasörlerin bağlantısını kaldırmak için:</h4>
+<h4>Hedef INTEGRA Server'tan paylaşımlı klasörlerin bağlantısını kaldırmak için:</h4>
 
 <p>Eğer farklı kaynaklar eş zamanlı olarak benzer bir paylaşımlı klasörü tek hedef DiskStation sunucusuna senkronize ediyorsa bir ihtilaf olabilir. Başka bir kaynak klasörünü hedefe senkronize etmeden önce kaynak tarafta paylaşımlı klasörün bağlantısını kaldırmanız gerekecektir. 
 
 <ol>
-<li>Hedef Synology NAS'ta oturum açın ve <strong>Denetim Masası</strong> > <strong>Paylaşımlı Klasör Senkronizasyonu</strong> > <strong>Bağlantı Listesi</strong>'ne gidin.</li>
-<li>Kaynak Synology NAS'tan ihtilaflı bir bağlantıyı seçin ve kaldırmak için <strong>Bağlantıyı kaldır</strong> üzerine tıklayın.</li>
+<li>Hedef INTEGRA Server'ta oturum açın ve <strong>Denetim Masası</strong> > <strong>Paylaşımlı Klasör Senkronizasyonu</strong> > <strong>Bağlantı Listesi</strong>'ne gidin.</li>
+<li>Kaynak INTEGRA Server'tan ihtilaflı bir bağlantıyı seçin ve kaldırmak için <strong>Bağlantıyı kaldır</strong> üzerine tıklayın.</li>
 </ol>
 
 <p>Şimdi başka bir kaynak paylaşımlı klasörü hedef DiskStation sunucusuna senkronize edebilir.</p>
@@ -52,11 +52,11 @@
 
 <h4>Bir senk görevi oluşturmak için:</h4>
 <ol>
-<li>Kaynak Synology NAS'ta oturum açın ve <b>Denetim Masası</b> > <b>Paylaşımlı Klasör Senkronizasyonu</b> > <strong>Görev Listesi</strong>'ne gidin.</li>
+<li>Kaynak INTEGRA Server'ta oturum açın ve <b>Denetim Masası</b> > <b>Paylaşımlı Klasör Senkronizasyonu</b> > <strong>Görev Listesi</strong>'ne gidin.</li>
 <li><b>Oluştur</b>'a tıklayın.</li>
 <li>Görev için bir ad girin.</li>
 <li>Hedefte senkronize etmek istediğiniz paylaşımlı klasörü seçin.</li>
-<li>Hedef Synology NAS'ı ve aşağıdaki senkronizasyon seçeneklerini belirleyin:</li>
+<li>Hedef INTEGRA Server'ı ve aşağıdaki senkronizasyon seçeneklerini belirleyin:</li>
 <ul>
 <li><strong>Şifreli klasör senkronizasyonu için SSH şifreleme bağlantı noktasını özelleştir</strong>: SSH aktarım şifrelemesi için istenilen şifreleme portunu belirtin.</li>
 <li><strong>SSH Aktarım şifrelemesini etkinleştir</strong>: Aktarma sırasında verileri şifreleyin. Bu daha iyi güvenlik sağlarken şifresiz aktarım daha iyi performans sağlar. Gereksinimlerinize göre seçim yapabilirsiniz.
@@ -74,7 +74,7 @@
 <li><strong>Uygula</strong>'ya tıklayın. Artık görev listesinde belirtilen çizelgeye göre yürütülecek olan senk görevini görebilirsiniz.</li></ol>
 <h4>Bir senk görevi yönetmek için:</h4>
 <ol>
-<li>Kaynak Synology NAS üzerinde, <strong>Denetim Masası</strong> > <strong>Paylaşımlı Klasör Senkronizasyonu</strong>'na gidin ve <strong>Görev Listesi</strong>'ne tıklayın ve istediğiniz görevi seçin.</li>
+<li>Kaynak INTEGRA Server üzerinde, <strong>Denetim Masası</strong> > <strong>Paylaşımlı Klasör Senkronizasyonu</strong>'na gidin ve <strong>Görev Listesi</strong>'ne tıklayın ve istediğiniz görevi seçin.</li>
 <li>Aşağıdakilerden birini yapın:</li>
 <ul>
 <li>

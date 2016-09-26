@@ -69,12 +69,12 @@ destination, select <strong>Relink to existing task</strong>. Relinking helps yo
 </ul>
 </div>
 
-<h4>To export backup data to public clouds or remote Synology NAS:</h4>
+<h4>To export backup data to public clouds or remote INTEGRA Server:</h4>
 <p>When backing up a large amount of data to a public cloud, you are recommended to export the initial version to an external storage device (e.g. a USB drive) and deliver the device to the cloud service provider. There the device can get connected   and upload data directly to the cloud. In this way, you can significantly reduce the time for the first backup.</p>
 <ol>
-<li>Click <strong>+</strong> on the bottom left corner, and select <strong>Remote Synology NAS</strong> or the desired cloud service provider.</li>
+<li>Click <strong>+</strong> on the bottom left corner, and select <strong>Remote INTEGRA Server</strong> or the desired cloud service provider.</li>
 <li>Select <strong>Export to a local shared folder (including an external storage device)</strong>, and finish the settings. When prompted, select <strong>Enable client-side encryption</strong> for protected data backup.</li>
-<li>Deliver the external storage device to the remote Synology NAS or cloud service provider. Import the exported data from the external storage device.</li>
+<li>Deliver the external storage device to the remote INTEGRA Server or cloud service provider. Import the exported data from the external storage device.</li>
 <li>Once confirmed, return to <strong>Backup & Restore</strong>, and click <strong>Relink now</strong>.</li>
 <li>Follow the Relinking Wizard's instructions to link your DiskStation to the repository. A password/encryption key is needed if the data were exported encrypted.</li>
 </ol>
@@ -168,11 +168,11 @@ destination, select <strong>Relink to existing task</strong>. Relinking helps yo
 <li>The following modes are available when creating a backup task with rsync-compatible servers as the network backup destination: <b>rsync daemon mode,</b> which is used when you select a backup module (shared folder on the rsync-compatible server) from the drop-down menu next to <b>Backup module</b>; and <b>remote shell mode,</b> which is enabled only when you enter an absolute path (starting with "/") in <b>Backup module</b>.</li>
 <li>For Linux users, only the <strong>admin</strong>, <strong>root</strong> and <strong>rsync</strong> accounts are allowed to perform backup tasks.</li>
 <li>If you want to access a destination server over the Internet using its hostname, the hostname must be an FQDN (Fully Qualified Domain Name), for example <strong>abc.bcd.com</strong>.</li>
-<li>When backing up from one Synology NAS device to another, you are prompted to enter the username and password for an account at the destination. When backing up to shared folders on another DiskStation, you can do so according to the access privilege settings of the folders. Only shared folders to which the specified user account has access privileges will be visible. If you cannot find the desired shared folder at the destination, please check your access privileges.</li>
+<li>When backing up from one INTEGRA Server device to another, you are prompted to enter the username and password for an account at the destination. When backing up to shared folders on another DiskStation, you can do so according to the access privilege settings of the folders. Only shared folders to which the specified user account has access privileges will be visible. If you cannot find the desired shared folder at the destination, please check your access privileges.</li>
 <li>Transfer encryption is supported only when the destination server supports encrypted network backup and authentication password is not empty.</li>
 <li>Remote shell mode only supports transfer encryption.</li>
-<li>If you are backing up files to a Synology NAS device through an rsync client, the file names must be in UTF-8 encoding.</li>
-<li>If you are backing up files to a Synology NAS device through an rsync-compatible client, you can only perform the task by <strong>admin</strong>, <strong>root</strong> and <strong>rsync</strong> accounts of the DiskStation.</li>
+<li>If you are backing up files to a INTEGRA Server device through an rsync client, the file names must be in UTF-8 encoding.</li>
+<li>If you are backing up files to a INTEGRA Server device through an rsync-compatible client, you can only perform the task by <strong>admin</strong>, <strong>root</strong> and <strong>rsync</strong> accounts of the DiskStation.</li>
 <li>If you are backing up files from your DiskStation to an rsync-compatible server, you will need to input the correct rsync backup account name and password. You will also need to choose the correct backup module with Write privilege.</li>
 </ul>
 

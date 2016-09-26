@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synkronisering af delt mappe</h2>
-<p>Synkronisering af delt mappe giver brugere mulighed for at synkronisere delte mapper fra en Synology NAS (kilden) til andre Synology NAS-enheder (destinationer) i LAN eller over internettet.</p>
+<p>Synkronisering af delt mappe giver brugere mulighed for at synkronisere delte mapper fra en INTEGRA Server (kilden) til andre INTEGRA Server-enheder (destinationer) i LAN eller over internettet.</p>
 <p>Synkronisering af delt mappe vil udføre en fuld synkronisering af de(n) valgte delt(e) mappe(r) for første gang. Derefter er det kun ændrede filer, der synkroniseres. Filer, der er fjernet fra kilden, fjernes også fra destinationen.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Aktivering af tjenesten</h3>
 <h4>Sådan aktiverer du synkronisering af delt mappe:</h4>
-<p>Du skal først aktivere tjenesten på destinationens Synology NAS.</p>
+<p>Du skal først aktivere tjenesten på destinationens INTEGRA Server.</p>
 <ol>
 <li>Gå til <strong>Kontrolpanel</strong> > <strong>Filtjeneste</strong> > <strong>rsync</strong>.</li>
 <li>Vælg <strong>Aktiver rsync-tjeneste</strong> for at aktivere den delte mappesynkroniseringstjeneste.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Sådan ophæver du link af delte mapper til destinations-Synology NAS:</h4>
+<h4>Sådan ophæver du link af delte mapper til destinations-INTEGRA Server:</h4>
 
 <p>Hvis forskellige kilder samtidigt synkroniserer en identisk delt mappe til en destinations-DiskStation, opstår der en konflikt. Du skal ophæve linket til den delte mappe på kildesiden, før en anden kilde kan synkronisere dens mappe til destinationen. 
 
 <ol>
-<li>Log ind på destinations-Synology NAS'en, og gå til <strong>Kontrolpanel</strong> > <strong>Synkronisering af delt mappe</strong> > <strong>Forbindelsesliste</strong>.</li>
-<li>Vælg den konfliktende forbindelse fra en kilde-Synology NAS, og klik på <strong>Ophæv link</strong> for at fjerne den.</li>
+<li>Log ind på destinations-INTEGRA Server'en, og gå til <strong>Kontrolpanel</strong> > <strong>Synkronisering af delt mappe</strong> > <strong>Forbindelsesliste</strong>.</li>
+<li>Vælg den konfliktende forbindelse fra en kilde-INTEGRA Server, og klik på <strong>Ophæv link</strong> for at fjerne den.</li>
 </ol>
 
 <p>Nu kan en anden kilde kan synkronisere den delte mappe til destinations-DiskStation.</p>
@@ -52,11 +52,11 @@
 
 <h4>Sådan opretter du en synkroniseringsopgave:</h4>
 <ol>
-<li>Log ind på kilde-Synology NAS'en, og gå til <b>Kontrolpanel</b> > <b>Synkronisering af delt mappe</b> > <strong>Opgaveliste</strong>.</li>
+<li>Log ind på kilde-INTEGRA Server'en, og gå til <b>Kontrolpanel</b> > <b>Synkronisering af delt mappe</b> > <strong>Opgaveliste</strong>.</li>
 <li>Klik på <b>Opret</b>.</li>
 <li>Indtast et navn på opgaven.</li>
 <li>Vælg den delte mappe, som du vil synkronisere med destinationen.</li>
-<li>Angiv destinations-Synology NAS og følgende synkroniseringsvalg:</li>
+<li>Angiv destinations-INTEGRA Server og følgende synkroniseringsvalg:</li>
 <ul>
 <li><strong>Tilpas SSH-krypteringsport til kryptering af delt mappesynkronisering</strong>: Angiv den ønskede krypteringsport til SSH-overførselskryptering.</li>
 <li><strong>Aktiver SSH-overførselskryptering</strong>: Krypter data under overførsel. Det yder bedre sikkerhed, mens ikke-krypteret overførsel giver en bedre ydeevne. Du kan vælge, alt efter dit behov.
@@ -74,7 +74,7 @@
 <li>Klik på <strong>Anvend</strong>. Nu kan du se synkroniseringsopgaven i opgavelisten, som udføres ifølge den angivne plan.</li></ol>
 <h4>Sådan styrer du en synkroniseringsopgave:</h4>
 <ol>
-<li>På kilde-Synology NAS‹en går du til <strong>Kontrolpanel</strong> > <strong>Synkronisering af delt mappe</strong>, klikker på <strong>Opgaveliste</strong> og vælger den ønskede opgave.</li>
+<li>På kilde-INTEGRA Server‹en går du til <strong>Kontrolpanel</strong> > <strong>Synkronisering af delt mappe</strong>, klikker på <strong>Opgaveliste</strong> og vælger den ønskede opgave.</li>
 <li>Gør et af følgende:</li>
 <ul>
 <li>

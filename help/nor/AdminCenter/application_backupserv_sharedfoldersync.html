@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synkronisering av delt mappe</h2>
-<p>Tjenesten Synkronisering av delt mappe lar brukere synkronisere delte mapper fra én Synology NAS-enhet (kilden) til andre Synology NAS-enheter (målet) i LAN eller over Internett.</p>
+<p>Tjenesten Synkronisering av delt mappe lar brukere synkronisere delte mapper fra én INTEGRA Server-enhet (kilden) til andre INTEGRA Server-enheter (målet) i LAN eller over Internett.</p>
 <p>Første gang du synkroniserer, vil Synkronisering av delt mappe foreta en full synkronisering av de valgte delte mappene. Etterpå vil bare endrede filer være synkronisert. Filer som har vært fjernet fra kilden, vil også fjernes fra målet.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Aktivere tjenesten</h3>
 <h4>Slik aktiverer du Synkronisering av delt mappe:</h4>
-<p>Først må du aktivere tjenesten på mål-Synology NAS.</p>
+<p>Først må du aktivere tjenesten på mål-INTEGRA Server.</p>
 <ol>
 <li>Gå til <strong>Kontrollpanel</strong> > <strong>Filtjeneste</strong> > <strong>rsync</strong>.</li>
 <li>Velg <strong>Aktiver rsync-tjeneste</strong> for å aktivere Synkronisering av delt mappe.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Kobler du fra delte mapper på mål-Synology NAS:</h4>
+<h4>Kobler du fra delte mapper på mål-INTEGRA Server:</h4>
 
 <p>Hvis ulike kilder synkroniserer en identisk delt mappe til én mål-DiskStation samtidig, vil det oppstå en konflikt. Du må koble fra den delte mappen på kildesiden før en annen kilde kan synkronisere mappen sin til målet. 
 
 <ol>
-<li>Logg inn på mål-Synology NAS og gå til <strong>Kontrollpanel</strong> > <strong>Synkronisering av delt mappe</strong> > <strong>Tilkoblingsliste</strong>.</li>
-<li>Velg den konfliktskapende tilkoblingen fra en kilde-Synology NAS og klikk på <strong>Koble fra</strong> for å fjerne den.</li>
+<li>Logg inn på mål-INTEGRA Server og gå til <strong>Kontrollpanel</strong> > <strong>Synkronisering av delt mappe</strong> > <strong>Tilkoblingsliste</strong>.</li>
+<li>Velg den konfliktskapende tilkoblingen fra en kilde-INTEGRA Server og klikk på <strong>Koble fra</strong> for å fjerne den.</li>
 </ol>
 
 <p>Nå kan en annen kilde synkronisere sin delte mappe til mål-DiskStation.</p>
@@ -52,11 +52,11 @@
 
 <h4>Slik oppretter du en synkroniseringsoppgave:</h4>
 <ol>
-<li>Logg inn på kilde-Synology NAS og gå til <b>Kontrollpanel</b> > <b>Synkronisering av delt mappe</b> > <strong>Oppgaveliste</strong>.</li>
+<li>Logg inn på kilde-INTEGRA Server og gå til <b>Kontrollpanel</b> > <b>Synkronisering av delt mappe</b> > <strong>Oppgaveliste</strong>.</li>
 <li>Klikk på <b>Opprett</b>.</li>
 <li> Skriv inn et navn for oppgaven.</li>
 <li>Velg den delte mappen du vil synkronisere med destinasjonen.</li>
-<li>Spesifiser mål-Synology NAS og følgende synkroniseringsalternativer:</li>
+<li>Spesifiser mål-INTEGRA Server og følgende synkroniseringsalternativer:</li>
 <ul>
 <li><strong>Tilpass SSH-krypteringsport for synkronisering av kryptert delt mappe</strong>: Spesifiser ønsket krypteringsport for SSH-overføringskryptering.</li>
 <li><strong>Aktiver SSH-overføringskryptering</strong>: Krypter data under overføring. Dette gir bedre sikkerhet, mens ikke-kryptert overføring gir bedre ytelse. Du kan velge ut fra egne behov.
@@ -74,7 +74,7 @@
 <li>Klikk på <strong>Bruk</strong>. Nå kan du se synkroniseringsoppgavene på oppgavelisten, som vil utføres i henhold til den angitte tidsplanen.</li></ol>
 <h4>Slik administrerer du en synkroniseringsoppgave:</h4>
 <ol>
-<li>På kilde-Synology NAS går du til <strong>Kontrollpanel</strong> > <strong>Synkronisering av delt mappe</strong>, klikker på <strong>Oppgaveliste</strong> og velger ønsket oppgave.</li>
+<li>På kilde-INTEGRA Server går du til <strong>Kontrollpanel</strong> > <strong>Synkronisering av delt mappe</strong>, klikker på <strong>Oppgaveliste</strong> og velger ønsket oppgave.</li>
 <li>Gjør ett av følgende:</li>
 <ul>
 <li>

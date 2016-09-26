@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>Synchro du dossier partagé</h2>
-<p>Le service Synchro du dossier partagé permet aux utilisateurs de synchroniser les dossiers partagés depuis une machine Synology NAS (la source) vers d'autres machines Synology NAS (les destinations) sur un réseau local ou sur Internet.</p>
+<p>Le service Synchro du dossier partagé permet aux utilisateurs de synchroniser les dossiers partagés depuis une machine INTEGRA Server (la source) vers d'autres machines INTEGRA Server (les destinations) sur un réseau local ou sur Internet.</p>
 <p>La première synchronisation du dossier partagé effectue une synchronisation complète du ou des dossiers partagés sélectionnés. Ensuite, seuls les fichiers modifiés sont synchronisés. Les fichiers qui ont été supprimés de la source sont également supprimés de la destination.</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>Activation du service</h3>
 <h4>Activer la Synchro du dossier partagé :</h4>
-<p>Vous devez prélablement activer le service sur le Synology NAS de destination.</p>
+<p>Vous devez prélablement activer le service sur le INTEGRA Server de destination.</p>
 <ol>
 <li>Accédez à <strong>Panneau de configuration</strong> > <strong>Service de fichiers</strong> > <strong>rsync</strong>.</li>
 <li>Sélectionnez <strong>Activer le service rsync</strong> pour activer le service Synchro du dossier partagé.</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>Afin de déconnecter les dossiers partagés du Synology NAS de destination :</h4>
+<h4>Afin de déconnecter les dossiers partagés du INTEGRA Server de destination :</h4>
 
 <p>Si différentes sources synchronisent simultanément un dossier partagé identique sur un DiskStation de destination, il y a conflit. Vous devez déconnecter le dossier partagé côté source avant qu'une autre source puisse synchroniser son dossier sur la destination. 
 
 <ol>
-<li>Connectez-vous au Synology NAS de destination, puis accédez à <strong>Panneau de configuration</strong> > <strong>Synchro du dossier partagé</strong> > <strong>Liste de connexion</strong>.</li>
-<li>Sélectionnez la connexion en conflit sur le Synology NAS source, et cliquez sur <strong>Déconnecter</strong> pour la supprimer.</li>
+<li>Connectez-vous au INTEGRA Server de destination, puis accédez à <strong>Panneau de configuration</strong> > <strong>Synchro du dossier partagé</strong> > <strong>Liste de connexion</strong>.</li>
+<li>Sélectionnez la connexion en conflit sur le INTEGRA Server source, et cliquez sur <strong>Déconnecter</strong> pour la supprimer.</li>
 </ol>
 
 <p>Il est alors possible pour une autre source de synchroniser le dossier partagé sur le DiskStation de destination.</p>
@@ -52,11 +52,11 @@
 
 <h4>Pour créer une tâche de synchronisation :</h4>
 <ol>
-<li>Connectez-vous au Synology NAS source, puis accédez à <b>Panneau de configuration</b> > <b>Synchro du dossier partagé</b> > <strong>Liste des tâches</strong>.</li>
+<li>Connectez-vous au INTEGRA Server source, puis accédez à <b>Panneau de configuration</b> > <b>Synchro du dossier partagé</b> > <strong>Liste des tâches</strong>.</li>
 <li>Cliquez sur <b>Créer</b>.</li>
 <li>Entrez un nom pour la tâche.</li>
 <li>Sélectionnez le dossier partagé que vous souhaitez synchroniser à la destination.</li>
-<li>Spécifiez le Synology NAS de destination et les options suivantes de synchronisation :</li>
+<li>Spécifiez le INTEGRA Server de destination et les options suivantes de synchronisation :</li>
 <ul>
 <li><strong>Personnalisez le port de chiffrement SSH pour la synchronisation du dossier partagé chiffré</strong> : Specifiez le port de chiffrement souihaité pour le chiffrement du transfert SSH.</li>
 <li><strong>Activer le cryptage du transfert SSH</strong> : Chiffre les données pendant le transfert. Ceci offre une plus grande sécurité, tandis que le transfert non chiffré offre davantage de performances. Vous pouvez choisir selon vos besoins.
@@ -74,7 +74,7 @@
 <li>Cliquez sur <strong>Appliquer</strong>. Vous pouvez maintenant voir la tâche de synchronisation sur la liste des tâches, qui est effectuée selon le programme spécifié.</li></ol>
 <h4>Pour gérer une tâche de synchronisation :</h4>
 <ol>
-<li>Sur le Synology NAS source, accédez au <strong>Panneau de configuration</strong> > <strong>Synchro du dossier partagé</strong>, cliquez sur <strong>Liste des tâches</strong> et sélectionnez la tâche souhaitée.</li>
+<li>Sur le INTEGRA Server source, accédez au <strong>Panneau de configuration</strong> > <strong>Synchro du dossier partagé</strong>, cliquez sur <strong>Liste des tâches</strong> et sélectionnez la tâche souhaitée.</li>
 <li>Procédez de l'une des manières suivantes :</li>
 <ul>
 <li>

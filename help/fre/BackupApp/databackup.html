@@ -53,12 +53,12 @@
 <li>Toutes les destinations de sauvegarde peuvent sauvegarder les paramètres de Windows ACL quel que soit le système de fichiers de la destination</li>
 </ul>
 </div>
-<h4>Pour exporter des données de sauvegarde sur des clouds publics ou sur un Synology NAS distant :</h4>
+<h4>Pour exporter des données de sauvegarde sur des clouds publics ou sur un INTEGRA Server distant :</h4>
 <p>Lors de la sauvegarde d'une grande quantité de données sur un cloud public, il est conseillé d'exporter la version initiale sur un périphérique de stockage externe (par ex., un disque USB) et de fournir le périphérique au fournisseur de services du cloud. Le périphérique peut alors être connecté là-bas et les données directement transférées sur le cloud. De cette manière, vous pouvez considérablement réduire la durée de la première sauvegarde.</p>
 <ol>
-<li>Cliquez sur <strong>+</strong> dans le coin inférieur gauche et sélectionnez <strong>Synology NAS distant</strong> ou le fournisseur de services cloud souhaité.</li>
+<li>Cliquez sur <strong>+</strong> dans le coin inférieur gauche et sélectionnez <strong>INTEGRA Server distant</strong> ou le fournisseur de services cloud souhaité.</li>
 <li>Sélectionnez <strong>Exporter dans un dossier partagé local (y compris un périphérique de stockage externe)</strong>, et finissez de configurer les paramètres. Lorsque vous y êtes invité, sélectionnez <strong>Activer le chiffrement côté client</strong> pour la sauvegarde de données protégées.</li>
-<li>Fournissez le périphérique de stockage externe au Synology NAS distant ou au fournisseur de services cloud. Importez les données exportées depuis le périphérique de stockage externe.</li>
+<li>Fournissez le périphérique de stockage externe au INTEGRA Server distant ou au fournisseur de services cloud. Importez les données exportées depuis le périphérique de stockage externe.</li>
 <li>Après confirmation, revenez à <strong>Sauvegarde et restauration</strong> et cliquez sur <strong>Reconnecter maintenant</strong>.</li>
 <li>Suivez les instructions de l'assistante reconnexion pour connecter votre DiskStation au référentiel. Le mot de passe/la clé de chiffrement est nécessaire si les données ont été exportées chiffrées.</li>
 </ol>
@@ -128,11 +128,11 @@
 <li>Les modes suivants sont disponibles lorsque vous créez une tâche de sauvegarde avec des serveurs compatibles rsync sur la destination de sauvegarde réseau : Le <b>mode rsync daemon,</b> qui est utilisé lorsque vous sélectionnez un module de sauvegarde (dossier partagé sur le serveur compatible rsync) dans le menu déroulant à côté du <b>module de sauvegarde</b> ; et le <b>mode remote shell,</b> qui est activé uniquement lorsque vous saisissez un chemin absolu (commençant par « / ») dans le <b>module de sauvegarde</b>.</li>
 <li>Pour les utilisateurs Linux, seuls les comptes <strong>admin</strong>, <strong>root</strong> et <strong>rsync</strong> sont autorisés pour la réalisation de tâches de sauvegarde.</li>
 <li>Si vous voulez accéder au serveur de destination sur Internet en utilisant le nom d'hôte, celui-ci doit être saisi au format FQDN (nom de domaine complet), par exemple, <strong>abc.bcd.com</strong>.</li>
-<li>Lorsque vous créez une tâche pour la sauvegarde d'une appareil Synology NAS vers un autre, vous êtes invité à saisir le nom d'utilisateur et le mot de passe pour un compte à la destination. Lors de la sauvegarde de dossiers partagés sur un autre DiskStation, vous pouvez le faire selon les paramètres de privilège d'accès des dossiers. Seuls les dossiers partagés pour lesquels l'utilisateur spécifié détient des privilèges d'accès seront visibles. Si vous ne pouvez trouver le dossier partagé désiré à la destination, veuillez vérifier vos privilèges d'accès.</li>
+<li>Lorsque vous créez une tâche pour la sauvegarde d'une appareil INTEGRA Server vers un autre, vous êtes invité à saisir le nom d'utilisateur et le mot de passe pour un compte à la destination. Lors de la sauvegarde de dossiers partagés sur un autre DiskStation, vous pouvez le faire selon les paramètres de privilège d'accès des dossiers. Seuls les dossiers partagés pour lesquels l'utilisateur spécifié détient des privilèges d'accès seront visibles. Si vous ne pouvez trouver le dossier partagé désiré à la destination, veuillez vérifier vos privilèges d'accès.</li>
 <li>Le chiffrement du transfert est pris en charge uniquement lorsque le serveur de destination prend en charge les sauvegardes réseau chiffrées et que l'authentification par mot de passe n'est pas vide.</li>
 <li>Le mode Remote shell ne prend en charge que le chiffrement du transfert.</li>
-<li>Si vous sauvegardez des fichiers vers un Synology NAS à l'aide d'un client rsync, les noms de fichier doivent avoir le codage UTF-8.</li>
-<li>Si vous sauvegardez des fichiers vers un Synology NAS via un client compatible rsync, vous ne pouvez effectuer la tâche qu'avec les comptes <strong>admin</strong>, <strong>root</strong> et <strong>rsync</strong> du DiskStation.</li>
+<li>Si vous sauvegardez des fichiers vers un INTEGRA Server à l'aide d'un client rsync, les noms de fichier doivent avoir le codage UTF-8.</li>
+<li>Si vous sauvegardez des fichiers vers un INTEGRA Server via un client compatible rsync, vous ne pouvez effectuer la tâche qu'avec les comptes <strong>admin</strong>, <strong>root</strong> et <strong>rsync</strong> du DiskStation.</li>
 <li>Si vous sauvegardez des fichiers depuis votre DiskStation vers un serveur compatible rsync, vous devrez saisir le nom de compte de sauvegarde rsync et le mot de passe corrects. Vous devrez également choisir le module de sauvegarde correct avec droit d'écriture.</li>
 </ul>
 <h4>Tâches de sauvegarde Amazon S3 :</h4>

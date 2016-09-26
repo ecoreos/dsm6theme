@@ -11,7 +11,7 @@
 </head> 
 <body>
 <h2>Sincroniza&ccedil;&atilde;o da pasta compartilhada</h2>
-<p>O servi&ccedil;o Sincroniza&ccedil;&atilde;o de pasta compartilhada permite que os usu&aacute;rios sincronizem as pastas compartilhadas de um dispositivo Synology NAS (a origem) para outros dispositivos Synology NAS (o destino) na LAN ou na Internet.</p>
+<p>O servi&ccedil;o Sincroniza&ccedil;&atilde;o de pasta compartilhada permite que os usu&aacute;rios sincronizem as pastas compartilhadas de um dispositivo INTEGRA Server (a origem) para outros dispositivos INTEGRA Server (o destino) na LAN ou na Internet.</p>
 <p>Na primeira vez, a sincroniza&ccedil;&atilde;o da pasta compartilhada far&aacute; uma sincroniza&ccedil;&atilde;o integral das pastas compartilhadas selecionadas. Posteriormente, apenas os arquivos alterados ser&atilde;o sincronizados. Os arquivos que tiverem sido removidos da origem tamb&eacute;m ser&atilde;o removidos do destino.</p>
 <div class="section">
 <h4>Nota:</h4>
@@ -25,27 +25,27 @@
 </div>
 <h3>Ativar o servi&ccedil;o</h3>
 <h4>Para ativar a sincroniza&ccedil;&atilde;o da pasta compartilhada:</h4>
-<p>Voc&ecirc; precisa habilitar o servi&ccedil;o no Synology NAS de destino primeiro.</p>
+<p>Voc&ecirc; precisa habilitar o servi&ccedil;o no INTEGRA Server de destino primeiro.</p>
 <ol>
 <li>V&aacute; para <strong>Painel de controle</strong> &gt; <strong>Servi&ccedil;o de arquivos</strong> &gt; <strong>rsync</strong></li>
 <li>Selecione <strong>Habilitar servi&ccedil;o rsync</strong> para habilitar o servi&ccedil;o de sincroniza&ccedil;&atilde;o de pasta compartilhada.</li>
 <li>Clique em <strong>Aplicar</strong>.</li>
 </ol>
-<h4>Para desvincular pastas compartilhadas do Synology NAS de destino:</h4>
+<h4>Para desvincular pastas compartilhadas do INTEGRA Server de destino:</h4>
 <p>Se diferentes fontes sincronizarem simultaneamente uma pasta compartilhada id&ecirc;ntica com o DiskStation de destino, haver&aacute; um conflito. Ser&aacute; necess&aacute;rio desvincular a pasta compartilhada no lado de origem antes que outra fonte possa sincronizar sua pasta com o destino. 
 <ol>
-<li>Fala logon no Synology NAS de destino e v&aacute; para <strong>Painel de controle</strong> &gt; <strong>Sincroniza&ccedil;&atilde;o da pasta compartilhada</strong> &gt; <strong>Lista de conex&otilde;es</strong>.</li>
-<li>Selecione a conex&atilde;o em conflito de um Synology NAS de origem e clique em <strong>Desvincular</strong> para remov&ecirc;-la.</li>
+<li>Fala logon no INTEGRA Server de destino e v&aacute; para <strong>Painel de controle</strong> &gt; <strong>Sincroniza&ccedil;&atilde;o da pasta compartilhada</strong> &gt; <strong>Lista de conex&otilde;es</strong>.</li>
+<li>Selecione a conex&atilde;o em conflito de um INTEGRA Server de origem e clique em <strong>Desvincular</strong> para remov&ecirc;-la.</li>
 </ol>
 <p>Agora outra fonte pode sincronizar a pasta compartilhada com o DiskStation de destino.</p>
 <h3>Gerenciar tarefas de sincroniza&ccedil;&atilde;o</h3>
 <h4>Para criar uma tarefa de sincroniza&ccedil;&atilde;o:</h4>
 <ol>
-<li>Fa&ccedil;a login no Synology NAS de origem e v&aacute; para <b>Painel de controle</b> &gt; <b>Sincroniza&ccedil;&atilde;o da pasta compartilhada</b> &gt; <strong>Lista de tarefas</strong>.</li>
+<li>Fa&ccedil;a login no INTEGRA Server de origem e v&aacute; para <b>Painel de controle</b> &gt; <b>Sincroniza&ccedil;&atilde;o da pasta compartilhada</b> &gt; <strong>Lista de tarefas</strong>.</li>
 <li>Clique em <b>Criar</b>.</li>
 <li>Digite um nome para a tarefa.</li>
 <li>Selecione a pasta compartilhada que deseja sincronizar com o destino.</li>
-<li>Especifique o Synology NAS de destino e as seguintes op&ccedil;&otilde;es de sincroniza&ccedil;&atilde;o:</li>
+<li>Especifique o INTEGRA Server de destino e as seguintes op&ccedil;&otilde;es de sincroniza&ccedil;&atilde;o:</li>
 <ul>
 <li><strong>Personalize a porta de criptografia SSH para sincronizar pastas compartilhadas criptografadas</strong>: Especifique a porta de criptografia desejada para a criptografia de transfer&ecirc;ncia SSH.</li>
 <li><strong>Ativar criptografia de transfer&ecirc;ncia SSH</strong>: Criptografa dados durante a transfer&ecirc;ncia. Isso oferece mais seguran&ccedil;a, enquanto a transfer&ecirc;ncia n&atilde;o criptografada oferece melhor desempenho. Voc&ecirc; pode escolher de acordo com suas necessidades.
@@ -62,7 +62,7 @@
 <li>Clique em <strong>Aplicar</strong>. Agora, voc&ecirc; pode ver a tarefa de sincroniza&ccedil;&atilde;o na lista de tarefas, que ser&aacute; realizada de acordo com a programa&ccedil;&atilde;o especificada.</li></ol>
 <h4>Para gerenciar uma tarefa de sincroniza&ccedil;&atilde;o:</h4>
 <ol>
-<li>No Synology NAS de origem, v&aacute; para <strong>Painel de controle</strong> &gt; <strong>Sincroniza&ccedil;&atilde;o da pasta compartilhada</strong>, clique em <strong>Lista de tarefas</strong> e selecione a tarefa desejada.</li>
+<li>No INTEGRA Server de origem, v&aacute; para <strong>Painel de controle</strong> &gt; <strong>Sincroniza&ccedil;&atilde;o da pasta compartilhada</strong>, clique em <strong>Lista de tarefas</strong> e selecione a tarefa desejada.</li>
 <li>Execute um dos seguintes procedimentos:</li>
 <ul>
 <li>

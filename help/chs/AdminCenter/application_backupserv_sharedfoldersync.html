@@ -13,7 +13,7 @@
 </head> 
 <body>
 <h2>共享文件夹同步</h2>
-<p>“共享文件夹同步”服务可让用户将共享文件夹从一台 Synology NAS 设备（来源）同步至局域网或 Internet 上的另一台 Synology NAS 设备（目的地）上。</p>
+<p>“共享文件夹同步”服务可让用户将共享文件夹从一台 INTEGRA Server 设备（来源）同步至局域网或 Internet 上的另一台 INTEGRA Server 设备（目的地）上。</p>
 <p>第一次进行同步时，共享文件夹同步功能会将所选的共享文件夹进行完整的同步。之后则会仅同步文件修改过的部分。在来源端删除的文件，在目标端也会被删除。</p>
 
 <div class="section">
@@ -29,7 +29,7 @@
 
 <h3>启用此服务</h3>
 <h4>若要启用共享文件夹同步：</h4>
-<p>您必须先选在目的地 Synology NAS 上启用此服务。</p>
+<p>您必须先选在目的地 INTEGRA Server 上启用此服务。</p>
 <ol>
 <li>请进入<strong>控制面板</strong> > <strong>文件服务</strong> > <strong>rsync</strong>。</li>
 <li>选择<strong>启用同步服务</strong>以启用“共享文件夹同步”服务。</li>
@@ -37,13 +37,13 @@
 </ol>
 
 
-<h4>若要取消共享文件夹与目的地 Synology NAS 的链接：</h4>
+<h4>若要取消共享文件夹与目的地 INTEGRA Server 的链接：</h4>
 
 <p>如果不同的来源同时将相同的共享文件夹同步到一个目的地 DiskStation，将发生冲突。在另一个来源可将其文件夹同步到目的地之前，您需要取消与来源地共享文件夹的链接。 
 
 <ol>
-<li>登录到目的地 Synology NAS，进入<strong>控制面板</strong> > <strong>共享文件夹同步</strong> > <strong>连接列表</strong>。</li>
-<li>从来源 Synology NAS 选择冲突连接，并单击<strong>取消链接</strong>以将其删除。</li>
+<li>登录到目的地 INTEGRA Server，进入<strong>控制面板</strong> > <strong>共享文件夹同步</strong> > <strong>连接列表</strong>。</li>
+<li>从来源 INTEGRA Server 选择冲突连接，并单击<strong>取消链接</strong>以将其删除。</li>
 </ol>
 
 <p>现在另一个来源就能将该共享文件夹同步到目的地 DiskStation 了。</p>
@@ -52,11 +52,11 @@
 
 <h4>若要创建同步任务：</h4>
 <ol>
-<li>登录到来源 Synology NAS，进入<b>控制面板</b> > <b>共享文件夹同步</b> > <strong>任务列表</strong>。</li>
+<li>登录到来源 INTEGRA Server，进入<b>控制面板</b> > <b>共享文件夹同步</b> > <strong>任务列表</strong>。</li>
 <li>单击<b>创建</b>。</li>
 <li>输入任务的名称。</li>
 <li>选择您要同步至目的地的共享文件夹。</li>
-<li>指定目的地 Synology NAS 及下列同步选项：</li>
+<li>指定目的地 INTEGRA Server 及下列同步选项：</li>
 <ul>
 <li><strong>为加密共享文件夹同步自定义 SSH 加密端口</strong>：为 SSH 传输加密指定加密端口。</li>
 <li><strong>启用 SSH 传输加密</strong>：传输过程中对数据加密。提供较高的安全性，但非加密传输的性能较佳。您可按需要选择。
@@ -74,7 +74,7 @@
 <li>单击<strong>应用</strong>。现在您可以在任务列表上看到同步任务，系统会按所指定的计划管理运行任务。</li></ol>
 <h4>若要管理同步任务：</h4>
 <ol>
-<li>在来源 Synology NAS 中，进入<strong>控制面板</strong> > <strong>共享文件夹同步</strong>，单击<strong>任务列表</strong>，并选择所需的任务。</li>
+<li>在来源 INTEGRA Server 中，进入<strong>控制面板</strong> > <strong>共享文件夹同步</strong>，单击<strong>任务列表</strong>，并选择所需的任务。</li>
 <li>执行下列任何操作：</li>
 <ul>
 <li>

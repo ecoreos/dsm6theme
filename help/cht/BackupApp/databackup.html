@@ -65,12 +65,12 @@
 </ul>
 </div>
 
-<h4>若要匯出備份資料至公共雲端空間或遠端 Synology NAS：</h4>
+<h4>若要匯出備份資料至公共雲端空間或遠端 INTEGRA Server：</h4>
 <p>備份大量資料至公共雲端空間時，建議您將最初備份版本匯出至外接儲存裝置 (例如 USB 硬碟)，寄送該裝置至雲端服務供應商。裝置便可在該處連接並直接上傳檔案至雲端空間。如此一來，便可大量減少第一次備份時間。</p>
 <ol>
-<li>按一下左下角的<strong>+</strong>，選擇<strong>遠端 Synology NAS</strong>或想要的雲端服務提供商。</li>
+<li>按一下左下角的<strong>+</strong>，選擇<strong>遠端 INTEGRA Server</strong>或想要的雲端服務提供商。</li>
 <li>選擇<strong>匯出至本地共用資料夾 (包含外接儲存裝置)</strong>來完成設定。出現提醒時，選擇<strong>啟動用戶端加密</strong>來保護資料備份。</li>
-<li>寄送外接儲存裝置至遠端 Synology NAS 或雲端服務提供商。從外接儲存裝置匯出資料。</li>
+<li>寄送外接儲存裝置至遠端 INTEGRA Server 或雲端服務提供商。從外接儲存裝置匯出資料。</li>
 <li>確認後，請回到<strong>備份 &amp; 還原</strong>，按一下<strong>立即重新連結</strong>。</li>
 <li>依照重新連結精靈的指示來將 DiskStation 連結至資料庫。如果資料匯出時處於加密狀態，則需密碼 / 加密金鑰。</li>
 </ol>
@@ -162,11 +162,11 @@
 <li>備份檔案至 rsync 相容伺服器時，可選擇的模式如下：當您從<b>備份模組</b>旁的下拉式選單中選擇備份模組 (rsync 相容伺服器上的共用資料夾)，系統會使用 <b>rsync daemon 模式</b>；只有當您在<b>備份模組</b>中輸入絕對路徑 (以「/」開頭) 時，系統才會啟動 <b>remote shell 模式</b>。</li>
 <li>在 Linux 平台上，只有 <strong>admin</strong>、<strong>root</strong> 和 <strong>rsync</strong> 帳號可以執行備份任務。</li>
 <li>若您想要透過網際網路使用主機名稱存取目的地伺服器，則其主機名稱必須符合 FQDN (Fully Qualified Domain Name，完全合格的網域名稱) 格式，例如 <strong>abc.bcd.com</strong>。</li>
-<li>從一台 Synology NAS 裝置備份至另一台 Synology NAS 時，系統會要求您輸入一組目的地伺服器上的使用者帳號名稱及密碼。備份至另一台 DiskStation 上的共用資料夾時，您可以依資料夾存取權限設定來備份共用資料夾。畫面上只會顯示該使用者帳號具有存取權限的共用資料夾。若無法在目的地伺服器上找到您想要的共用資料夾，請檢查您的存取權限。</li>
+<li>從一台 INTEGRA Server 裝置備份至另一台 INTEGRA Server 時，系統會要求您輸入一組目的地伺服器上的使用者帳號名稱及密碼。備份至另一台 DiskStation 上的共用資料夾時，您可以依資料夾存取權限設定來備份共用資料夾。畫面上只會顯示該使用者帳號具有存取權限的共用資料夾。若無法在目的地伺服器上找到您想要的共用資料夾，請檢查您的存取權限。</li>
 <li>若要使用傳輸加密，則目的地伺服器必須支援加密備份功能且使用者認證的密碼不得為空白。</li>
 <li>Remote shell 模式只支援傳輸加密。</li>
-<li>若您使用 rsync 用戶端備份至 Synology NAS 裝置時，檔案名稱要以 UTF-8 編碼。</li>
-<li>若您使用 rsync 相容備份軟體備份至 Synology NAS 伺服器，則僅有 DiskStation 的 <strong>admin</strong>、<strong>root</strong>、<strong>rsync</strong> 帳號使用者可執行備份。</li>
+<li>若您使用 rsync 用戶端備份至 INTEGRA Server 裝置時，檔案名稱要以 UTF-8 編碼。</li>
+<li>若您使用 rsync 相容備份軟體備份至 INTEGRA Server 伺服器，則僅有 DiskStation 的 <strong>admin</strong>、<strong>root</strong>、<strong>rsync</strong> 帳號使用者可執行備份。</li>
 <li>若您使用 DiskStation 備份至 rsync 相容伺服器，您需要填寫正確的 rsync 備份帳號及密碼。您同時也需要選擇有寫入權限的備份模組。</li>
 </ul>
 

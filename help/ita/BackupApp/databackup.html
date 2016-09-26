@@ -70,7 +70,7 @@
 <h4>Per esportare i dati i backup in cloud pubblici o NAS Synology remoto:</h4>
 <p>Quando si esegue il backup di una grande quantità di dati su un cloud pubblico, si consiglia di esportare la versione iniziale in un dispositivo di archiviazione esterno (es. unità USB) e fornire il dispositivo al provider di servizi cloud. Il dispositivo potrà connettersi e caricare i dati direttamente nel cloud. In questo modo, sarà possibile ridurre notevolmente la durata del primo backup.</p>
 <ol>
-<li>Fare clic su <strong>+</strong> nell'angolo in basso a sinistra e selezionare <strong>Synology NAS remoto</strong> o il provider di servizi cloud desiderati.</li>
+<li>Fare clic su <strong>+</strong> nell'angolo in basso a sinistra e selezionare <strong>INTEGRA Server remoto</strong> o il provider di servizi cloud desiderati.</li>
 <li>Selezionare <strong>Esportare in una cartella condivisa locale (incluso un dispositivo di archiviazione esterno)</strong> e completare le impostazioni. Quando richiesto, selezionare <strong>Abilita crittografia lato client</strong> per il backup di dati protetto.</li>
 <li>Consegnare il dispositivo di archiviazione esterno al NAS Synology remoto o al provider di servizi cloud. Importare i dati esportati dal dispositivo di archiviazione esterno.</li>
 <li>Dopo la conferma, tornare a <strong>Backup e Ripristino</strong> e fare clic su <strong>Ricollega ora</strong>.</li>
@@ -166,11 +166,11 @@
 <li>Le seguenti modalità sono disponibili quando si crea un'attività di backup con server compatibili rsync come destinazione di backup di rete: <b>modalità rsync daemon,</b> che è utilizzata quando si seleziona un modulo di backup (cartella condivisa su server compatibile rsync) dal menu a discesa accanto a <b>Moduli backup</b>; e <b>modalità shell remota,</b> che viene abilitata solo quando si inserisce un percorso assoluto (che inizia con "/") nei <b>Moduli backup</b>.</li>
 <li>Per gli utenti Linux, solo gli account <strong>admin</strong>, <strong>root</strong> e <strong>rsync</strong> possono svolgere le attività di backup.</li>
 <li>Per accedere a un server di destinazione su Internet usando il suo nome host, il nome host deve essere del formato FQDN (Nome di Dominio completo), ad esempio <strong>abc.bcd.com</strong>.</li>
-<li>Quando si effettua un backup da un dispositivo Synology NAS all'altro, viene chiesto di inserire il nome utente e la password per un account di destinazione. Quando si esegue il backup di cartelle condivise su un'altra DiskStation, è possibile farlo in base alle impostazioni dei privilegi di accesso delle cartelle. Solo le cartelle condivise alle quali un account utente specifico ha privilegi di accesso saranno visualizzate. Se non si trova la cartella condivisa desiderata come destinazione, controllare i privilegi di accesso.</li>
+<li>Quando si effettua un backup da un dispositivo INTEGRA Server all'altro, viene chiesto di inserire il nome utente e la password per un account di destinazione. Quando si esegue il backup di cartelle condivise su un'altra DiskStation, è possibile farlo in base alle impostazioni dei privilegi di accesso delle cartelle. Solo le cartelle condivise alle quali un account utente specifico ha privilegi di accesso saranno visualizzate. Se non si trova la cartella condivisa desiderata come destinazione, controllare i privilegi di accesso.</li>
 <li>La codifica del trasferimento viene supportata solo quando il server di destinazione supporta il backup di rete codificato e la password di autenticazione non può essere vuota.</li>
 <li>La modalità shell remota supporta solo la codifica di trasferimento.</li>
-<li>In caso di backup dei file in un dispositivo Synology NAS tramite un client rsync, i nomi dei file devono essere nella codifica UTF-8.</li>
-<li>In caso di backup dei file in un dispositivo Synology NAS tramite un client compatibile rsync, è possibile eseguire le operazioni soltanto dagli account <strong>admin</strong>, <strong>root</strong> e <strong>rsync</strong> della DiskStation.</li>
+<li>In caso di backup dei file in un dispositivo INTEGRA Server tramite un client rsync, i nomi dei file devono essere nella codifica UTF-8.</li>
+<li>In caso di backup dei file in un dispositivo INTEGRA Server tramite un client compatibile rsync, è possibile eseguire le operazioni soltanto dagli account <strong>admin</strong>, <strong>root</strong> e <strong>rsync</strong> della DiskStation.</li>
 <li>Se si sta eseguendo il backup dei file da una DiskStation verso un server compatibile rsync, sarà necessario inserire il nome e la password corretti dell'account rsync di backup. Inoltre , sarà necessario scegliere il modulo di backup corretto con il privilegio Scrittura.</li>
 </ul>
 

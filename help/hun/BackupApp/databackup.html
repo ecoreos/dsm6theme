@@ -65,12 +65,12 @@
 </ul>
 </div>
 
-<h4>Biztonsági mentés adatainak exportálása nyilvános felhőbe vagy távoli Synology NAS eszközre:</h4>
+<h4>Biztonsági mentés adatainak exportálása nyilvános felhőbe vagy távoli INTEGRA Server eszközre:</h4>
 <p>Nagy mennyiségű adat nyilvános felhőbe történő biztonsági mentése során azt javasoljuk, hogy az eredeti verziót exportálja egy külső tárolóeszközre (pl. USB-meghajtóra), majd az eszközt juttassa el a felhőszolgáltató számára. Így a felhőszolgáltató csatlakoztatni tudja az eszközt a rendszeréhez, melynek eredményeképpen az adatokat közvetlenül tudja feltölteni a felhőbe. Ily módon az első biztonsági mentés ideje jelentősen lecsökkenthető.</p>
 <ol>
-<li>Kattintson a bal alsó sarokban található <strong>+</strong> gombra, majd válassza a <strong>Távoli Synology NAS</strong> lehetőséget, vagy jelölje ki a választott felhőszolgáltatót.</li>
+<li>Kattintson a bal alsó sarokban található <strong>+</strong> gombra, majd válassza a <strong>Távoli INTEGRA Server</strong> lehetőséget, vagy jelölje ki a választott felhőszolgáltatót.</li>
 <li>Válassza az <strong>Exportálás helyi megosztott mappába (külső tárolóeszközöket is beleértve)</strong> lehetőséget, majd végezze el a beállításokat. Amikor a rendszer választási lehetőséget kínál fel, a védett biztonsági adatmentés érdekében válassza a <strong>Kliensoldali titkosítás engedélyezése</strong> lehetőséget.</li>
-<li>Juttassa el a külső tárolóeszközt a távoli Synology NAS eszközhöz vagy a felhőszolgáltatóhoz. Importálja az exportált adatokat a külső tárolóeszközről.</li>
+<li>Juttassa el a külső tárolóeszközt a távoli INTEGRA Server eszközhöz vagy a felhőszolgáltatóhoz. Importálja az exportált adatokat a külső tárolóeszközről.</li>
 <li>A megerősítést követően lépjen vissza a <strong>Biztonsági mentés és visszaállítás</strong> funkcióra, majd kattintson az <strong>Újracsatolás most</strong> lehetőségre.</li>
 <li>A(z) DiskStation eszköz és a raktár összekapcsolásához kövesse az Újracsatolási varázsló által megjelenített utasításokat. Amennyiben az adatokat titkosítva exportálta, jelszót/titkosítási kulcsot is meg kell adnia.</li>
 </ol>
@@ -162,11 +162,11 @@
 <li>Amikor olyan biztonsági mentési feladatot hoz létre, melyben a hálózati biztonsági mentés célhelye rsync-kompatibilis szerver, az alábbi módok állnak rendelkezésre: <b>rsync daemon üzemmód,</b> amely akkor használatos, ha a <b>Biztonsági mentés modul</b> melletti legördülő menüből választ ki egy biztonsági mentési modult (megosztott mappát az rsync-kompatibilis szerveren); valamint a <b>remote shell üzemmód,</b> amely kizárólag akkor használható, ha („/” jellel kezdődő) abszolút útvonalat ad meg a <b>Biztonsági mentés modul</b> opciónál.</li>
 <li>Linux-felhasználók számára kizárólag az <strong>admin</strong>, <strong>root</strong> és <strong>rsync</strong> fiókok használata engedélyezett biztonsági mentési feladat végrehajtásához.</li>
 <li>Ha a célszerver elérésére az interneten keresztül, annak állomásnevének használatával kerül sor, akkor az állomásnévnek FQDN (teljes értékű tartománynév) formátummal kell rendelkeznie, például: <strong>abc.bcd.com</strong>.</li>
-<li>Ha egyik Synology NAS eszközéről a másikra végez biztonsági mentést, a rendszer felszólítja egy, a célhelyen található fiókhoz tartozó felhasználónév és jelszó megadására. Másik DiskStation eszközön található megosztott mappákba a mappák hozzáférési jogosultság beállításai szerint készíthet biztonsági mentést. Csak azok a megosztott mappák jelennek meg, amelyekhez a meghatározott felhasználói fiók hozzáférési jogosultsággal rendelkezik. Ha nem találja a kívánt megosztott mappát a célhelyen, ellenőrizze a hozzáférési jogosultságokat.</li>
+<li>Ha egyik INTEGRA Server eszközéről a másikra végez biztonsági mentést, a rendszer felszólítja egy, a célhelyen található fiókhoz tartozó felhasználónév és jelszó megadására. Másik DiskStation eszközön található megosztott mappákba a mappák hozzáférési jogosultság beállításai szerint készíthet biztonsági mentést. Csak azok a megosztott mappák jelennek meg, amelyekhez a meghatározott felhasználói fiók hozzáférési jogosultsággal rendelkezik. Ha nem találja a kívánt megosztott mappát a célhelyen, ellenőrizze a hozzáférési jogosultságokat.</li>
 <li>Az átviteli titkosítás csak akkor támogatott, ha a célszerver támogatja a titkosított hálózati biztonsági mentést, és a hitelesítő jelszó mező nem üres.</li>
 <li>A remote shell üzemmód kizárólag a titkosított átvitelt támogatja.</li>
-<li>Ha a fájlok biztonsági mentését Synology NAS termékére rsync-kliensen keresztül végzi, akkor kizárólag UTF-8 kódolású fájlneveket használhat.</li>
-<li>Ha a fájlok biztonsági mentését rsync-kompatibilis klienssel egy Synology NAS készülékre végzi, a feladatot csak a(z) DiskStation eszköz <strong>admin</strong>, <strong>root</strong> és <strong>rsync</strong> fiókjában tudja végrehajtani.</li>
+<li>Ha a fájlok biztonsági mentését INTEGRA Server termékére rsync-kliensen keresztül végzi, akkor kizárólag UTF-8 kódolású fájlneveket használhat.</li>
+<li>Ha a fájlok biztonsági mentését rsync-kompatibilis klienssel egy INTEGRA Server készülékre végzi, a feladatot csak a(z) DiskStation eszköz <strong>admin</strong>, <strong>root</strong> és <strong>rsync</strong> fiókjában tudja végrehajtani.</li>
 <li>Ha a fájlok biztonsági mentését DiskStation eszközéről egy rsync-kompatibilis szerverre végzi, meg kell adnia az rsync biztonsági mentéshez tartozó fiók felhasználónevét és jelszavát. A megfelelő biztonsági mentési modult is ki kell választania írási jogosultsággal.</li>
 </ul>
 
