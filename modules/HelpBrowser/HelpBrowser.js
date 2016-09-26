@@ -355,7 +355,7 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
             },
             scope: this
         });
-/*        this.helpDSMenuItem = new Ext.menu.CheckItem({
+        this.helpDSMenuItem = new Ext.menu.CheckItem({
             text: _T("helpbrowser", "help_from_syno"),
             cls: "syno-sds-hb-option",
             group: "helpsrc",
@@ -372,8 +372,7 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
                 }
             },
             scope: this
-        });
-*/        
+        });       
         this.helpMenuItem = new Ext.menu.Item({
             text: _T("helpbrowser", "help_source"),
             tooltip: _T("helpbrowser", "help_source"),
