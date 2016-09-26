@@ -336,10 +336,28 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
                 items: [this.xlfontMenuItem, this.lfontMenuItem, this.nfontMenuItem]
             })
         });
-        this.helpSynoMenuItem = new Ext.menu.CheckItem({
+        this.helpDSMenuItem = new Ext.menu.CheckItem({
             text: _T("helpbrowser", "help_from_ds"),
+            cls: "syno-sds-hb-option",
             group: "helpsrc",
-            checked: true,
+            checked: true,            
+            checkHandler: function() {
+                if (this.helpDSMenuItem.checked) {
+                    this.changeOnOffLineStatus(true);
+                    if (this.layout.activeItem !== this.getHomeCt()) {
+                        this.onlineSearchField.hide();
+                        this.offlineSearchField.show()
+                    } else {
+                        this.homeOnlineSearchField.hide();
+                        this.homeOfflineSearchField.show()
+                    }
+                }
+            },
+            scope: this
+        });        
+        this.helpSynoMenuItem = new Ext.menu.CheckItem({
+            text: _T("helpbrowser", "help_from_syno"),
+            group: "helpsrc",
             cls: "syno-sds-hb-option",
             checkHandler: function() {
                 if (this.helpSynoMenuItem.checked) {
@@ -355,24 +373,7 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
             },
             scope: this
         });
-        this.helpDSMenuItem = new Ext.menu.CheckItem({
-            text: _T("helpbrowser", "help_from_syno"),
-            cls: "syno-sds-hb-option",
-            group: "helpsrc",
-            checkHandler: function() {
-                if (this.helpDSMenuItem.checked) {
-                    this.changeOnOffLineStatus(true);
-                    if (this.layout.activeItem !== this.getHomeCt()) {
-                        this.onlineSearchField.hide();
-                        this.offlineSearchField.show()
-                    } else {
-                        this.homeOnlineSearchField.hide();
-                        this.homeOfflineSearchField.show()
-                    }
-                }
-            },
-            scope: this
-        });       
+       
         this.helpMenuItem = new Ext.menu.Item({
             text: _T("helpbrowser", "help_source"),
             tooltip: _T("helpbrowser", "help_source"),
