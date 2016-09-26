@@ -1,5 +1,5 @@
 <?php
-/* Copyright (c) 2010 Synology Inc. All rights reserved. */
+/* Copyright (c) 2010 INTEGRA S.A.S. All rights reserved. */
 require_once("modules/indexerinc.php");
 require_once("modules/stringbundle.php");
 require_once("modules/appindexconf.php");

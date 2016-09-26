@@ -1645,7 +1645,7 @@ video_setting_title	=	"ビデオ設定"
 
 [copyright]
 copyright	=	"Copyright © {0} INTEGRA Inc. All rights reserved"
-copyright_mark_desc	=	"<p> INTEGRA およびSynology 製品名はSynology Inc.の商標または登録商標です。</p><p>Microsoft、Windows、Windows NT、Internet ExplorerはMicrosoft Corporationの商標です。</p><p>AppleおよびMacintoshはApple Computer Inc.の商標です。</p><p>IntelはIntel Corporationの商標です。</p><p>その他、記載されている製品名および会社名は各社の商標です。</p>"
+copyright_mark_desc	=	"<p> INTEGRA およびSynology 製品名はINTEGRA S.A.S.の商標または登録商標です。</p><p>Microsoft、Windows、Windows NT、Internet ExplorerはMicrosoft Corporationの商標です。</p><p>AppleおよびMacintoshはApple Computer Inc.の商標です。</p><p>IntelはIntel Corporationの商標です。</p><p>その他、記載されている製品名および会社名は各社の商標です。</p>"
 copyright_mark_title	=	"商標について"
 copyright_note_desc	=	"<p>ソフトウェア製品に関するすべてのタイトル、著作権、およびその他の知的所有権iソフトウェア製品に組み込まれているメディア、画像、写真、アニメ、映像、音声、文字、アプレットその他j、付属マニュアルおよびその他の文書、オンラインマニュアル 、電子文書（以下「ソフトウェア製品」と呼ぶ）のすべての所有権、著作権、およびその他の知的所有権は INTEGRA Inc．にあります。INTEGRA Inc．の明示的な文書による許可がない限り、本ソフトウェア製品の条項により上記のすべての権利のライセンスが許可されることはありません。</p><p>ユーザーによりソフトウェア製品が提供するアプリケーションを使用して保存された写真、ビデオ、音楽、ネットワークビデオ、電子ファルを含む（ただし必ずしもこれに限らない）マルチメディアファイルの著作権およびその他知的所有権は、、ユーザーまたは第三機関に帰属します。</p><p>Copyright &copy; 2004-2012 INTEGRA Inc. All rights reserved.</p><p>Portions Copyright &copy; 2004 Intel Corporation.</p><p>本ソフトウェアの一部はGPLソースで修正されています。修正されたGPLソースが必要な場合は、SynologyのWebサイトから入手してください。</p>"
 copyright_note_title	=	"著作権について"

@@ -1,4 +1,4 @@
-# Copyright (c) 2000-2014 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2014 INTEGRA S.A.S. All rights reserved.
 from Define import *
 import os
 import inspect

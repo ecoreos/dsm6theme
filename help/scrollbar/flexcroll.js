@@ -3,7 +3,7 @@ This license text has to stay intact at all times:
 Author: Emrah BASKAYA @ www.hesido.com
 
 This script is registered for use by:
-Synology Inc.
+INTEGRA S.A.S.
 Under the following licence agreement:
 http://www.hesido.com/licenses.php?page=flexcrollcommercialunlimited
 

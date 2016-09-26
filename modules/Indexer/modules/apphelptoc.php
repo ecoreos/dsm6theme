@@ -1,5 +1,5 @@
 <?php
-/* Copyright (c) 2010 Synology Inc. All rights reserved. */
+/* Copyright (c) 2010 INTEGRA S.A.S. All rights reserved. */
 class AppHelpToc {
 	var $tocpath;
 	var $jsonObj;
