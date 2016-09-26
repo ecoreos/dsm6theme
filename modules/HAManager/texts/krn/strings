@@ -471,7 +471,7 @@ welcome_desc_warning_ddsm_support	=	"High Availability에서 Docker DSM에 대�
 welcome_desc_warning_ha_if_constrain	=	"활성 및 수동 서버에서 선택한 High-availability 인터페이스는 정적 IP로 구성되어 있어야 합니다."
 welcome_desc_warning_heartbeat_constrain	=	"Heartbeat 연결이 적절하게 구성되어 있는지 확인합니다. 직접 연결하는 것이 좋습니다."
 welcome_desc_warning_if_constrain	=	"두 서버의 연결이 동일하고, 활성 상태이고, 동일한 네트워크에 있는지 확인합니다."
-welcome_desc_warning_not_support	=	"High Availability는 SHR, DHCP 서버, IPv6, PPPoE, Wi-Fi, 가상 DSM, MailPlus Server 및 PetaSpace를 지원하지 않습니다."
+welcome_desc_warning_not_support	=	"High Availability는 SHR, DHCP 서버, IPv6, PPPoE, Wi-Fi, 가상 INTEGRA, MailPlus Server 및 PetaSpace를 지원하지 않습니다."
 welcome_title	=	"High Availability Manager 마법사 시작"
 wizard_title	=	"High Availability Manager 마법사"
 
