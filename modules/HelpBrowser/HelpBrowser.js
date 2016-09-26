@@ -1068,8 +1068,8 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
         return this.offline
     },
     createNetDetectionEl: function(a) {
-        this.isSendingRequest = false;
-        a = a || true;
+        this.isSendingRequest = true;
+        a = a || false;
         if (this.detectEl) {
             Ext.removeNode(this.detectEl)
         }
