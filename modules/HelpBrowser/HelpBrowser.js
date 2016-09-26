@@ -357,8 +357,7 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
         });        
         this.helpSynoMenuItem = new Ext.menu.CheckItem({
             text: _T("helpbrowser", "help_from_syno"),
-            group: "helpsrc",
-            checked: false,            
+            group: "helpsrc",  
             cls: "syno-sds-hb-option",
             checkHandler: function() {
                 if (this.helpSynoMenuItem.checked) {
@@ -1069,8 +1068,8 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
         return this.offline
     },
     createNetDetectionEl: function(a) {
-        this.isSendingRequest = true;
-        a = a || false;
+        this.isSendingRequest = false;
+        a = a || true;
         if (this.detectEl) {
             Ext.removeNode(this.detectEl)
         }
