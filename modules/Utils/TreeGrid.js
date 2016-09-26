@@ -1,4 +1,4 @@
-/* Copyright (c) 2016 Synology Inc. All rights reserved. */
+/* Copyright (c) INTEGRA EMPRESAS 2016. All rights reserved. */
 
 /*
  * Ext JS Library 3.2.1
