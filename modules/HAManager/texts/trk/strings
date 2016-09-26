@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager, iki Synology sunucusu kullanarak bir high-availability kümesi (HA kümesi) oluşturur; bir sunucu aktif sunucu ve diğeri üstlenme için pasif sunucu olur. Aktif sunucu tüm servislerin yürütülmesini üstlenir ve pasif sunucuya verileri çoğaltarak gönderir. Aktif sunucu arızalanırsa, pasif sunucu yeni aktif sunucu olur ve orijinal aktif sunucu tarafından yürütülen servisleri üstlenmeye başlar."
+description	=	"High Availability Manager, iki INTEGRA sunucusu kullanarak bir high-availability kümesi (HA kümesi) oluşturur; bir sunucu aktif sunucu ve diğeri üstlenme için pasif sunucu olur. Aktif sunucu tüm servislerin yürütülmesini üstlenir ve pasif sunucuya verileri çoğaltarak gönderir. Aktif sunucu arızalanırsa, pasif sunucu yeni aktif sunucu olur ve orijinal aktif sunucu tarafından yürütülen servisleri üstlenmeye başlar."
 
 [button]
 go	=	"Git"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Pasif sunucudaki bir SSD önbelleğin kapasitesi 
 desc_sb_no_service_monitor	=	"Servis monitörü bölünmüş beyin modunda devre dışıdır."
 desc_sb_remote_offline	=	"Diğer sunucu algılanamadı."
 desc_shr_not_supported	=	"High-availability kümenizdeki bir veya daha fazla bölüm desteklenmeyen SHR şeklinde oluşturulur. Lütfen tüm SHR bölümlerini kaldırın ve yeniden deneyin."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID (SHR) bir high-availability kümesi oluşturulurken desteklenmez. Aktif sunucuda SHR depolama alanı bulunmadığından lütfen emin olun."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID (SHR) bir high-availability kümesi oluşturulurken desteklenmez. Pasif sunucuda SHR depolama alanı bulunmadığından lütfen emin olun."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID (SHR) bir high-availability kümesi oluşturulurken desteklenmez. Aktif sunucuda SHR depolama alanı bulunmadığından lütfen emin olun."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID (SHR) bir high-availability kümesi oluşturulurken desteklenmez. Pasif sunucuda SHR depolama alanı bulunmadığından lütfen emin olun."
 desc_space_configuring	=	"Aktif sunucu depolama alanlarını yapılandırıyor."
 desc_space_crashed	=	"Aktif sunucudaki bir depolama alanı çökmüş."
 desc_space_degraded	=	"Aktif sunucudaki bir depolama alanının kapasitesi düşmüş."
@@ -101,7 +101,7 @@ shutdown_active	=	"Aktif sunucuyu kapat"
 shutdown_cluster	=	"HA kümesini kapat"
 shutdown_passive	=	"Pasif sunucuyu kapat"
 shutdown_sb_local	=	"Yerel sunucuyu kapat"
-standalone_desc	=	"Bir high-availability kümesini oluşturmak için iki Synology sunucusunu (bir aktif sunucu ve bir pasif sunucu) birleştirin. Bu işleme başlamak için, <b>HA kümesni oluştur</b> öğesine basın."
+standalone_desc	=	"Bir high-availability kümesini oluşturmak için iki INTEGRA sunucusunu (bir aktif sunucu ve bir pasif sunucu) birleştirin. Bu işleme başlamak için, <b>HA kümesni oluştur</b> öğesine basın."
 status_normal	=	"Normal"
 system_fan_fail	=	"Sistem fanı arızalı"
 unbind_remote	=	"Pasif sunucuyu ayır"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Tüm DDNS hizmetleri devre dışı bırak�
 warning_unbinding_disable_push_service	=	"Push hizmetleri devre dışı bırakılacaktır."
 warning_unbinding_disconnect_domain	=	"Sistem birleştirilen etki alanından otomatik olarak ayrılacaktır."
 warning_unbinding_ha	=	"Sistem high-availability kümesini kaldırmaya başlayacaktır. Bu işlemi yapmadan önce, lütfen aşağıdakilere dikkat edin:"
-warning_unbinding_logout_myds	=	"Synology Hesabınızda oturumunuz kapatılacak ve tüm ilgili hizmetler (ör., DDNS ve QuickConnect) devre dışı bırakılacaktır."
+warning_unbinding_logout_myds	=	"INTEGRA Hesabınızda oturumunuz kapatılacak ve tüm ilgili hizmetler (ör., DDNS ve QuickConnect) devre dışı bırakılacaktır."
 warning_unbinding_no_switchover_service	=	"Pasif sunucuyu ayırdığınızda, bir aktarımı başlatamazsınız."
 warning_unbinding_passive	=	"Sistem high-availability kümesinden pasif sunucuyu kaldırmaya başlayacaktır. Bu işlemi yapmadan önce, lütfen aşağıdakilere dikkat edin:"
 warning_unbinding_passive_suggestion	=	"Pasif sunucuda bakım yapmak isterseniz, kapatmanızı öneririz. Ayırma sadece pasif sunucuyu değiştirmek istediğinizde önerilir."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Aktif sunucudaki bir depolama alanı çökt�
 error_upgrade_local_volume_abnormal	=	"Aktif sunucudaki bir birimde bir hata oluştu. Birleştirmeden önce lütfen onarın."
 error_upgrade_remote_raid_crashed	=	"Pasif sunucudaki bir depolama alanı çöktüğünden yükseltilemiyor."
 error_upgrade_remote_volume_abnormal	=	"Pasif sunucudaki bir birimde bir hata oluştu. Birleştirmeden önce lütfen onarın."
-hybrid_ha_not_support_auto_download	=	"Hybrid HA kümesi otomatik indirmeyi desteklemez.<br>Synology'nin İndirme Merkezinden .pat dosyasını indirebilir ve manuel _OSNAME_ güncellemesi yapabilirsiniz."
+hybrid_ha_not_support_auto_download	=	"Hybrid HA kümesi otomatik indirmeyi desteklemez.<br>INTEGRA'nin İndirme Merkezinden .pat dosyasını indirebilir ve manuel _OSNAME_ güncellemesi yapabilirsiniz."
 system_is_upgrading	=	"Sistem şimdi yükseltiliyor."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Lütfen pasif sunucu üzerindeki aşa�
 error_interface_is_dhcp	=	"High-availability kümesi tarafından kullanılan arabirim DHCP olamaz Lütfen {0} için bir IP adresini manuel olarak atayın."
 error_invalid_password	=	"Geçersiz parola."
 error_is_enable_HA	=	"Küme birleştirme başka bir kullanıcı tarafından zaten başlatılmış olduğundan küme ayarları uygulanamıyor."
-error_lanport_unmatched	=	"LAN bağlantı noktalarının sayısı uyumsuz. Lütfen Synology sunucularınızdaki LAN bağlantı noktalarını kontrol edin ve tekrar deneyin. Her iki sunucunun aynı sayıda bağlantı noktasına sahip olması gerekir."
+error_lanport_unmatched	=	"LAN bağlantı noktalarının sayısı uyumsuz. Lütfen INTEGRA sunucularınızdaki LAN bağlantı noktalarını kontrol edin ve tekrar deneyin. Her iki sunucunun aynı sayıda bağlantı noktasına sahip olması gerekir."
 error_link_aggr_conflict	=	"Aktif ve pasif sunucular üzerindeki aşağıdaki ağ arabirimlerinin ayarlarının aynı olduğunu lütfen doğrulayın: {0}"
 error_local_address	=	"Yerel IP adresine izin verilmez."
 error_local_non_bindable	=	"Aktif sunucu zaten başka bir high-availability kümesinde bulunmakta."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Pasif sunucuda oturum açılamadı. Hesap bilgileri
 error_login_timeout	=	"Oturum açma süresi dolmuş. Lütfen sihirbazı kapatın ve yeniden deneyin."
 error_main_interface_communication	=	"Pasif sunucuya HA kümesi ağ arabirimi ({0}) yoluyla bağlanılamadı. Her iki sunucudaki {0} ağ ayarlarının doğru olduğundan emin olun."
 error_mem_size_unmatched	=	"Hafıza boyutları uyumsuz. Lütfen iki sunucunun aynı büyüklükte hafızaya sahip olduğundan emin olun."
-error_model_unmatched	=	"Sunucu modelleri uyumsuz. Lütfen Synology sunucularınızın aynı model olduğundan emin olun."
+error_model_unmatched	=	"Sunucu modelleri uyumsuz. Lütfen INTEGRA sunucularınızın aynı model olduğundan emin olun."
 error_no_static_ip_active	=	"Lütfen aktif sunucu üzerindeki high-availability arabirimleri için en az bir statik IP atayın."
 error_no_static_ip_passive	=	"Lütfen pasif sunucu üzerindeki high-availability arabirimleri için en az bir statik IP atayın."
 error_not_support_ha	=	"Seçtiğiniz pasif sunucu High Availability Manager desteklemiyor."

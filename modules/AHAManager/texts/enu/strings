@@ -1,5 +1,5 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [halt_warning]
 failover	=	"Failing over the system"

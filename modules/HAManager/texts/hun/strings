@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"A High Availability Manager két Synology szervert használ egy high-availability klaszter (HA klaszter) létrehozásához, amelyben az egyik szerver az aktív, a másik pedig feladatátvételhez használt passzív szerver szerepét tölti be. Az aktív szerver futtatja az összes szolgáltatást, valamint replikálja azok adatait a passzív szerverre. Ha az aktív szerver meghibásodik, a passzív szerver válik aktív szerverré, és elkezdi átvenni az eredeti aktív szerver által kezelt szolgáltatásokat."
+description	=	"A High Availability Manager két INTEGRA szervert használ egy high-availability klaszter (HA klaszter) létrehozásához, amelyben az egyik szerver az aktív, a másik pedig feladatátvételhez használt passzív szerver szerepét tölti be. Az aktív szerver futtatja az összes szolgáltatást, valamint replikálja azok adatait a passzív szerverre. Ha az aktív szerver meghibásodik, a passzív szerver válik aktív szerverré, és elkezdi átvenni az eredeti aktív szerver által kezelt szolgáltatásokat."
 
 [button]
 go	=	"Indítás"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"A passzív kiszolgálón található egyik SSD gy
 desc_sb_no_service_monitor	=	"Split-brain üzemmódban a szolgáltatások felügyelete le van tiltva."
 desc_sb_remote_offline	=	"Nem sikerült észlelni a másik szervert."
 desc_shr_not_supported	=	"A high-availability klaszter egy vagy több kötete SHR-ként került létrehozásra, ami nem támogatott. Távolítsa el valamennyi SHR kötetet, és próbálja újra."
-desc_shr_not_supported_active	=	"Egy high-availability klaszter létrehozásakor nem támogatott a Synology Hybrid RAID (SHR). Győződjön meg róla, hogy az aktív kiszolgálón nincsenek SHR tárolóterek."
-desc_shr_not_supported_passive	=	"Egy high-availability klaszter létrehozásakor nem támogatott a Synology Hybrid RAID (SHR). Győződjön meg róla, hogy a passzív kiszolgálón nincsenek SHR tárolóterek."
+desc_shr_not_supported_active	=	"Egy high-availability klaszter létrehozásakor nem támogatott a INTEGRA Hybrid RAID (SHR). Győződjön meg róla, hogy az aktív kiszolgálón nincsenek SHR tárolóterek."
+desc_shr_not_supported_passive	=	"Egy high-availability klaszter létrehozásakor nem támogatott a INTEGRA Hybrid RAID (SHR). Győződjön meg róla, hogy a passzív kiszolgálón nincsenek SHR tárolóterek."
 desc_space_configuring	=	"Az aktív kiszolgáló konfigurálja a tárolótereket."
 desc_space_crashed	=	"Az aktív kiszolgálón található egyik tárolótér összeomlott."
 desc_space_degraded	=	"Az aktív kiszolgálón található egyik tárolótér leromlott."
@@ -101,7 +101,7 @@ shutdown_active	=	"Aktív kiszolgáló leállítása"
 shutdown_cluster	=	"HA klaszter leállítása"
 shutdown_passive	=	"Passzív kiszolgáló leállítása"
 shutdown_sb_local	=	"Helyi szerver leállítása"
-standalone_desc	=	"High-availability klaszter létrehozásához kombináljon két Synology kiszolgálót (egy aktív és egy passzív kiszolgálót). A folyamat elkezdéséhez nyomja meg a <b>HA klaszter létrehozása</b> gombot."
+standalone_desc	=	"High-availability klaszter létrehozásához kombináljon két INTEGRA kiszolgálót (egy aktív és egy passzív kiszolgálót). A folyamat elkezdéséhez nyomja meg a <b>HA klaszter létrehozása</b> gombot."
 status_normal	=	"Normál"
 system_fan_fail	=	"Rendszerventillátor hiba"
 unbind_remote	=	"Passzív kiszolgáló lecsatlakoztatása"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Az összes DDNS-szolgáltatás letiltásra
 warning_unbinding_disable_push_service	=	"A push-szolgáltatások letiltásra kerülnek."
 warning_unbinding_disconnect_domain	=	"A rendszer automatikusan lecsatlakozik a tartományról, amelyhez csatlakozott."
 warning_unbinding_ha	=	"A rendszer megkezdi a high-availability klaszter eltávolítását. A művelet elvégzése előtt fontolja meg az alábbiakat:"
-warning_unbinding_logout_myds	=	"A rendszer kilépteti a Synology fiókjából, és letiltja az összes kapcsolódó szolgáltatást (pl. DDNS vagy QuickConnect)."
+warning_unbinding_logout_myds	=	"A rendszer kilépteti a INTEGRA fiókjából, és letiltja az összes kapcsolódó szolgáltatást (pl. DDNS vagy QuickConnect)."
 warning_unbinding_no_switchover_service	=	"A passzív szerver leválasztását követően nem indíthat átkapcsolást."
 warning_unbinding_passive	=	"A rendszer megkezdi a passzív szerver eltávolítását a high-availability klaszterből. A művelet elvégzése előtt fontolja meg az alábbiakat:"
 warning_unbinding_passive_suggestion	=	"Ha karbantartást szeretne végrehajtani a passzív szerveren, állítsa le azt. Leválasztás csak passzív szerver cseréje esetén javasolt."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Nem bővíthető, mert az aktív kiszolgál�
 error_upgrade_local_volume_abnormal	=	"Hiba történt az aktív kiszolgálón található egyik köteten. Csatlakoztatás előtt kérjük megjavítani."
 error_upgrade_remote_raid_crashed	=	"Nem bővíthető, mert a passzív kiszolgálón található egyik tárolótér összeomlott."
 error_upgrade_remote_volume_abnormal	=	"Hiba történt a passzív kiszolgálón található egyik köteten. Csatlakoztatás előtt kérjük megjavítani."
-hybrid_ha_not_support_auto_download	=	"A hibrid HA klaszter nem támogatja az automatikus letöltést.<br>A frissítéshez szükséges .pat fájlt letöltheti a Synology Letöltőközpontjából, majd elvégezheti a(z) _OSNAME_ manuális frissítését."
+hybrid_ha_not_support_auto_download	=	"A hibrid HA klaszter nem támogatja az automatikus letöltést.<br>A frissítéshez szükséges .pat fájlt letöltheti a INTEGRA Letöltőközpontjából, majd elvégezheti a(z) _OSNAME_ manuális frissítését."
 system_is_upgrading	=	"A rendszer jelenleg bővítés alatt áll."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Ügyeljen rá, hogy a passzív szerver
 error_interface_is_dhcp	=	"A high-availability klaszter által használt interfész nem lehet DHCP. Rendeljen manuálisan IP-címet a következőhöz: {0}."
 error_invalid_password	=	"Érvénytelen jelszó."
 error_is_enable_HA	=	"Nem alkalmazhatók a klaszterbeállítások, mert egy másik felhasználó már kezdeményezte a klaszter csatolását."
-error_lanport_unmatched	=	"Eltérő számú LAN port. Ellenőrizze a LAN portokat a Synology kiszolgálókon, majd próbálja újra. Mindkét kiszolgálónak egyforma számú porttal kell rendelkeznie."
+error_lanport_unmatched	=	"Eltérő számú LAN port. Ellenőrizze a LAN portokat a INTEGRA kiszolgálókon, majd próbálja újra. Mindkét kiszolgálónak egyforma számú porttal kell rendelkeznie."
 error_link_aggr_conflict	=	"Ellenőrizze, hogy a következő hálózati interfészek beállításai megegyeznek-e az aktív és a passzív szerveren: {0}"
 error_local_address	=	"Helyi IP-cím nem megengedett."
 error_local_non_bindable	=	"Az aktív kiszolgáló már egy másik high-availability klaszter tagja."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Nem sikerült bejelentkezni a passzív szerverre. E
 error_login_timeout	=	"Lejárt a bejelentkezési idő. Kérjük, hogy zárja be a varázslót, és próbálja ismét."
 error_main_interface_communication	=	"Nem sikerült kapcsolódni a passzív szerverhez a HA klaszter hálózati interfészén ({0}) keresztül. Ellenőrizze, hogy a hálózati környezet beállításai ({0}) mindkét szerveren helyesek-e."
 error_mem_size_unmatched	=	"Eltérő memória-méretek. Győződjön meg róla, hogy a két kiszolgáló egyforma memóriamérettel rendelkezik."
-error_model_unmatched	=	"Eltérő kiszolgáló-modellek. Győződjön meg róla, hogy a Synology kiszolgálók modellje azonos."
+error_model_unmatched	=	"Eltérő kiszolgáló-modellek. Győződjön meg róla, hogy a INTEGRA kiszolgálók modellje azonos."
 error_no_static_ip_active	=	"Rendeljen legalább egy statikus IP-címet az aktív szerver high-availability interfészeihez."
 error_no_static_ip_passive	=	"Rendeljen legalább egy statikus IP-címet a passzív szerver high-availability interfészeihez."
 error_not_support_ha	=	"A kiválasztott passzív szerver nem támogatja a High Availability Manager alkalmazást."

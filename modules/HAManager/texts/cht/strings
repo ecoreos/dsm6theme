@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager 使用兩台 Synology 伺服器組成一個 high-availability 叢集 (簡稱 HA 叢集)，由一台伺服器擔任主伺服器、另一台擔任副伺服器 (用於容錯移轉)。主伺服器將會負責所有的服務，並將資料複製至副伺服器。當主伺服器停止運作時，副伺服器將被提升為新的主伺服器，並接手由原來的主伺服器所提供之服務。"
+description	=	"High Availability Manager 使用兩台 INTEGRA 伺服器組成一個 high-availability 叢集 (簡稱 HA 叢集)，由一台伺服器擔任主伺服器、另一台擔任副伺服器 (用於容錯移轉)。主伺服器將會負責所有的服務，並將資料複製至副伺服器。當主伺服器停止運作時，副伺服器將被提升為新的主伺服器，並接手由原來的主伺服器所提供之服務。"
 
 [button]
 go	=	"前往"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"副伺服器上的 SSD 快取已降級。"
 desc_sb_no_service_monitor	=	"Split-brain 模式下無法啟動服務監控。"
 desc_sb_remote_offline	=	"無法偵測到另一台伺服器。"
 desc_shr_not_supported	=	"High-availability 叢集中有一至多個儲存空間為不支援的 SHR 格式。請移除所有 SHR 儲存空間，然後再試一次。"
-desc_shr_not_supported_active	=	"建立 high-availability 叢集時，不支援 Synology Hybrid RAID (SHR)。請確認主伺服器上沒有 SHR 儲存空間。"
-desc_shr_not_supported_passive	=	"建立 high-availability 叢集時，不支援 Synology Hybrid RAID (SHR)。請確認副伺服器上沒有 SHR 儲存空間。"
+desc_shr_not_supported_active	=	"建立 high-availability 叢集時，不支援 INTEGRA Hybrid RAID (SHR)。請確認主伺服器上沒有 SHR 儲存空間。"
+desc_shr_not_supported_passive	=	"建立 high-availability 叢集時，不支援 INTEGRA Hybrid RAID (SHR)。請確認副伺服器上沒有 SHR 儲存空間。"
 desc_space_configuring	=	"主伺服器正在設定儲存空間。"
 desc_space_crashed	=	"主伺服器上的儲存空間已損毀。"
 desc_space_degraded	=	"主伺服器上的儲存空間已降級。"
@@ -101,7 +101,7 @@ shutdown_active	=	"將主伺服器關機"
 shutdown_cluster	=	"關閉 HA 叢集"
 shutdown_passive	=	"將副伺服器關機"
 shutdown_sb_local	=	"將本機伺服器關機"
-standalone_desc	=	"將兩台 Synology 伺服器 (一台主伺服器與一台副伺服器) 結合組成 high-availability 叢集。若要開始流程，請按一下<b>建立 HA 叢集</b>。"
+standalone_desc	=	"將兩台 INTEGRA 伺服器 (一台主伺服器與一台副伺服器) 結合組成 high-availability 叢集。若要開始流程，請按一下<b>建立 HA 叢集</b>。"
 status_normal	=	"正常"
 system_fan_fail	=	"System 風扇損毀"
 unbind_remote	=	"解除連結副伺服器"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"所有 DDNS 服務皆會被停用。"
 warning_unbinding_disable_push_service	=	"推播服務將會被停用。"
 warning_unbinding_disconnect_domain	=	"系統將會自動離開已加入的網域。"
 warning_unbinding_ha	=	"系統將開始移除 high-availability 叢集。若要執行此動作，請先注意下列事項："
-warning_unbinding_logout_myds	=	"系統會將您登出 Synology 帳戶，所有相關服務 (例如 QuickConnect 和 DDNS) 亦會被停用。"
+warning_unbinding_logout_myds	=	"系統會將您登出 INTEGRA 帳戶，所有相關服務 (例如 QuickConnect 和 DDNS) 亦會被停用。"
 warning_unbinding_no_switchover_service	=	"一旦您解除連結副伺服器，您便無法轉移服務。"
 warning_unbinding_passive	=	"系統會將副伺服器從 high-availability 叢集中移除。若要執行此動作，請先注意下列事項："
 warning_unbinding_passive_suggestion	=	"若您要為副伺服器進行維護，建議您選擇關機。只有在需要更換副伺服器的情形下，才建議解除連結。"
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"主伺服器上的儲存空間已損毀，�
 error_upgrade_local_volume_abnormal	=	"主伺服器儲存空間發生錯誤。請先修復再進行連結。"
 error_upgrade_remote_raid_crashed	=	"副伺服器上的儲存空間已損毀，因此無法升級。"
 error_upgrade_remote_volume_abnormal	=	"副伺服器儲存空間發生錯誤，請先修復再進行連結。"
-hybrid_ha_not_support_auto_download	=	"Hybrid HA 叢集不支援自動下載。<br>您可以從 Synology 下載中心下載 .pat 檔案，並執行手動 _OSNAME_ 更新。"
+hybrid_ha_not_support_auto_download	=	"Hybrid HA 叢集不支援自動下載。<br>您可以從 INTEGRA 下載中心下載 .pat 檔案，並執行手動 _OSNAME_ 更新。"
 system_is_upgrading	=	"系統正在進行升級。"
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"請確認副伺服器上的下列連�
 error_interface_is_dhcp	=	"High-availability 叢集使用的網路介面不可設為 DHCP。請手動設定 {0} 之 IP 位址。"
 error_invalid_password	=	"無效的密碼。"
 error_is_enable_HA	=	"已有其他使用者啟動叢集連結，因此無法套用叢集設定。"
-error_lanport_unmatched	=	"區域網路埠數量不合。請確認 Synology 伺服器網路埠數量，然後再試一次。兩台伺服器所擁有的網路埠數量必須一致。"
+error_lanport_unmatched	=	"區域網路埠數量不合。請確認 INTEGRA 伺服器網路埠數量，然後再試一次。兩台伺服器所擁有的網路埠數量必須一致。"
 error_link_aggr_conflict	=	"請確認下列主、副伺服器的網路介面設定相同：{0}"
 error_local_address	=	"不可填本機 IP 位址。"
 error_local_non_bindable	=	"主伺服器已包含在其它 high-availability 叢集中。"
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"無法登入副伺服器，請確認副伺服器的
 error_login_timeout	=	"登入時間已逾時。請關閉精靈並再試一次。"
 error_main_interface_communication	=	"無法透過 HA 叢集網路介面 ({0}) 連線至副伺服器，請確認兩台伺服器的 {0} 設定是否正確。"
 error_mem_size_unmatched	=	"記憶體大小不合。請確認兩台伺服器是否具備大小相同的記憶體。"
-error_model_unmatched	=	"伺服器產品型號不合。請確認 Synology 伺服器型號是否相同。"
+error_model_unmatched	=	"伺服器產品型號不合。請確認 INTEGRA 伺服器型號是否相同。"
 error_no_static_ip_active	=	"請在主伺服器上設定至少一個固定 IP 供 high-availability 介面使用。"
 error_no_static_ip_passive	=	"請在副伺服器上設定至少一個固定 IP 供 high-availability 介面使用。"
 error_not_support_ha	=	"您所選擇的副伺服器並不支援 High Availability Manager。"

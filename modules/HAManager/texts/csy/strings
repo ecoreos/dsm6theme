@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"Aplikace High Availability Manager využívá dva servery Synology, aby vytvořila cluster high-availability (cluster HA), přičemž jeden server udržuje aktivní a druhý udržuje pasivní kvůli funkci failover. Aktivní server se stará o všechny služby a replikuje data pro pasivní server. Pokud aktivní server selže, z pasivního serveru se stane nový aktivní server a převezme všechny služby, které měl na starost původní aktivní server."
+description	=	"Aplikace High Availability Manager využívá dva servery INTEGRA, aby vytvořila cluster high-availability (cluster HA), přičemž jeden server udržuje aktivní a druhý udržuje pasivní kvůli funkci failover. Aktivní server se stará o všechny služby a replikuje data pro pasivní server. Pokud aktivní server selže, z pasivního serveru se stane nový aktivní server a převezme všechny služby, které měl na starost původní aktivní server."
 
 [button]
 go	=	"Přejít"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Mezipaměť SSD na pasivním serveru je v omezen
 desc_sb_no_service_monitor	=	"Sledování služeb je v režimu Split brain zakázáno."
 desc_sb_remote_offline	=	"Nepodařilo se zjistit druhý server."
 desc_shr_not_supported	=	"Jeden nebo více svazků v rámci clusteru high-availability byl vytvořen jako svazek SHR, který však není podporován. Odstraňte veškeré svazky SHR a opakujte akci."
-desc_shr_not_supported_active	=	"Formát Synology Hybrid RAID (SHR) není při vytváření clusteru high-availability podporován. Ověřte, zda nejsou na aktivním serveru žádné úložné prostory typu SHR."
-desc_shr_not_supported_passive	=	"Formát Synology Hybrid RAID (SHR) není při vytváření clusteru high-availability podporován. Ověřte, zda nejsou na pasivním serveru žádné úložné prostory typu SHR."
+desc_shr_not_supported_active	=	"Formát INTEGRA Hybrid RAID (SHR) není při vytváření clusteru high-availability podporován. Ověřte, zda nejsou na aktivním serveru žádné úložné prostory typu SHR."
+desc_shr_not_supported_passive	=	"Formát INTEGRA Hybrid RAID (SHR) není při vytváření clusteru high-availability podporován. Ověřte, zda nejsou na pasivním serveru žádné úložné prostory typu SHR."
 desc_space_configuring	=	"Aktivní server provádí konfiguraci úložného prostoru."
 desc_space_crashed	=	"Došlo k poruše úložného prostoru na aktivním serveru."
 desc_space_degraded	=	"Došlo k omezenému režimu úložného prostoru na aktivním serveru."
@@ -101,7 +101,7 @@ shutdown_active	=	"Vypnout aktivní server"
 shutdown_cluster	=	"Vypnout cluster HA"
 shutdown_passive	=	"Vypnout pasivní server"
 shutdown_sb_local	=	"Vypnout místní server"
-standalone_desc	=	"Propojte dva servery Synology (jeden aktivní a jeden pasivní server) a vytvořte cluster high-availability. Proces zahájíte stisknutím tlačítka <b>Vytvořit cluster HA</b>."
+standalone_desc	=	"Propojte dva servery INTEGRA (jeden aktivní a jeden pasivní server) a vytvořte cluster high-availability. Proces zahájíte stisknutím tlačítka <b>Vytvořit cluster HA</b>."
 status_normal	=	"Normální"
 system_fan_fail	=	"Porucha systémového ventilátoru"
 unbind_remote	=	"Odpojit pasivní server"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Všechny služby DDNS budou zakázány."
 warning_unbinding_disable_push_service	=	"Nabízené služby budou zakázány."
 warning_unbinding_disconnect_domain	=	"Systém bude odpojen od připojené domény automaticky."
 warning_unbinding_ha	=	"Systém zahájí odebírání clusteru high-availability. Před provedením této akce je nutné mít na paměti toto:"
-warning_unbinding_logout_myds	=	"Budete odhlášeni od svého účtu Synology a všechny související služby (např. DDNS a QuickConnect) budou zakázány."
+warning_unbinding_logout_myds	=	"Budete odhlášeni od svého účtu INTEGRA a všechny související služby (např. DDNS a QuickConnect) budou zakázány."
 warning_unbinding_no_switchover_service	=	"Po odpojení pasivního serveru není možné zahájit přepnutí služeb."
 warning_unbinding_passive	=	"Systém začne odebírat pasivní server z clusteru high-availability. Před provedením této akce je nutné mít na paměti toto:"
 warning_unbinding_passive_suggestion	=	"Chcete-li provádět údržbu na pasivním serveru, doporučujeme ho vypnout. Odpojení se doporučuje pouze tehdy, když chcete pasivní server vyměnit."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Upgrade nelze provést, protože na aktivní
 error_upgrade_local_volume_abnormal	=	"Na svazku aktivního serveru došlo k chybě. Před připojením jej opravte."
 error_upgrade_remote_raid_crashed	=	"Upgrade nelze provést, protože na pasivním serveru došlo k poruše úložného prostoru."
 error_upgrade_remote_volume_abnormal	=	"Na svazku pasivního serveru došlo k chybě. Před připojením jej opravte."
-hybrid_ha_not_support_auto_download	=	"Hybridní cluster HA nepodporuje automatické stahování.<br>Soubor .pat s aktualizací je možné stáhnout z Centra pro stahování společnosti Synology a poté provést aktualizaci systému _OSNAME_ ručně."
+hybrid_ha_not_support_auto_download	=	"Hybridní cluster HA nepodporuje automatické stahování.<br>Soubor .pat s aktualizací je možné stáhnout z Centra pro stahování společnosti INTEGRA a poté provést aktualizaci systému _OSNAME_ ručně."
 system_is_upgrading	=	"Systém je nyní upgradován."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Zajistěte, aby byly pro cluster high-
 error_interface_is_dhcp	=	"Síťové rozhraní využívané clusterem high-availability nemůže být tvořeno protokolem DHCP. Zadejte IP adresu {0} ručně."
 error_invalid_password	=	"Neplatné heslo."
 error_is_enable_HA	=	"Nelze použít nastavení clusteru, protože propojení clusteru již bylo spuštěno jiným uživatelem."
-error_lanport_unmatched	=	"Počet portů místní sítě LAN nesouhlasí. Zkontrolujte porty místní sítě LAN na serverech Synology a opakujte akci. Oba servery musí mít stejný počet portů."
+error_lanport_unmatched	=	"Počet portů místní sítě LAN nesouhlasí. Zkontrolujte porty místní sítě LAN na serverech INTEGRA a opakujte akci. Oba servery musí mít stejný počet portů."
 error_link_aggr_conflict	=	"Potvrďte, zda jsou stejná nastavení následujících síťových rozhraní na aktivním a pasivním serveru: {0}"
 error_local_address	=	"Místní IP adresa není povolena."
 error_local_non_bindable	=	"Aktivní server je již součástí jiného clusteru high-availability."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Přihlášení k pasivnímu serveru se nezdařilo
 error_login_timeout	=	"Časový limit přihlášení vypršel. Ukončete průvodce a opakujte akci."
 error_main_interface_communication	=	"Připojení k pasivnímu serveru prostřednictvím síťového rozhraní clusteru HA ({0}) se nezdařilo. Ověřte, jestli jsou nastavení sítě clusteru {0} na obou serverech správná."
 error_mem_size_unmatched	=	"Velikosti paměti nesouhlasí. Zajistěte, aby oba servery měli stejnou velikost paměti."
-error_model_unmatched	=	"Modely serverů nesouhlasí. Ověřte, zda jsou oba servery Synology stejnými modely."
+error_model_unmatched	=	"Modely serverů nesouhlasí. Ověřte, zda jsou oba servery INTEGRA stejnými modely."
 error_no_static_ip_active	=	"Přiřaďte alespoň jednu statickou IP adresu pro rozhraní high-availability na aktivním serveru."
 error_no_static_ip_passive	=	"Přiřaďte alespoň jednu statickou IP adresu pro rozhraní high-availability na pasivním serveru."
 error_not_support_ha	=	"Vybraný pasivní server nepodporuje nástroj High Availability Manager."

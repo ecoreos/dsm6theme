@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager gebruikt twee Synology-servers om een high-availability-cluster (HA-cluster) te maken, waarbij een server als actieve server fungeert en de andere als passieve server voor servicesovername bij storingen. De actieve server verzorgt alle services en repliceert gegevens naar de passieve server. Treedt er een storing op van de actieve server, dan wordt de passieve server gepromoveerd als nieuwe actieve server en begint deze de services over te nemen die door de oorspronkelijke actieve server werden verzorgd."
+description	=	"High Availability Manager gebruikt twee INTEGRA-servers om een high-availability-cluster (HA-cluster) te maken, waarbij een server als actieve server fungeert en de andere als passieve server voor servicesovername bij storingen. De actieve server verzorgt alle services en repliceert gegevens naar de passieve server. Treedt er een storing op van de actieve server, dan wordt de passieve server gepromoveerd als nieuwe actieve server en begint deze de services over te nemen die door de oorspronkelijke actieve server werden verzorgd."
 
 [button]
 go	=	"Gaan"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Een SSD-cache op de passieve server is beschadigd
 desc_sb_no_service_monitor	=	"De servicemonitor is uitgeschakeld in split-brain-modus."
 desc_sb_remote_offline	=	"Detectie van de andere server is mislukt."
 desc_shr_not_supported	=	"Een of meer volumes van uw High Availability Cluster is als SHR gemaakt, formaat dat niet wordt ondersteund. Verwijder alle SHR-volumes en probeer het opnieuw."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID (SHR) wordt niet ondersteund tijdens het maken van een high-availability-cluster. Zorg dat er geen SHR-opslagruimtes op de actieve server bestaan."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID (SHR) wordt niet ondersteund tijdens het maken van een high-availability-cluster. Zorg dat er geen SHR-opslagruimtes op de passieve server bestaan."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID (SHR) wordt niet ondersteund tijdens het maken van een high-availability-cluster. Zorg dat er geen SHR-opslagruimtes op de actieve server bestaan."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID (SHR) wordt niet ondersteund tijdens het maken van een high-availability-cluster. Zorg dat er geen SHR-opslagruimtes op de passieve server bestaan."
 desc_space_configuring	=	"De actieve server is bezig met de configuratie van de opslagruimtes."
 desc_space_crashed	=	"Een opslagruimte op de actieve server is gecrasht."
 desc_space_degraded	=	"Een opslagruimte op de actieve server is beschadigd."
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Alle DDNS-services worden uitgeschakeld."
 warning_unbinding_disable_push_service	=	"De pushservices worden uitgeschakeld."
 warning_unbinding_disconnect_domain	=	"Het systeem wordt automatisch losgekoppeld van het gekoppelde domein."
 warning_unbinding_ha	=	"Het systeem begint met de verwijdering van de high-availability-cluster. Denk aan het volgende voor u deze handeling uitvoert:"
-warning_unbinding_logout_myds	=	"U wordt afgemeld bij uw Synology-account en alle gerelateerde services (bijv., DDNS en QuickConnect) worden uitgeschakeld."
+warning_unbinding_logout_myds	=	"U wordt afgemeld bij uw INTEGRA-account en alle gerelateerde services (bijv., DDNS en QuickConnect) worden uitgeschakeld."
 warning_unbinding_no_switchover_service	=	"Na het ontkoppelen van de passieve server kunt u geen overschakeling uitvoeren."
 warning_unbinding_passive	=	"Het systeem zal de passieve server verwijderen van de high-availability cluster. Denk aan het volgende voor u deze handeling uitvoert:"
 warning_unbinding_passive_suggestion	=	"Het is raadzaam de passieve server te sluiten voor onderhoudswerkzaamheden. Ontkoppelen wordt alleen voorgesteld als u de passieve server wilt vervangen."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Kan geen upgrade uitvoeren omdat de opslagru
 error_upgrade_local_volume_abnormal	=	"Er is een fout opgetreden in een volume op de actieve server. Herstel de fout vooraleer het volume te koppelen."
 error_upgrade_remote_raid_crashed	=	"Kan geen upgrade uitvoeren omdat de opslagruimte op de passieve server is gecrasht."
 error_upgrade_remote_volume_abnormal	=	"Er is een fout opgetreden in een volume op de passieve server. Herstel de fout vooraleer het volume te koppelen."
-hybrid_ha_not_support_auto_download	=	"Hybrid HAcluster ondersteunt automatisch downloaden niet.<br>U kunt de .pat-updatebestanden downloaden van het Synology Download Center en de _OSNAME_-update handmatig uitvoeren."
+hybrid_ha_not_support_auto_download	=	"Hybrid HAcluster ondersteunt automatisch downloaden niet.<br>U kunt de .pat-updatebestanden downloaden van het INTEGRA Download Center en de _OSNAME_-update handmatig uitvoeren."
 system_is_upgrading	=	"Systeem is bezig met bijwerken."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Vergewis u ervan dat de volgende poort
 error_interface_is_dhcp	=	"De gebruikte interface door de High Availability Cluster mag geen DHCP zijn. Wijs handmatig een IP-adres toe aan {0}."
 error_invalid_password	=	"Ongeldig wachtwoord."
 error_is_enable_HA	=	"De clusterinstellingen kunnen niet worden toegepast omdat het koppelen van de cluster al door een andere gebruiker is gestart."
-error_lanport_unmatched	=	"Het aantal verschillende LAN-poorten. Controleer de LAN-poorten op uw Synology-servers en probeer het opnieuw. Beide servers moeten hetzelfde aantal poorten hebben."
+error_lanport_unmatched	=	"Het aantal verschillende LAN-poorten. Controleer de LAN-poorten op uw INTEGRA-servers en probeer het opnieuw. Beide servers moeten hetzelfde aantal poorten hebben."
 error_link_aggr_conflict	=	"Controleer of de instellingen van de volgende netwerkinterfaces van de actieve en passieve servers identiek zijn: {0}"
 error_local_address	=	"Het lokale IP-adres is niet toegestaan."
 error_local_non_bindable	=	"De actieve server behoort al tot een andere High Availability Cluster."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Aanmelding bij passieve server is mislukt. Controle
 error_login_timeout	=	"De aanmeldingstijd is verstreken. Sluit de wizard en probeer het opnieuw."
 error_main_interface_communication	=	"Kon geen verbinding maken met de passieve server via de HA-clusternetwerkinterface ({0}). Ga na of de netwerkinstellingen van {0} op beide servers correct zijn."
 error_mem_size_unmatched	=	"Verschillende geheugengroottes. Zorg dat beide servers dezelfde geheugengrootte hebben."
-error_model_unmatched	=	"Verschillende servermodellen. Zorg dat uw Synology-servers van hetzelfde model zijn."
+error_model_unmatched	=	"Verschillende servermodellen. Zorg dat uw INTEGRA-servers van hetzelfde model zijn."
 error_no_static_ip_active	=	"Wijs minstens één statisch IP toe aan de high-availability-interfaces op de actieve server."
 error_no_static_ip_passive	=	"Wijs minstens één statisch IP toe aan de high-availability-interfaces op de passieve server."
 error_not_support_ha	=	"De passieve server die u hebt geselecteerd ondersteunt High Availability Manager."

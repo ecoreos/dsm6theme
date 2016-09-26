@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager använder två Synology-servrar för att skapa ett high-availability-kluster (HA-kluster), där en server är den aktiva servern och den andra är den passiva servern för redundans. Den aktiva servern tar hand om samtliga tjänster och kopierar data till den passiva servern. Om den aktiva servern misslyckas, så befordras den passiva servern att vara aktiv server och tar över de tjänster som ursprungligen hanterades av den aktiva servern."
+description	=	"High Availability Manager använder två INTEGRA-servrar för att skapa ett high-availability-kluster (HA-kluster), där en server är den aktiva servern och den andra är den passiva servern för redundans. Den aktiva servern tar hand om samtliga tjänster och kopierar data till den passiva servern. Om den aktiva servern misslyckas, så befordras den passiva servern att vara aktiv server och tar över de tjänster som ursprungligen hanterades av den aktiva servern."
 
 [button]
 go	=	"Gå"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Ett SSD-cache på den passiva servern är trasigt
 desc_sb_no_service_monitor	=	"Övervakning av tjänster är avaktiverat i läget redundans-klyvning."
 desc_sb_remote_offline	=	"Kunde inte upptäcka den andra servern."
 desc_shr_not_supported	=	"En eller flera volymer i ditt high-availability-kluster har skapats som en SHR, som inte stöds. Vänligen ta bort alla dina SHR-volymer och försök igen."
-desc_shr_not_supported_active	=	"Det finns inte stöd för Synology Hybrid RAID (SHR) när ett high-availability-kluster skapas. Vänligen tillse att det inte finns några lagringsutrymmen med SHR på den aktiva servern."
-desc_shr_not_supported_passive	=	"Det finns inte stöd för Synology Hybrid RAID (SHR) när ett high-availability-kluster skapas. Vänligen tillse att det inte finns några lagringsutrymmen med SHR på den passiva servern."
+desc_shr_not_supported_active	=	"Det finns inte stöd för INTEGRA Hybrid RAID (SHR) när ett high-availability-kluster skapas. Vänligen tillse att det inte finns några lagringsutrymmen med SHR på den aktiva servern."
+desc_shr_not_supported_passive	=	"Det finns inte stöd för INTEGRA Hybrid RAID (SHR) när ett high-availability-kluster skapas. Vänligen tillse att det inte finns några lagringsutrymmen med SHR på den passiva servern."
 desc_space_configuring	=	"Den aktiva servern konfigurerar lagringsutrymmen."
 desc_space_crashed	=	"Ett lagringsutrymme på den aktiva servern har kraschat."
 desc_space_degraded	=	"Ett lagringsutrymme på den aktiva servern är degraded."
@@ -101,7 +101,7 @@ shutdown_active	=	"Stäng av aktiv server"
 shutdown_cluster	=	"Stänga av HA-kluster"
 shutdown_passive	=	"Stäng av passiv server"
 shutdown_sb_local	=	"Stäng av lokal server"
-standalone_desc	=	"Kombinera två Synology-servrar (en aktiv server och en passiv server) för att skapa ett high-availability-kluster. För att påbörja processen, tryck på <b>Skapa HA-kluster</b>."
+standalone_desc	=	"Kombinera två INTEGRA-servrar (en aktiv server och en passiv server) för att skapa ett high-availability-kluster. För att påbörja processen, tryck på <b>Skapa HA-kluster</b>."
 status_normal	=	"Normal"
 system_fan_fail	=	"Systemfläkt misslyckades"
 unbind_remote	=	"Häv bindning av passiv server"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Alla DDNS-tjänster avaktiveras."
 warning_unbinding_disable_push_service	=	"Push-tjänster blir avaktiverade."
 warning_unbinding_disconnect_domain	=	"Systemet kommer automatiskt att kopplas ifrån den anslutna domänen."
 warning_unbinding_ha	=	"Systemet kommer att börja flytta high-availability-klustret. Innan den här åtgärden utförs, vänligen observera följande:"
-warning_unbinding_logout_myds	=	"Du blir utloggad från ditt Synology-konto och alla tillhörande tjänster (t.ex. DDNS och QuickConnect) avaktiveras."
+warning_unbinding_logout_myds	=	"Du blir utloggad från ditt INTEGRA-konto och alla tillhörande tjänster (t.ex. DDNS och QuickConnect) avaktiveras."
 warning_unbinding_no_switchover_service	=	"När du häver bindningen av den passiva servern kan du inte initiera en övergång."
 warning_unbinding_passive	=	"Systemet börjar ta bort den passiva servern från high-availability-klustret. Innan den här åtgärden utförs, vänligen observera följande:"
 warning_unbinding_passive_suggestion	=	"Om du vill utföra underhåll på den passiva servern rekommenderar vi att den stängs av. Att häva bindning rekommenderas bara när du vill byta ut den passiva servern."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Kan inte uppgradera eftersom ett lagringsutr
 error_upgrade_local_volume_abnormal	=	"Ett fel inträffade på en volym på den aktiva servern. Vänligen reparera före bindning."
 error_upgrade_remote_raid_crashed	=	"Kan inte uppgradera eftersom ett lagringsutrymme på den passiva servern har kraschat."
 error_upgrade_remote_volume_abnormal	=	"Ett fel inträffade på en volym på den passiva servern. Vänligen reparera före bindning."
-hybrid_ha_not_support_auto_download	=	"Hybrid-HA-kluster har inte stöd för automatisk nedladdning.<br>Du kan ladda ner .pat-uppdateringsfilerna från Synology:s Nerladdningscenter och utföra en manuell uppdatering av _OSNAME_."
+hybrid_ha_not_support_auto_download	=	"Hybrid-HA-kluster har inte stöd för automatisk nedladdning.<br>Du kan ladda ner .pat-uppdateringsfilerna från INTEGRA:s Nerladdningscenter och utföra en manuell uppdatering av _OSNAME_."
 system_is_upgrading	=	"Systemet uppgraderas nu."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Vänligen kontrollera att följande po
 error_interface_is_dhcp	=	"Gränssnittet som används av high-availability-klustret kan inte vara DHCP. Tilldela en IP-adress för {0} manuellt."
 error_invalid_password	=	"Felaktigt lösenord."
 error_is_enable_HA	=	"Klusterinställningar kan inte tillämpas eftersom klusterbindning redan har initierats av en annan användare."
-error_lanport_unmatched	=	"Antalet LAN-portar överensstämmer inte. Kontrollera LAN-portarna på dina Synology-servrar och försök igen. Båda servrarna måste ha samma antal portar."
+error_lanport_unmatched	=	"Antalet LAN-portar överensstämmer inte. Kontrollera LAN-portarna på dina INTEGRA-servrar och försök igen. Båda servrarna måste ha samma antal portar."
 error_link_aggr_conflict	=	"Vänligen bekräfta att inställningarna för de följande nätverksgränssnitten på den aktiva och den passiva servern är samma: {0}"
 error_local_address	=	"Lokal IP-adress är inte tillåten."
 error_local_non_bindable	=	"Den aktiva servern har redan inkluderats i ett annat high-availability-kluster."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Kunde inte logga in på den passiva servern. Vänli
 error_login_timeout	=	"Inloggningstiden har gått ut. Vänligen stäng guiden och försök igen."
 error_main_interface_communication	=	"Kunde inte ansluta till den passiva servern via HA-klustrets nätverksgränssnitt ({0}). Vänligen kontrollera att nätverksinställningarna för {0} på båda servrarna är korrekta."
 error_mem_size_unmatched	=	"Minnenas storlekar stämmer inte överens. Vänligen tillse att de två servrarna har samma storlek på minnet."
-error_model_unmatched	=	"Servermodeller överensstämmer inte. Försäkra att dina Synology-servrar har samma modell."
+error_model_unmatched	=	"Servermodeller överensstämmer inte. Försäkra att dina INTEGRA-servrar har samma modell."
 error_no_static_ip_active	=	"Vänligen tilldela minst en statisk IP till high-availability-gränssnitten på den aktiva servern."
 error_no_static_ip_passive	=	"Vänligen tilldela minst en statisk IP till high-availability-gränssnitten på den passiva servern."
 error_not_support_ha	=	"Den passiva server du har valt har inte stöd för High Availability Manager."

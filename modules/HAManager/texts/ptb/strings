@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"O High Availability Manager usa dois servidores Synology para montar um conjunto  de high-availability (conjunto HA) com um sendo o servidor ativo e outro sendo o servidor passivo para failover. O servidor ativo cuida de todos os serviços e replica dados para o servidor passivo. Se o servidor ativo falhar, o servidor passivo será promovido ao novo servidor ativo e começará a assumir os serviços realizados pelo servidor ativo original."
+description	=	"O High Availability Manager usa dois servidores INTEGRA para montar um conjunto  de high-availability (conjunto HA) com um sendo o servidor ativo e outro sendo o servidor passivo para failover. O servidor ativo cuida de todos os serviços e replica dados para o servidor passivo. Se o servidor ativo falhar, o servidor passivo será promovido ao novo servidor ativo e começará a assumir os serviços realizados pelo servidor ativo original."
 
 [button]
 go	=	"Ir"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Um cache do SDD no servidor passivo foi degradado
 desc_sb_no_service_monitor	=	"O monitoramento de serviços está desabilitado no modo de redes separadas."
 desc_sb_remote_offline	=	"Falha ao detectar o outro servidor."
 desc_shr_not_supported	=	"Um ou mais volumes do conjunto de high-availability foram criados como SHR, o que não é suportado. Remova todos os volumes SHR e tente novamente."
-desc_shr_not_supported_active	=	"O Synology Hybrid RAID (SHR) não é suportado ao criar um cluster de high-availability. Certifique-se que não há espaços de armazenamento SHR no servidor ativo."
-desc_shr_not_supported_passive	=	"O Synology Hybrid RAID (SHR) não é suportado ao criar um cluster de high-availability. Certifique-se que não há espaços de armazenamento SHR no servidor passivo."
+desc_shr_not_supported_active	=	"O INTEGRA Hybrid RAID (SHR) não é suportado ao criar um cluster de high-availability. Certifique-se que não há espaços de armazenamento SHR no servidor ativo."
+desc_shr_not_supported_passive	=	"O INTEGRA Hybrid RAID (SHR) não é suportado ao criar um cluster de high-availability. Certifique-se que não há espaços de armazenamento SHR no servidor passivo."
 desc_space_configuring	=	"O servidor ativo está configurando espaços de armazenamento."
 desc_space_crashed	=	"Um espaço de armazenamento no servidor ativo foi paralisado."
 desc_space_degraded	=	"Um espaço de armazenamento no servidor ativo foi degradado."
@@ -101,7 +101,7 @@ shutdown_active	=	"Desligar servidor ativo"
 shutdown_cluster	=	"Desligamento do conjunto HA"
 shutdown_passive	=	"Desligar servidor passivo"
 shutdown_sb_local	=	"Desligar servidor local"
-standalone_desc	=	"Combine dois servidores Synology (um servidor ativo e um servidor passivo) para criar um conjunto de high-availability. Para iniciar esse processo, pressione <b>Criar conjunto de HA</b>."
+standalone_desc	=	"Combine dois servidores INTEGRA (um servidor ativo e um servidor passivo) para criar um conjunto de high-availability. Para iniciar esse processo, pressione <b>Criar conjunto de HA</b>."
 status_normal	=	"Normal"
 system_fan_fail	=	"Falha na ventoinha do sistema"
 unbind_remote	=	"Desvincular servidor passivo"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Todos os serviços DDNS serão desabilitad
 warning_unbinding_disable_push_service	=	"Os serviços push serão desabilitados."
 warning_unbinding_disconnect_domain	=	"O sistema será desconectado do domínio conectado automaticamente."
 warning_unbinding_ha	=	"O sistema começará a remover o conjunto de high-availability. Antes de realizar essa ação, observe o seguinte:"
-warning_unbinding_logout_myds	=	"Você será desconectado de sua Conta Synology e todos os serviços relacionados (ex.: DDNS e QuickConnect) serão desabilitados."
+warning_unbinding_logout_myds	=	"Você será desconectado de sua Conta INTEGRA e todos os serviços relacionados (ex.: DDNS e QuickConnect) serão desabilitados."
 warning_unbinding_no_switchover_service	=	"Ao desvincular o servidor passivo, não será possível iniciar uma alternância."
 warning_unbinding_passive	=	"O sistema começará a remover o servidor passivo do conjunto de high-availability. Antes de realizar essa ação, observe o seguinte:"
 warning_unbinding_passive_suggestion	=	"Se desejar realizar a manutenção do servidor passivo, recomendamos que você o desligue. A desvinculação é sugerida apenas quando deseja substituir o servidor passivo."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Não é possível atualizar porque o espaço
 error_upgrade_local_volume_abnormal	=	"Ocorreu um erro em um volume no servidor ativo. Repare-o antes de vincular."
 error_upgrade_remote_raid_crashed	=	"Não é possível atualizar porque o espaço de armazenamento no servidor passivo está paralisado."
 error_upgrade_remote_volume_abnormal	=	"Ocorreu um erro em um volume no servidor passivo. Repare-o antes de vincular."
-hybrid_ha_not_support_auto_download	=	"O conjunto de HA híbrido não suporta o download automático.<br>Você pode baixar os arquivos de atualização .pat do Centro de Download da Synology e executar a atualização manual do _OSNAME_."
+hybrid_ha_not_support_auto_download	=	"O conjunto de HA híbrido não suporta o download automático.<br>Você pode baixar os arquivos de atualização .pat do Centro de Download da INTEGRA e executar a atualização manual do _OSNAME_."
 system_is_upgrading	=	"O sistema está sendo atualizado agora."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Certifique-se de que as seguintes port
 error_interface_is_dhcp	=	"A interface usada pelo conjunto de high-availability não pode ser DHCP. Atribua um endereço IP para {0} manualmente."
 error_invalid_password	=	"Senha inválida."
 error_is_enable_HA	=	"As configurações de conjunto não podem ser aplicadas porque as vinculações do conjunto já foram iniciadas por outro usuário."
-error_lanport_unmatched	=	"Os números das portas LAN não conferem. Cerifique as portas LAN nos servidores Synology e tente novamente. Os dois servidores devem ter o mesmo número de portas."
+error_lanport_unmatched	=	"Os números das portas LAN não conferem. Cerifique as portas LAN nos servidores INTEGRA e tente novamente. Os dois servidores devem ter o mesmo número de portas."
 error_link_aggr_conflict	=	"Confirme se as configurações das seguintes interfaces de rede nos servidores ativo e passivo são as mesmas: {0}"
 error_local_address	=	"O endereço IP local não é permitido."
 error_local_non_bindable	=	"O servidor ativo já foi incluído em outro conjunto de high-availability."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Falha ao fazer login no servidor passivo. Verifique
 error_login_timeout	=	"O tempo de login expirou. Feche o assistente e tente novamente."
 error_main_interface_communication	=	"Falha ao conectar-se ao servidor passivo por meio da interface de rede do conjunto de HA ({0}). Verifique se as configurações de rede do {0} nos dois servidores estão corretas."
 error_mem_size_unmatched	=	"Os tamanhos de memória não condizem. Certifique-se de que os dois servidores têm o mesmo tamanho de memória."
-error_model_unmatched	=	"Modelos de servidor incompatíveis. Certifique-se de que os servidores Synology sejam do mesmo modelo."
+error_model_unmatched	=	"Modelos de servidor incompatíveis. Certifique-se de que os servidores INTEGRA sejam do mesmo modelo."
 error_no_static_ip_active	=	"Atribua pelo menos um IP estático para as interfaces de high-availability no servidor ativo."
 error_no_static_ip_passive	=	"Atribua pelo menos um IP estático para as interfaces de high-availability no servidor passivo."
 error_not_support_ha	=	"O servidor passivo selecionado não suporta o High Availability Manager."

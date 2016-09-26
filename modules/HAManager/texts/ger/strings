@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager verwendet zwei Synology-Server, um einen high-availability-Cluster (HA-Cluster) zu erstellen, in dem ein Server der aktive Server und der andere der passive Server für den Failover ist. Der aktive Server kümmert sich um alle Dienste und dupliziert Daten auf den passiven Server. Wenn der aktive Server ausfällt, wird der passive Server zum neuen aktiven Server und übernimmt die vom vorherigen aktiven Server verwalteten Dienste."
+description	=	"High Availability Manager verwendet zwei INTEGRA-Server, um einen high-availability-Cluster (HA-Cluster) zu erstellen, in dem ein Server der aktive Server und der andere der passive Server für den Failover ist. Der aktive Server kümmert sich um alle Dienste und dupliziert Daten auf den passiven Server. Wenn der aktive Server ausfällt, wird der passive Server zum neuen aktiven Server und übernimmt die vom vorherigen aktiven Server verwalteten Dienste."
 
 [button]
 go	=	"Gehe zu"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Ein SSD Cache auf dem passiven Server ist beschä
 desc_sb_no_service_monitor	=	"Service Monitor ist im Split Brain-Modus deaktiviert."
 desc_sb_remote_offline	=	"Erkennung des anderen Servers fehlgeschlagen."
 desc_shr_not_supported	=	"Ein oder mehrere Volumes in Ihrem high-availability Cluster ist/sind als SHR erstellt worden, was nicht unterstützt wird. Bitte entfernen Sie die SHR Volumes und versuchen es erneut."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID (SHR) wird nicht unterstützt, wenn ein High-Availability-Cluster erstellt wird. Bitte stellen Sie sicher, dass keine SHR-Speicherplätze auf dem aktiven Server vorhanden sind."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID (SHR) wird nicht unterstützt, wenn ein High-Availability-Cluster erstellt wird. Bitte stellen Sie sicher, dass keine SHR-Speicherplätze auf dem passiven Server vorhanden sind."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID (SHR) wird nicht unterstützt, wenn ein High-Availability-Cluster erstellt wird. Bitte stellen Sie sicher, dass keine SHR-Speicherplätze auf dem aktiven Server vorhanden sind."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID (SHR) wird nicht unterstützt, wenn ein High-Availability-Cluster erstellt wird. Bitte stellen Sie sicher, dass keine SHR-Speicherplätze auf dem passiven Server vorhanden sind."
 desc_space_configuring	=	"Der aktive Server konfiguriert die Speicherplätze."
 desc_space_crashed	=	"Ein Speicherplatz auf dem aktiven Server ist abgestürzt."
 desc_space_degraded	=	"Ein Speicherplatz auf dem aktiven Server zeigt Leistungseinbußen."
@@ -101,7 +101,7 @@ shutdown_active	=	"Aktiven Server herunterfahren"
 shutdown_cluster	=	"HA Cluster herunterfahren"
 shutdown_passive	=	"Passiven Server herunterfahren"
 shutdown_sb_local	=	"Lokalen Server herunterfahren"
-standalone_desc	=	"Zwei Synology Server (einen aktiven Server und einen passiven Server) kombinieren, um einen high-availability Cluster zu erstellen. Drücken Sie auf <b>HA Cluster erstellen</b>, um den Prozess zu beginnen."
+standalone_desc	=	"Zwei INTEGRA Server (einen aktiven Server und einen passiven Server) kombinieren, um einen high-availability Cluster zu erstellen. Drücken Sie auf <b>HA Cluster erstellen</b>, um den Prozess zu beginnen."
 status_normal	=	"Normal"
 system_fan_fail	=	"Systemlüfter ausgefallen"
 unbind_remote	=	"Passiven Server entfernen"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Alle DDNS-Dienste werden deaktiviert."
 warning_unbinding_disable_push_service	=	"Push-Dienste werden deaktiviert."
 warning_unbinding_disconnect_domain	=	"Das System wird von der Domain, zu der der Beitritt erfolgte, automatisch getrennt."
 warning_unbinding_ha	=	"Der high-availability-Cluster wird vom System entfernt. Beachten Sie Folgendes, bevor Sie diese Maßnahme durchführen:"
-warning_unbinding_logout_myds	=	"Sie werden von Ihrem Synology-Konto abgemeldet und alle zugehörigen Dienste (z. B. DDNS und QuickConnect) werden deaktiviert."
+warning_unbinding_logout_myds	=	"Sie werden von Ihrem INTEGRA-Konto abgemeldet und alle zugehörigen Dienste (z. B. DDNS und QuickConnect) werden deaktiviert."
 warning_unbinding_no_switchover_service	=	"Nachdem Sie den passiven Server entfernt haben, können Sie keine Übergabe mehr initiieren."
 warning_unbinding_passive	=	"Der passive Server wird vom System aus dem high-availability-Cluster entfernt. Beachten Sie Folgendes, bevor Sie diese Maßnahme durchführen:"
 warning_unbinding_passive_suggestion	=	"Wenn Sie Wartungsmaßnahmen am passiven Server durchführen möchten, sollten Sie ihn herunterfahren. Das Entfernen wird nur empfohlen, wenn Sie den passiven Server ersetzen."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"Kann Aktualisierung nicht durchführen, da e
 error_upgrade_local_volume_abnormal	=	"Ein Fehler ist auf einem Volume auf dem aktiven Server aufgetreten. Vor dem Einbinden bitte beheben."
 error_upgrade_remote_raid_crashed	=	"Kann Aktualisierung nicht durchführen, da ein Speicherplatz auf dem passiven Server abgestürzt ist."
 error_upgrade_remote_volume_abnormal	=	"Ein Fehler ist auf einem Volume auf dem passiven Server aufgetreten. Vor dem Einbinden bitte beheben."
-hybrid_ha_not_support_auto_download	=	"Der Hybrid HA-Cluster unterstützt kein automatisches Herunterladen.<br>Sie können die .pat-Aktualisierungsdatei im Download-Zentrum von Synology herunterladen und eine manuelle _OSNAME_-Aktualisierung durchführen."
+hybrid_ha_not_support_auto_download	=	"Der Hybrid HA-Cluster unterstützt kein automatisches Herunterladen.<br>Sie können die .pat-Aktualisierungsdatei im Download-Zentrum von INTEGRA herunterladen und eine manuelle _OSNAME_-Aktualisierung durchführen."
 system_is_upgrading	=	"Das System wird jetzt aktualisiert."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Achten Sie darauf, dass die folgenden 
 error_interface_is_dhcp	=	"Die vom high-availability Cluster verwendete Netzwerk-Schnittstelle kann nicht DHCP verwaltet werden. Bitte geben Sie für {0} manuell eine IP-Adresse ein."
 error_invalid_password	=	"Ungültiges Kennwort."
 error_is_enable_HA	=	"Die Cluster-Einstellungen können nicht angewendet werden, da die Cluster-Zuordnung bereits von einem anderen Benutzer begonnen wurde."
-error_lanport_unmatched	=	"Die Anzahl der LAN Ports stimmt nicht überein. Bitte prüfen Sie die LAN Ports Ihrer Synology Server und versuchen Sie es erneut. Beider Server müssen über dieselbe Anzahl an Ports verfügen."
+error_lanport_unmatched	=	"Die Anzahl der LAN Ports stimmt nicht überein. Bitte prüfen Sie die LAN Ports Ihrer INTEGRA Server und versuchen Sie es erneut. Beider Server müssen über dieselbe Anzahl an Ports verfügen."
 error_link_aggr_conflict	=	"Prüfen Sie, ob die Einstellungen der folgenden Netzwerkschnittstellen auf dem aktiven und dem passive Server identisch sind: {0}"
 error_local_address	=	"Lokale IP-Adresse ist nicht erlaubt."
 error_local_non_bindable	=	"Der aktive Server ist bereits in einem anderen high-availability Cluster integriert."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Anmeldung am passiven Server fehlgeschlagen. Bitte 
 error_login_timeout	=	"Der Anmeldezeitraum ist abgelaufen. Bitte schließen Sie den Assistenten und versuchen Sie es erneut."
 error_main_interface_communication	=	"Verbindung zum passiven Server über die HA Cluster Netzwerkschnittstelle ({0}) fehlgeschlagen. Überprüfen Sie, ob die Netzwerkeinstellungen von {0} auf beiden Servern korrekt sind."
 error_mem_size_unmatched	=	"Speichergrößen stimmen nicht überein. Stellen Sie sicher, dass die beiden Server über die gleiche Speichergröße verfügen."
-error_model_unmatched	=	"Servermodelle stimmen nicht überein. Bitte stellen Sie sicher, dass Ihre Synology dasselbe Modell sind."
+error_model_unmatched	=	"Servermodelle stimmen nicht überein. Bitte stellen Sie sicher, dass Ihre INTEGRA dasselbe Modell sind."
 error_no_static_ip_active	=	"Bitte weisen Sie den high-availability-Schnittstellen auf dem aktiven Server mindestens eine statische IP zu."
 error_no_static_ip_passive	=	"Bitte weisen Sie den high-availability-Schnittstellen auf dem passiven Server mindestens eine statische IP zu."
 error_not_support_ha	=	"Der von Ihnen ausgewählte passive Server unterstützt High Availability Manager nicht."

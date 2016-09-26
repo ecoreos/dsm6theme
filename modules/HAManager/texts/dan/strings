@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager bruger to Synology-servere til at bygge en high-availability-klynge (HA-klynge), med en server, der er den aktive server og den anden den passive server til failover. Den aktive server varetager alle tjenesterne og replicerer data til den passive server. Hvis den aktive server fejler, vil den passive server blive forfremmet til at være den nye aktive server og begynder at varetage de tjenester, der varetages af den oprindeligt aktive server."
+description	=	"High Availability Manager bruger to INTEGRA-servere til at bygge en high-availability-klynge (HA-klynge), med en server, der er den aktive server og den anden den passive server til failover. Den aktive server varetager alle tjenesterne og replicerer data til den passive server. Hvis den aktive server fejler, vil den passive server blive forfremmet til at være den nye aktive server og begynder at varetage de tjenester, der varetages af den oprindeligt aktive server."
 
 [button]
 go	=	"Gå"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"En SSD-cache på den passive server er degraderet
 desc_sb_no_service_monitor	=	"Tjenesteovervågning er deaktiveret i opdelt hjerne-tilstand."
 desc_sb_remote_offline	=	"Kunne ikke registrere den anden server."
 desc_shr_not_supported	=	"En eller flere diskenheder i din high-availability-klynge er oprettet som SHR, hvilket ikke understøttes. Fjern alle SHR-diskenheder, og prøv igen."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID (SHR) understøttes ikke, når der oprettes en high-availability-klynge. Sørg for, at der ikke er nogen SHR-lagerpladser på den aktive server."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID (SHR) understøttes ikke, når der oprettes en high-availability-klynge. Sørg for, at der ikke er nogen SHR-lagerpladser på den passive server."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID (SHR) understøttes ikke, når der oprettes en high-availability-klynge. Sørg for, at der ikke er nogen SHR-lagerpladser på den aktive server."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID (SHR) understøttes ikke, når der oprettes en high-availability-klynge. Sørg for, at der ikke er nogen SHR-lagerpladser på den passive server."
 desc_space_configuring	=	"Den aktive server konfigurerer lagerpladser."
 desc_space_crashed	=	"En lagerplads på den aktive server er brudt ned."
 desc_space_degraded	=	"En lagerplads på den aktive server er degraderet."
@@ -101,7 +101,7 @@ shutdown_active	=	"Luk aktiv server"
 shutdown_cluster	=	"Luk HA-klynge"
 shutdown_passive	=	"Luk passiv server"
 shutdown_sb_local	=	"Luk den lokale server"
-standalone_desc	=	"Kombiner to Synology-servere (en aktiv og en passiv server) for at oprette en High Availability-klynge. Begynd denne proces med at trykke på <b>Opret HA-klynge</b>."
+standalone_desc	=	"Kombiner to INTEGRA-servere (en aktiv og en passiv server) for at oprette en High Availability-klynge. Begynd denne proces med at trykke på <b>Opret HA-klynge</b>."
 status_normal	=	"Normal"
 system_fan_fail	=	"Systemblæser fejlede"
 unbind_remote	=	"Bind passiv server op"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Alle DDNS-tjenester bliver deaktiveret."
 warning_unbinding_disable_push_service	=	"Pushtjenesten bliver deaktiveret."
 warning_unbinding_disconnect_domain	=	"Systemet bliver afbrudt fra de sammenkædede domæne automatisk."
 warning_unbinding_ha	=	"Systemet vil starte fjernelsen af high-availability-klyngen. Før du udfører denne handling, skal du bemærke følgende:"
-warning_unbinding_logout_myds	=	"Du bliver logget ud af din Synology-konto og alle relaterede tjenester (f.eks. DDNS og QuickConnect) bliver deaktiverede."
+warning_unbinding_logout_myds	=	"Du bliver logget ud af din INTEGRA-konto og alle relaterede tjenester (f.eks. DDNS og QuickConnect) bliver deaktiverede."
 warning_unbinding_no_switchover_service	=	"Når ud binder den passive server op, kan du ikke starte en switchover."
 warning_unbinding_passive	=	"Systemet vil starte fjernelsen af den passive server fra high-availability-klyngen. Før du udfører denne handling, skal du bemærke følgende:"
 warning_unbinding_passive_suggestion	=	"Hvis du vil udføre vedligeholdelse på den passive server, anbefales det, at du lukker den ned. Ophævelse a binding forslås kun, når du vil udskifte den passive server."
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Sørg for, at følgende porte på den 
 error_interface_is_dhcp	=	"Det interface, der bruges af high-availability-klyngen, kan ikke være DHCP. Tildel en IP-adresse til {0} manuelt."
 error_invalid_password	=	"Ugyldig adgangskode."
 error_is_enable_HA	=	"Klyngeindstillinger kan ikke anvendes, fordi klyngebinding allerede er initieret af en anden bruger."
-error_lanport_unmatched	=	"Antallet af LAN-porte matcher ikke. Kontroller LAN-portene på din Synology-server, og prøv igen. Begge servere skal have samme antal porte."
+error_lanport_unmatched	=	"Antallet af LAN-porte matcher ikke. Kontroller LAN-portene på din INTEGRA-server, og prøv igen. Begge servere skal have samme antal porte."
 error_link_aggr_conflict	=	"Bekræft, at indstillingerne for følgende netværksinterfaces på den aktive og passive server er de samme: {0}"
 error_local_address	=	"Lokal IP-adresse er ikke tilladt."
 error_local_non_bindable	=	"Den aktive server er allerede inkluderet i en anden high-availability-klynge."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Kunne ikke logge ind på den passive server. Kontro
 error_login_timeout	=	"Logintiden er udløbet. Løs guiden, og prøv igen."
 error_main_interface_communication	=	"Kunne ikke oprette forbindelse til den passive server via HA-klynges netværksinterface ({0}). Sørg for, at netværksindstillingerne for {0} på begge servere er korrekte."
 error_mem_size_unmatched	=	"Hukommelsesstørrelser matcher ikke. Sørg for, at de to servere har den samme hukommelsesmængde."
-error_model_unmatched	=	"Servermodeller matcher ikke. Sørg for, at dine Synology-servere er af samme model."
+error_model_unmatched	=	"Servermodeller matcher ikke. Sørg for, at dine INTEGRA-servere er af samme model."
 error_no_static_ip_active	=	"Tildel mindst én statisk IP til high-availability-interfaces på den aktive server."
 error_no_static_ip_passive	=	"Tildel mindst én statisk IP til high-availability-interfaces på den passive server."
 error_not_support_ha	=	"Den passive server, som du har valgt, understøtter ikke High Availability Manager."

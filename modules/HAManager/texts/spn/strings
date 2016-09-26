@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager utiliza dos servidores Synology para crear un clúster High-Availability (clúster de AD), en el que un servidor es el servidor activo y el otro es el servidor pasivo para conmutación por error. El servidor activo se ocupa de todos los servicios y replica los datos en el servidor pasivo. Si el servidor activo falla, el servidor pasivo pasará a ser el nuevo servidor activo y empezará a ocuparse de los servicios gestionados por el servidor activo original."
+description	=	"High Availability Manager utiliza dos servidores INTEGRA para crear un clúster High-Availability (clúster de AD), en el que un servidor es el servidor activo y el otro es el servidor pasivo para conmutación por error. El servidor activo se ocupa de todos los servicios y replica los datos en el servidor pasivo. Si el servidor activo falla, el servidor pasivo pasará a ser el nuevo servidor activo y empezará a ocuparse de los servicios gestionados por el servidor activo original."
 
 [button]
 go	=	"Ir"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"Se ha degradado un caché de SSD del servidor pas
 desc_sb_no_service_monitor	=	"El monitor de servicio está deshabilitado en el modo split brain."
 desc_sb_remote_offline	=	"Error al detectar el otro servidor."
 desc_shr_not_supported	=	"Uno o más volúmenes de su clúster high-availability se ha(n) creado como SHR, que no es compatible. Elimine todos los volúmenes SHR y vuelva a intentarlo."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID (SHR) no es compatible cuando se crea un clúster de high-availability. Asegúrese de que no existen espacios de almacenamiento SHR en el servidor activo."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID (SHR) no es compatible cuando se crea un clúster de high-availability. Asegúrese de que no existen espacios de almacenamiento SHR en el servidor pasivo."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID (SHR) no es compatible cuando se crea un clúster de high-availability. Asegúrese de que no existen espacios de almacenamiento SHR en el servidor activo."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID (SHR) no es compatible cuando se crea un clúster de high-availability. Asegúrese de que no existen espacios de almacenamiento SHR en el servidor pasivo."
 desc_space_configuring	=	"El servidor activo está configurando espacios de almacenamiento."
 desc_space_crashed	=	"Se ha averiado un espacio de almacenamiento del servidor activo."
 desc_space_degraded	=	"Se ha degradado un espacio de almacenamiento del servidor activo."
@@ -101,7 +101,7 @@ shutdown_active	=	"Apagar el servidor activo"
 shutdown_cluster	=	"Apagar clúster HA"
 shutdown_passive	=	"Apagar el servidor pasivo"
 shutdown_sb_local	=	"Apagar el servidor local"
-standalone_desc	=	"Combine dos servidores Synology (un servidor activo y un servidor pasivo) para crear un clúster high-availability. Para iniciar este proceso, pulse <b>Crear clúster HA</b>."
+standalone_desc	=	"Combine dos servidores INTEGRA (un servidor activo y un servidor pasivo) para crear un clúster high-availability. Para iniciar este proceso, pulse <b>Crear clúster HA</b>."
 status_normal	=	"Normal"
 system_fan_fail	=	"Fallo del ventilador del sistema"
 unbind_remote	=	"Desvincular el servidor pasivo"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Todos los servicios DDNS se deshabilitará
 warning_unbinding_disable_push_service	=	"Los servicios Push se deshabilitarán."
 warning_unbinding_disconnect_domain	=	"El sistema se desconectará automáticamente del dominio al que se haya unido."
 warning_unbinding_ha	=	"El sistema empezará a eliminar el clúster high-availability. Antes de llevar a cabo esta acción, observe lo siguiente:"
-warning_unbinding_logout_myds	=	"Se cerrará la sesión de su Cuenta Synology y todos los servicios relacionados (como DDNS y QuickConnect) se deshabilitarán."
+warning_unbinding_logout_myds	=	"Se cerrará la sesión de su Cuenta INTEGRA y todos los servicios relacionados (como DDNS y QuickConnect) se deshabilitarán."
 warning_unbinding_no_switchover_service	=	"Cuando desvincule el servidor pasivo, no podrá iniciar un cambio."
 warning_unbinding_passive	=	"El sistema empezará a eliminar el servidor pasivo del clúster high-availability. Antes de llevar a cabo esta acción, observe lo siguiente:"
 warning_unbinding_passive_suggestion	=	"Si desea realizar tareas de mantenimiento en el servidor pasivo, le recomendamos apagarlo. La desvinculación solo se recomienda cuando quiera sustituir el servidor pasivo."
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"No se puede actualizar porque se ha averiado
 error_upgrade_local_volume_abnormal	=	"Se ha producido un error en un volumen del servidor activo. Repárelo antes de llevar a cabo la vinculación."
 error_upgrade_remote_raid_crashed	=	"No se puede actualizar porque se ha averiado un espacio de almacenamiento del servidor pasivo."
 error_upgrade_remote_volume_abnormal	=	"Se ha producido un error en un volumen del servidor pasivo. Repárelo antes de llevar a cabo la vinculación."
-hybrid_ha_not_support_auto_download	=	"El clúster HA híbrido no es compatible con la descarga automática.<br>Puede descargar los archivos de actualización .pat del Centro de descargas de Synology y realizar la actualización de _OSNAME_ manualmente."
+hybrid_ha_not_support_auto_download	=	"El clúster HA híbrido no es compatible con la descarga automática.<br>Puede descargar los archivos de actualización .pat del Centro de descargas de INTEGRA y realizar la actualización de _OSNAME_ manualmente."
 system_is_upgrading	=	"El sistema se está actualizando."
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Asegúrese de que los siguientes puert
 error_interface_is_dhcp	=	"La interfaz utilizada por el clúster high-availability no puede ser DHCP. Asigne una dirección IP para {0} manualmente."
 error_invalid_password	=	"Contraseña no válida."
 error_is_enable_HA	=	"No se puede aplicar la configuración del clúster, porque otro usuario ya ha iniciado la vinculación del clúster."
-error_lanport_unmatched	=	"El número de puertos LAN no coincide. Compruebe los puertos LAN de sus servidores Synology y vuelva a intentarlo. Ambos servidores deben tener el mismo número de puertos."
+error_lanport_unmatched	=	"El número de puertos LAN no coincide. Compruebe los puertos LAN de sus servidores INTEGRA y vuelva a intentarlo. Ambos servidores deben tener el mismo número de puertos."
 error_link_aggr_conflict	=	"Confirme que las configuraciones de VLAN de las siguientes interfaces de red en los servidores activo y pasivo son las mismas: {0}"
 error_local_address	=	"La dirección IP local no está permitida."
 error_local_non_bindable	=	"El servidor activo ya se ha incluido en otro clúster high-availability."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Error al iniciar sesión en el servidor pasivo. Com
 error_login_timeout	=	"El tiempo de inicio de sesión ha expirado. Cierre el asistente y vuelva a intentarlo."
 error_main_interface_communication	=	"Error al conectar con el servidor pasivo a través de la interfaz de red del clúster HA ({0}). Asegúrese de que la configuración de red de {0} en ambos servidores es correcta."
 error_mem_size_unmatched	=	"Los tamaños de memoria no coinciden. Asegúrese de que los dos servidores tiene el mismo tamaño de memoria."
-error_model_unmatched	=	"Los modelos de servidor no coinciden. Asegúrese de que sus servidores Synology son el mismo modelo."
+error_model_unmatched	=	"Los modelos de servidor no coinciden. Asegúrese de que sus servidores INTEGRA son el mismo modelo."
 error_no_static_ip_active	=	"Asigne al menos una dirección IP estática para las interfaces high-availability en el servidor activo."
 error_no_static_ip_passive	=	"Asigne al menos una dirección IP estática para las interfaces high-availability en el servidor pasivo."
 error_not_support_ha	=	"El servidor pasivo que ha seleccionado no es compatible con High Availability Manager."

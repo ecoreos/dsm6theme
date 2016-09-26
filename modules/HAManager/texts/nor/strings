@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager bruker to Synology-servere til å lage en high-availability-sky (HA-sky), der den ene serveren fungerer som aktiv server og den andre som passiv server for overføring av tjenester ved svikt. Den aktive serveren tar seg av alle tjenestene og kopierer data til den passive serveren. Hvis den aktive serveren svikter, vil den passive serveren bli forfremmet til den nye aktive serveren og ta over tjenestene som ble styrt av den opprinnelige aktive serveren."
+description	=	"High Availability Manager bruker to INTEGRA-servere til å lage en high-availability-sky (HA-sky), der den ene serveren fungerer som aktiv server og den andre som passiv server for overføring av tjenester ved svikt. Den aktive serveren tar seg av alle tjenestene og kopierer data til den passive serveren. Hvis den aktive serveren svikter, vil den passive serveren bli forfremmet til den nye aktive serveren og ta over tjenestene som ble styrt av den opprinnelige aktive serveren."
 
 [button]
 go	=	"Gå"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"En SSD-hurtigbuffer på den passive serveren er d
 desc_sb_no_service_monitor	=	"Tjenesteovervåker er deaktivert i split-brain-modus."
 desc_sb_remote_offline	=	"Finner ikke den andre serveren."
 desc_shr_not_supported	=	"Ett eller flere volum i high-availability-skyen er opprettet som SHR, som ikke støttes. Fjern alle SHR-volum og prøv igjen."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID (SHR) støttes ikke ved oppretting av en high-availability-sky. Kontroller at det ikke finnes noen SHR-lagringsområder på den aktive serveren."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID (SHR) støttes ikke ved oppretting av en high-availability-sky. Kontroller at det ikke finnes noen SHR-lagringsområder på den passive serveren."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID (SHR) støttes ikke ved oppretting av en high-availability-sky. Kontroller at det ikke finnes noen SHR-lagringsområder på den aktive serveren."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID (SHR) støttes ikke ved oppretting av en high-availability-sky. Kontroller at det ikke finnes noen SHR-lagringsområder på den passive serveren."
 desc_space_configuring	=	"Den aktive serveren konfigurerer lagringsområder."
 desc_space_crashed	=	"Et lagringsområde på den aktive serveren har brutt sammen."
 desc_space_degraded	=	"Et lagringsområde på den aktive serveren er degradert."
@@ -101,7 +101,7 @@ shutdown_active	=	"Slå av aktiv server"
 shutdown_cluster	=	"Slå av HA-sky."
 shutdown_passive	=	"Slå av passiv server"
 shutdown_sb_local	=	"Slå av lokal server"
-standalone_desc	=	"Kombiner to Synology-servere (en aktiv server og en passiv server) for å opprette en high-availability-sky. For å starte denne prosessen, trykker du på <b>Opprett HA-sky</b>."
+standalone_desc	=	"Kombiner to INTEGRA-servere (en aktiv server og en passiv server) for å opprette en high-availability-sky. For å starte denne prosessen, trykker du på <b>Opprett HA-sky</b>."
 status_normal	=	"Normal"
 system_fan_fail	=	"Systemviftesvikt"
 unbind_remote	=	"Frigjør passiv server"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"Alle DDNS-tjenester blir deaktivert."
 warning_unbinding_disable_push_service	=	"Push-tjenester vil bli deaktivert."
 warning_unbinding_disconnect_domain	=	"Systemet vil bli koblet fra det tilkoblede domenet automatisk."
 warning_unbinding_ha	=	"Systemet vil begynne å fjerne high-availability-klyngen. Før du utfører denne handlingen, må du merke deg følgende:"
-warning_unbinding_logout_myds	=	"Du vil bli logget ut av Synology-kontoen din, og alle relaterte tjenester (f.eks. DDNS og QuickConnect) vil bli deaktivert."
+warning_unbinding_logout_myds	=	"Du vil bli logget ut av INTEGRA-kontoen din, og alle relaterte tjenester (f.eks. DDNS og QuickConnect) vil bli deaktivert."
 warning_unbinding_no_switchover_service	=	"Når du har frigjort den passive serveren, kan du ikke overføre tjenester."
 warning_unbinding_passive	=	"Systemet vil begynne å fjerne den passive serveren fra high-availability-klyngen. Før du utfører denne handlingen, må du merke deg følgende:"
 warning_unbinding_passive_suggestion	=	"Hvis du vil utføre vedlikehold på den passive serveren, anbefaler vi å slå den av. Frigjøring blir kun foreslått når du vil erstatte den passive serveren."
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"Kontroller at følgende porter på den
 error_interface_is_dhcp	=	"Grensesnittet som brukes av high-availability-skyen kan ikke være DHCP. Tildel en IP-adresse for {0} manuelt."
 error_invalid_password	=	"Ugyldig passord."
 error_is_enable_HA	=	"Skyinnstillinger kan ikke tas i bruk fordi skytilknyttingen allerede er startet av en annen bruker."
-error_lanport_unmatched	=	"Antallet LAN-porter samsvarer ikke. Kontroller LAN-portene på Synology-serverne og prøv igjen. Begge servere må ha samme antall porter."
+error_lanport_unmatched	=	"Antallet LAN-porter samsvarer ikke. Kontroller LAN-portene på INTEGRA-serverne og prøv igjen. Begge servere må ha samme antall porter."
 error_link_aggr_conflict	=	"Bekreft at innstillingene på følgende nettverksgrensesnitt på den aktive og den passive serveren samsvarer: {0}"
 error_local_address	=	"Lokal IP-adresse er ikke tillatt."
 error_local_non_bindable	=	"Den aktive serveren er allerede tilknyttet en annen high-availability-sky."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"Kan ikke logge inn på den passive serveren. Kontro
 error_login_timeout	=	"Innloggingstiden er utløpt. Du må lukke veiviseren og prøve igjen."
 error_main_interface_communication	=	"Kan ikke koble til den passive serveren via HA-klyngens nettverksgrensesnitt ({0}). Kontroller at nettverksinnstillingene til {0} på begge serverne er korrekte."
 error_mem_size_unmatched	=	"Minnestørrelser samsvarer ikke. Kontroller at de to serverne har like minnestørrelser."
-error_model_unmatched	=	"Servermodeller samsvarer ikke. Forsikre deg om at Synology-serverne dine er av samme modell."
+error_model_unmatched	=	"Servermodeller samsvarer ikke. Forsikre deg om at INTEGRA-serverne dine er av samme modell."
 error_no_static_ip_active	=	"Tilordne minst én statisk IP-adresse for high-availability-grensesnittene på den aktive serveren."
 error_no_static_ip_passive	=	"Tilordne minst én statisk IP-adresse for high-availability-grensesnittene på den passive serveren."
 error_not_support_ha	=	"Den passive serveren du har valgt støtter ikke High Availability Manager."

@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager 使用两个 Synology 服务器组成一个 high-availability 集群（HA 集群），其中一个服务器作为活动服务器，另一个作为无源服务器（用于故障移转）。活动服务器将处理所有的服务，并将数据复制到无源服务器。如果活动服务器发生故障，无源服务器将提升为新的活动服务器，并接管原活动服务器所处理的服务。"
+description	=	"High Availability Manager 使用两个 INTEGRA 服务器组成一个 high-availability 集群（HA 集群），其中一个服务器作为活动服务器，另一个作为无源服务器（用于故障移转）。活动服务器将处理所有的服务，并将数据复制到无源服务器。如果活动服务器发生故障，无源服务器将提升为新的活动服务器，并接管原活动服务器所处理的服务。"
 
 [button]
 go	=	"前往"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"无源服务器上的 SSD 缓存已降级。"
 desc_sb_no_service_monitor	=	"服务监控在 split-brain 模式下禁用。"
 desc_sb_remote_offline	=	"无法检测其它服务器。"
 desc_shr_not_supported	=	"不支持将 high-availability 集群中的一个或多个卷创建为 SHR。请删除所有的 SHR 卷并再试一次。"
-desc_shr_not_supported_active	=	"创建 high-availability 集群时，不支持 Synology Hybrid RAID（SHR）。请确认活动服务器上没有 SHR 存储空间。"
-desc_shr_not_supported_passive	=	"创建 high-availability 集群时，不支持 Synology Hybrid RAID（SHR）。请确认无源服务器上没有 SHR 存储空间。"
+desc_shr_not_supported_active	=	"创建 high-availability 集群时，不支持 INTEGRA Hybrid RAID（SHR）。请确认活动服务器上没有 SHR 存储空间。"
+desc_shr_not_supported_passive	=	"创建 high-availability 集群时，不支持 INTEGRA Hybrid RAID（SHR）。请确认无源服务器上没有 SHR 存储空间。"
 desc_space_configuring	=	"活动服务器正在配置存储空间。"
 desc_space_crashed	=	"活动服务器的存储空间已损毁。"
 desc_space_degraded	=	"活动服务器的存储空间已降级。"
@@ -101,7 +101,7 @@ shutdown_active	=	"将活动服务器关机"
 shutdown_cluster	=	"关闭 HA 集群"
 shutdown_passive	=	"将无源服务器关机"
 shutdown_sb_local	=	"将本地服务器关机"
-standalone_desc	=	"组合两个 Synology 服务器（一个活动服务器，一个无源服务器），创建high-availability 集群。按 <b>创建 HA 集群</b>开始进行。"
+standalone_desc	=	"组合两个 INTEGRA 服务器（一个活动服务器，一个无源服务器），创建high-availability 集群。按 <b>创建 HA 集群</b>开始进行。"
 status_normal	=	"正常"
 system_fan_fail	=	"系统风扇故障"
 unbind_remote	=	"取消绑定无源服务器"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"所有 DDNS 服务将被禁用。"
 warning_unbinding_disable_push_service	=	"推送服务将被禁用。"
 warning_unbinding_disconnect_domain	=	"系统将自动与加入的域断开连接。"
 warning_unbinding_ha	=	"系统将开始删除 high-availability 集群。 在执行此操作之前，请注意以下各项："
-warning_unbinding_logout_myds	=	"您将注销 Synology 帐户，所有相关服务 (如 DDNS 和 QuickConnect) 将被禁用。"
+warning_unbinding_logout_myds	=	"您将注销 INTEGRA 帐户，所有相关服务 (如 DDNS 和 QuickConnect) 将被禁用。"
 warning_unbinding_no_switchover_service	=	"一旦取消绑定无源服务器后，您将无法启动移转。"
 warning_unbinding_passive	=	"系统将开始从 high-availability 集群中删除此无源服务器。 在执行此操作之前，请注意以下各项："
 warning_unbinding_passive_suggestion	=	"如果要对无源服务器进行维护，建议您将其关机。 仅当您想要更换无源服务器时才建议取消绑定。"
@@ -298,7 +298,7 @@ error_upgrade_local_raid_crashed	=	"活动服务器上的存储空间已损毁�
 error_upgrade_local_volume_abnormal	=	"活动服务器上的一个卷发生错误。请在绑定之前修复。"
 error_upgrade_remote_raid_crashed	=	"无源服务器上的存储空间已损毁，无法升级。"
 error_upgrade_remote_volume_abnormal	=	"无源服务器上的一个卷发生错误。请在绑定之前修复。"
-hybrid_ha_not_support_auto_download	=	"Hybrid HA 集群不支持自动下载。<br>您可从 Synology 的“下载中心”下载 .pat 更新文件，并执行手动 _OSNAME_ 更新。"
+hybrid_ha_not_support_auto_download	=	"Hybrid HA 集群不支持自动下载。<br>您可从 INTEGRA 的“下载中心”下载 .pat 更新文件，并执行手动 _OSNAME_ 更新。"
 system_is_upgrading	=	"系统现在正在升级。"
 
 [wizard]
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"请确认无源服务器上的以下�
 error_interface_is_dhcp	=	"High-availability 集群使用的接口不可是 DHCP。请为 {0} 手动指定 IP 地址。"
 error_invalid_password	=	"无效密码。"
 error_is_enable_HA	=	"其它用户已启动集群绑定，无法应用集群设置。"
-error_lanport_unmatched	=	"LAN 端口号不匹配。请检查 Synology 服务器上的 LAN 端口，然后再试一次。两个服务器必须有相同的端口号。"
+error_lanport_unmatched	=	"LAN 端口号不匹配。请检查 INTEGRA 服务器上的 LAN 端口，然后再试一次。两个服务器必须有相同的端口号。"
 error_link_aggr_conflict	=	"请确认下列活动和无源服务器网络接口的设置相同：{0}"
 error_local_address	=	"不允许本地 IP 地址。"
 error_local_non_bindable	=	"此活动服务器已包含在另一个 high-availability 集群中。"
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"无法登录到无源服务器。请检查帐户信
 error_login_timeout	=	"登录时间已过期。请关闭向导并重试。"
 error_main_interface_communication	=	"无法通过 HA 集群网络接口 ({0}) 连接到无源服务器。请确认两台服务器的网络设置 {0} 是否正确。"
 error_mem_size_unmatched	=	"内存大小不相符。请确认两台服务器是否拥有大小相同的内存。"
-error_model_unmatched	=	"服务器型号不匹配。请确认您的 Synology 服务器型号相同。"
+error_model_unmatched	=	"服务器型号不匹配。请确认您的 INTEGRA 服务器型号相同。"
 error_no_static_ip_active	=	"请为活动服务器上的 high-availability 接口指定至少一个静态 IP。"
 error_no_static_ip_passive	=	"请为无源服务器上的 high-availability 接口指定至少一个静态 IP。"
 error_not_support_ha	=	"您选择的无源服务器不支持 High Availability Manager。"

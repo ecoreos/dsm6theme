@@ -1,9 +1,9 @@
 
-# Copyright (c) 2000-2015 Synology Inc. All rights reserved.
+# Copyright (c) 2000-2015 INTEGRA Inc. All rights reserved.
 
 [app]
 app_name	=	"High Availability Manager"
-description	=	"High Availability Manager는 두 개의 Synology 서버를 사용하여 high-availability 클러스터(HA 클러스터)를 구성합니다. 한 서버는 활성 서버가 되고 다른 서버는 대체 작동용 수동 서버가 됩니다. 활성 서버는 모든 서비스를 처리하고 데이터를 수동 서버로 복제합니다. 활성 서버에 오류가 발생하면 수동 서버가 활성 서버가 되어 원래 활성 서버에서 처리한 서비스를 관리합니다."
+description	=	"High Availability Manager는 두 개의 INTEGRA 서버를 사용하여 high-availability 클러스터(HA 클러스터)를 구성합니다. 한 서버는 활성 서버가 되고 다른 서버는 대체 작동용 수동 서버가 됩니다. 활성 서버는 모든 서비스를 처리하고 데이터를 수동 서버로 복제합니다. 활성 서버에 오류가 발생하면 수동 서버가 활성 서버가 되어 원래 활성 서버에서 처리한 서비스를 관리합니다."
 
 [button]
 go	=	"이동"
@@ -63,8 +63,8 @@ desc_remote_fcache_degraded	=	"수동 서버의 SSD 캐시 성능이 저하되�
 desc_sb_no_service_monitor	=	"서비스 모니터가 브레인 분할 모드에서 비활성화되었습니다."
 desc_sb_remote_offline	=	"다른 서버 감지 실패."
 desc_shr_not_supported	=	"High-availability 클러스터에서 하나 이상의 볼륨을 지원되지 않는 SHR로 생성했습니다. SHR 볼륨을 모두 제거하고 다시 시도하십시오."
-desc_shr_not_supported_active	=	"Synology Hybrid RAID(SHR)는 high-availability 클러스터를 만들 때 지원되지 않습니다. 활성 서버에 SHR 저장소 공간이 없도록 확인하십시오."
-desc_shr_not_supported_passive	=	"Synology Hybrid RAID(SHR)는 high-availability 클러스터를 만들 때 지원되지 않습니다. 수동 서버에 SHR 저장소 공간이 없도록 확인하십시오."
+desc_shr_not_supported_active	=	"INTEGRA Hybrid RAID(SHR)는 high-availability 클러스터를 만들 때 지원되지 않습니다. 활성 서버에 SHR 저장소 공간이 없도록 확인하십시오."
+desc_shr_not_supported_passive	=	"INTEGRA Hybrid RAID(SHR)는 high-availability 클러스터를 만들 때 지원되지 않습니다. 수동 서버에 SHR 저장소 공간이 없도록 확인하십시오."
 desc_space_configuring	=	"활성 서버가 저장소 공간을 구성 중입니다."
 desc_space_crashed	=	"활성 서버의 저장소 공간이 충돌했습니다."
 desc_space_degraded	=	"활성 서버의 저장소 공간이 저하되었습니다."
@@ -101,7 +101,7 @@ shutdown_active	=	"활성 서버 종료"
 shutdown_cluster	=	"HA 클러스터 종료"
 shutdown_passive	=	"수동 서버 종료"
 shutdown_sb_local	=	"로컬 서버 종료"
-standalone_desc	=	"High-availability 클러스터를 생성하려면 두 개의 Synology 서버(활성 서버 하나와 수동 서버 하나)를 결합하십시오. 이 프로세스를 시작하려면 <b>HA 클러스터 생성</b>을 누르십시오."
+standalone_desc	=	"High-availability 클러스터를 생성하려면 두 개의 INTEGRA 서버(활성 서버 하나와 수동 서버 하나)를 결합하십시오. 이 프로세스를 시작하려면 <b>HA 클러스터 생성</b>을 누르십시오."
 status_normal	=	"정상"
 system_fan_fail	=	"시스템 팬 실패"
 unbind_remote	=	"수동 서버 연결 해제"
@@ -126,7 +126,7 @@ warning_unbinding_disable_all_ddns	=	"모든 DDNS 서비스가 비활성화됩�
 warning_unbinding_disable_push_service	=	"푸시 서비스가 비활성화됩니다."
 warning_unbinding_disconnect_domain	=	"시스템이 가입된 도메인에서 자동으로 연결 해제됩니다."
 warning_unbinding_ha	=	"시스템에서 High-Availability 클러스터 제거를 시작할 것입니다. 이 동작을 수행하기 전에 다음 사항에 유의하십시오."
-warning_unbinding_logout_myds	=	"Synology 계정에서 로그아웃되고 관련 서비스(예: DDNS 및 QuickConnect)가 모두 비활성화됩니다."
+warning_unbinding_logout_myds	=	"INTEGRA 계정에서 로그아웃되고 관련 서비스(예: DDNS 및 QuickConnect)가 모두 비활성화됩니다."
 warning_unbinding_no_switchover_service	=	"수동 서버를 연결 해제하면 전환을 시작할 수 없습니다."
 warning_unbinding_passive	=	"시스템이 High-Availability 클러스터에서 수동 서버 제거를 시작합니다. 이 동작을 수행하기 전에 다음 사항에 유의하십시오."
 warning_unbinding_passive_suggestion	=	"수동 서버에서 유지 보수를 수행하려면 종료하는 것이 좋습니다. 연결 해제는 수동 서버를 교체하는 경우에만 수행할 것을 권장합니다."
@@ -349,7 +349,7 @@ error_install_sc_port_conflict_passive	=	"수동 서버의 다음 포트가 high
 error_interface_is_dhcp	=	"High-availability 클러스터에서 사용한 인터페이스는 DHCP가 될 수 없습니다. {0}의 IP 주소를 수동으로 할당하십시오."
 error_invalid_password	=	"패스워드가 잘못되었습니다."
 error_is_enable_HA	=	"클러스터 바인딩이 다른 사용자에 의해 시작되지 않았기 때문에 클러스터 설정을 적용할 수 없습니다."
-error_lanport_unmatched	=	"LAN 포트 번호가 일치하지 않습니다. Synology 서버에서 LAN 포트를 확인하고 다시 시도하십시오. 두 서버의 포트 번호가 동일해야 합니다."
+error_lanport_unmatched	=	"LAN 포트 번호가 일치하지 않습니다. INTEGRA 서버에서 LAN 포트를 확인하고 다시 시도하십시오. 두 서버의 포트 번호가 동일해야 합니다."
 error_link_aggr_conflict	=	"활성 서버와 수동 서버에서 다음 네트워크 인터페이스의 설정이 동일한지 확인하십시오: {0}"
 error_local_address	=	"로컬 IP 주소는 허용되지 않습니다."
 error_local_non_bindable	=	"활성 서버가 다른 high-availability 클러스터에 이미 포함되어 있습니다."
@@ -357,7 +357,7 @@ error_login_remote_failed	=	"수동 서버에 로그인하지 못했습니다. �
 error_login_timeout	=	"로그인 시간이 만료되었습니다. 마법사를 닫고 다시 시도하십시오."
 error_main_interface_communication	=	"HA 클러스터 네트워크 인터페이스를 통해 수동 서버에 연결하지 못했습니다({0}). 두 서버 모두에서 {0}의 네트워크 설정이 올바른지 확인하십시오."
 error_mem_size_unmatched	=	"메모리 크기가 일치하지 않습니다. 두 서버의 메모리 크기가 동일한지 확인하십시오."
-error_model_unmatched	=	"서버 모델이 일치하지 않습니다. Synology 서버 모델이 동일한지 확인하십시오."
+error_model_unmatched	=	"서버 모델이 일치하지 않습니다. INTEGRA 서버 모델이 동일한지 확인하십시오."
 error_no_static_ip_active	=	"활성 서버에서 high-availability 인터페이스에 대해 정적 IP를 하나 이상 할당하십시오."
 error_no_static_ip_passive	=	"수동 서버에서 high-availability 인터페이스에 대해 정적 IP를 하나 이상 할당하십시오."
 error_not_support_ha	=	"선택한 수동 서버가 High Availability Manager를 지원하지 않습니다."
