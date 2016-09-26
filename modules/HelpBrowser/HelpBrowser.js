@@ -339,7 +339,8 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
         this.helpDSMenuItem = new Ext.menu.CheckItem({
             text: _T("helpbrowser", "help_from_ds"),
             cls: "syno-sds-hb-option",
-            group: "helpsrc",           
+            group: "helpsrc",   
+            checked: true,          
             checkHandler: function() {
                 if (this.helpDSMenuItem.checked) {
                     this.changeOnOffLineStatus(true);
@@ -357,7 +358,7 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
         this.helpSynoMenuItem = new Ext.menu.CheckItem({
             text: _T("helpbrowser", "help_from_syno"),
             group: "helpsrc",
-            checked: true,            
+            checked: false,            
             cls: "syno-sds-hb-option",
             checkHandler: function() {
                 if (this.helpSynoMenuItem.checked) {
