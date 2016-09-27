@@ -258,8 +258,8 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
     defaultTutorialHomePage: "webman/help/" + _S("lang") + "/Tutorial/home.html",
     blankPage: "help/blank.html",
     HomeId: "SYNO.SDS.Tutorial.Application",
-    offline: false,
-    noNetwork: false,
+    offline: true,
+    noNetwork: true,
     isSendingRequest: false,
     curPlatform: null,
     curModel: null,
@@ -336,28 +336,10 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
                 items: [this.xlfontMenuItem, this.lfontMenuItem, this.nfontMenuItem]
             })
         });
-        this.helpDSMenuItem = new Ext.menu.CheckItem({
-            text: _T("helpbrowser", "help_from_ds"),
-            cls: "syno-sds-hb-option",
-            group: "helpsrc",   
-            checked: true,          
-            checkHandler: function() {
-                if (this.helpDSMenuItem.checked) {
-                    this.changeOnOffLineStatus(true);
-                    if (this.layout.activeItem !== this.getHomeCt()) {
-                        this.onlineSearchField.hide();
-                        this.offlineSearchField.show()
-                    } else {
-                        this.homeOnlineSearchField.hide();
-                        this.homeOfflineSearchField.show()
-                    }
-                }
-            },
-            scope: this
-        });        
         this.helpSynoMenuItem = new Ext.menu.CheckItem({
             text: _T("helpbrowser", "help_from_syno"),
-            group: "helpsrc",  
+            group: "helpsrc",
+            checked: false,      
             cls: "syno-sds-hb-option",
             checkHandler: function() {
                 if (this.helpSynoMenuItem.checked) {
@@ -368,6 +350,25 @@ SYNO.SDS.HelpBrowser.MainWindow = Ext.extend(SYNO.SDS.AppWindow, {
                     } else {
                         this.homeOnlineSearchField.show();
                         this.homeOfflineSearchField.hide()
+                    }
+                }
+            },
+            scope: this
+        });        
+        this.helpDSMenuItem = new Ext.menu.CheckItem({
+            text: _T("helpbrowser", "help_from_ds"),
+            cls: "syno-sds-hb-option",
+            group: "helpsrc", 
+            checked: true,                
+            checkHandler: function() {
+                if (this.helpDSMenuItem.checked) {
+                    this.changeOnOffLineStatus(true);
+                    if (this.layout.activeItem !== this.getHomeCt()) {
+                        this.onlineSearchField.hide();
+                        this.offlineSearchField.show()
+                    } else {
+                        this.homeOnlineSearchField.hide();
+                        this.homeOfflineSearchField.show()
                     }
                 }
             },
