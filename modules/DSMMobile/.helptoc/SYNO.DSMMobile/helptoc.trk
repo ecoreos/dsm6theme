@@ -1,1 +1,1 @@
-{"id":"SYNO.DSMMobile","text":"DSM mobile","desc":"","topic":"DSMMobile\/main.html","leaf":true}
+{"id":"SYNO.DSMMobile","text":"INTEGRA mobile","desc":"","topic":"DSMMobile\/main.html","leaf":true}
