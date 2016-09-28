@@ -80,7 +80,7 @@ class StringBundle {
 
 	}
 	function ReplaceStringByProduct($s) {
-		$origin = array("IntegraOS", "_INTEGRA-SERVER_");
+		$origin = array("IntegraOS", "INTEGRA");
 		if ("SRM" === CURRENT_PRODUCT) {
 			$result = array("SRM", "Synology Router");
 		} else if ("NVR" === CURRENT_PRODUCT) {
