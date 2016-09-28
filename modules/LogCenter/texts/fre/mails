@@ -93,7 +93,7 @@ Subject: L'archivage des journaux du Centre des journaux sur %HOSTNAME% est dés
 
 Cher utilisateur,
 
-L'archivage des journaux du Centre de journaux sur %HOSTNAME% est désactivé car le dossier partagé crypté "%SHARED_FOLDER%" utilisé pour enregistrer la base de données du journal a été supprimé. Veuillez vous connecter à %OSNAME% et vous rendre dans Menu principal > Centre des journaux > stockage pour sélectionner un autre dossier partagé.
+L'archivage des journaux du Centre de journaux sur %HOSTNAME% est désactivé car le dossier partagé crypté "%SHARED_FOLDER%" utilisé pour enregistrer la base de données du journal a été supprimé. Veuillez vous connecter à %INTEGRAOS% et vous rendre dans Menu principal > Centre des journaux > stockage pour sélectionner un autre dossier partagé.
 
 Sincères salutations,
 %COMPANY_NAME%

@@ -515,7 +515,7 @@ Subject: %MAINSITE_TARGET_NAME% 之前计划的快照任何仍在运行中。
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: 系统自动更新
-Subject: %OSNAME% 自动更新将在 %COUNTDOWN_MINUTE% 分钟后在 %HOSTNAME% 上自动开始
+Subject: %INTEGRAOS% 自动更新将在 %COUNTDOWN_MINUTE% 分钟后在 %HOSTNAME% 上自动开始
 
 亲爱的用户：
 
@@ -528,7 +528,7 @@ Subject: %OSNAME% 自动更新将在 %COUNTDOWN_MINUTE% 分钟后在 %HOSTNAME% 
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: 计划关机前安装系统更新
-Subject: 计划关机前将在 %HOSTNAME% 上安装 %OSNAME% 更新
+Subject: 计划关机前将在 %HOSTNAME% 上安装 %INTEGRAOS% 更新
 
 亲爱的用户：
 
@@ -540,12 +540,12 @@ Subject: 计划关机前将在 %HOSTNAME% 上安装 %OSNAME% 更新
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: 新 %OSNAME% 更新版本已就绪
-Subject: %OSNAME% 更新版本已就绪可安装在 %HOSTNAME%
+Title: 新 %INTEGRAOS% 更新版本已就绪
+Subject: %INTEGRAOS% 更新版本已就绪可安装在 %HOSTNAME%
 
 亲爱的用户：
 
-%OSNAME% 更新版本已下载完成可进行安装。请登录 %HOSTNAME% 并进入控制面板 > 更新和还原来安装 %NEW_VERSION%。要了解更多有关 %OSNAME% 更新的信息，请参见 %HTTP_URL%。
+%INTEGRAOS% 更新版本已下载完成可进行安装。请登录 %HOSTNAME% 并进入控制面板 > 更新和还原来安装 %NEW_VERSION%。要了解更多有关 %INTEGRAOS% 更新的信息，请参见 %HTTP_URL%。
 
 您诚挚的，
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: %HOSTNAME% 的套件升级信息
 
 亲爱的用户：
 
-%HOSTNAME% 中的下列套件可供您更新。您可启动 %OSNAME% 中的套件中心对其进行更新。
+%HOSTNAME% 中的下列套件可供您更新。您可启动 %INTEGRAOS% 中的套件中心对其进行更新。
 
 要更新的套件：
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: 在 %HOSTNAME% 上发现安全风险
 
 亲爱的用户：
 
-安全顾问刚完成对 %HOSTNAME% 的计划扫描。发现多个安全风险，需引起您的注意。请登录 %HOSTNAME% 上的 %OSNAME% 并在安全顾问中查看报告。
+安全顾问刚完成对 %HOSTNAME% 的计划扫描。发现多个安全风险，需引起您的注意。请登录 %HOSTNAME% 上的 %INTEGRAOS% 并在安全顾问中查看报告。
 
 您诚挚的，
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ Subject: 在 %HOSTNAME% 上发现安全风险
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: 系统过旧
-Subject: 安全顾问指出 %HOSTNAME% 上的 %OSNAME% 版本过旧
+Subject: 安全顾问指出 %HOSTNAME% 上的 %INTEGRAOS% 版本过旧
 
 亲爱的用户：
 
-在 %HOSTNAME% 上运行的 %OSNAME% 版本过旧。请登录 %HOSTNAME% 上的 %OSNAME%，打开控制面板并安装最新版本的 %OSNAME%。要获得详细报告，请前往主菜单 > 安全顾问。
+在 %HOSTNAME% 上运行的 %INTEGRAOS% 版本过旧。请登录 %HOSTNAME% 上的 %INTEGRAOS%，打开控制面板并安装最新版本的 %INTEGRAOS%。要获得详细报告，请前往主菜单 > 安全顾问。
 
 您诚挚的，
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ Subject: 安全顾问指出 %HOSTNAME% 上的 %OSNAME% 版本过旧
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: 系统和套件版本过旧
-Subject: 安全顾问指出 %HOSTNAME% 上的 %OSNAME% 和套件版本过旧
+Subject: 安全顾问指出 %HOSTNAME% 上的 %INTEGRAOS% 和套件版本过旧
 
 亲爱的用户：
 
-在 %HOSTNAME% 上运行的 %OSNAME% 和 %NUMBER% 套件版本过旧。请登录 %HOSTNAME% 上的 %OSNAME% 并执行以下操作：
-- 打开控制面板并安装最新版的 %OSNAME%。
+在 %HOSTNAME% 上运行的 %INTEGRAOS% 和 %NUMBER% 套件版本过旧。请登录 %HOSTNAME% 上的 %INTEGRAOS% 并执行以下操作：
+- 打开控制面板并安装最新版的 %INTEGRAOS%。
 - 打开套件中心并安装最新版的套件。
 
 要获得详细报告，请前往主菜单 > 安全顾问。
@@ -1757,7 +1757,7 @@ Subject: 在 %HOSTNAME% 上检测到恶意软件
 
 亲爱的用户：
 
-在 %HOSTNAME% 上检测到恶意软件。请登录 %HOSTNAME% 上的 %OSNAME% 并打开安全顾问以修复此问题。
+在 %HOSTNAME% 上检测到恶意软件。请登录 %HOSTNAME% 上的 %INTEGRAOS% 并打开安全顾问以修复此问题。
 
 您诚挚的，
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: %HOSTNAME% 上的套件版本过旧
 
 亲爱的用户：
 
-在 %HOSTNAME% 上运行的 %NUMBER% 套件版本过旧。请登录 %HOSTNAME% 上的 %OSNAME% 并打开控制面板，安装最新版本的套件。
+在 %HOSTNAME% 上运行的 %NUMBER% 套件版本过旧。请登录 %HOSTNAME% 上的 %INTEGRAOS% 并打开控制面板，安装最新版本的套件。
 
 您诚挚的，
 %COMPANY_NAME%

@@ -93,7 +93,7 @@ Subject: Archivace protokolů části Centrum protokolů na serveru %HOSTNAME% b
 
 Vážený uživateli,
 
-archivace protokolů části Centrum protokolů na serveru %HOSTNAME% byla zakázána, protože sdílená složka „%SHARED_FOLDER%“ pro ukládání databáze protokolů byla odebrána. Přihlaste se do systému %OSNAME%, přejděte do části Hlavní nabídka > Centrum protokolů > Nastavení úložiště a vyberte jinou sdílenou složku.
+archivace protokolů části Centrum protokolů na serveru %HOSTNAME% byla zakázána, protože sdílená složka „%SHARED_FOLDER%“ pro ukládání databáze protokolů byla odebrána. Přihlaste se do systému %INTEGRAOS%, přejděte do části Hlavní nabídka > Centrum protokolů > Nastavení úložiště a vyberte jinou sdílenou složku.
 
 S pozdravem
 %COMPANY_NAME%

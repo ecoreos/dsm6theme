@@ -513,7 +513,7 @@ Sincères salutations,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Mise à jour automatique du système
-Subject: La mise à jour automatique de %OSNAME% va démarrer automatiquement sur %HOSTNAME% dans %COUNTDOWN_MINUTE% minutes
+Subject: La mise à jour automatique de %INTEGRAOS% va démarrer automatiquement sur %HOSTNAME% dans %COUNTDOWN_MINUTE% minutes
 
 Cher utilisateur,
 
@@ -526,7 +526,7 @@ Sincères salutations,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Les mises à jour du système seront installées avant l'arrêt programmé
-Subject: Les mises à jour de %OSNAME% seront installées sur %HOSTNAME% avant l'arrêt programmé
+Subject: Les mises à jour de %INTEGRAOS% seront installées sur %HOSTNAME% avant l'arrêt programmé
 
 Cher utilisateur,
 
@@ -538,12 +538,12 @@ Sincères salutations,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Nouvelle mise à jour de %OSNAME% prête
-Subject: La mise à jour de %OSNAME% est prête à être installée sur %HOSTNAME%
+Title: Nouvelle mise à jour de %INTEGRAOS% prête
+Subject: La mise à jour de %INTEGRAOS% est prête à être installée sur %HOSTNAME%
 
 Cher utilisateur,
 
-Une nouvelle version de %OSNAME% a été téléchargée et est prête à être installée. Veuillez vous identifier dans %HOSTNAME% et accéder au Panneau de configuration > Mise à jour et restauration pour installer %NEW_VERSION%. Pour plus d'informations à propos de la mise à jour de %OSNAME%, veuillez vous reporter à %HTTP_URL%.
+Une nouvelle version de %INTEGRAOS% a été téléchargée et est prête à être installée. Veuillez vous identifier dans %HOSTNAME% et accéder au Panneau de configuration > Mise à jour et restauration pour installer %NEW_VERSION%. Pour plus d'informations à propos de la mise à jour de %INTEGRAOS%, veuillez vous reporter à %HTTP_URL%.
 
 Sincères salutations,
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: Informations de mise à niveau du paquet pour %HOSTNAME%
 
 Cher utilisateur,
 
-Les mises à jour sont prêtes pour les paquets suivants sur %HOSTNAME%. Vous pouvez lancer le centre de paquets dans %OSNAME% pour les mettre à jour.
+Les mises à jour sont prêtes pour les paquets suivants sur %HOSTNAME%. Vous pouvez lancer le centre de paquets dans %INTEGRAOS% pour les mettre à jour.
 
 Paquets à mettre à jour :
 %PKG_SET%
@@ -1711,7 +1711,7 @@ Subject: Risques de sécurité trouvés sur %HOSTNAME%
 
 Cher utilisateur,
 
-Security Advisor vient de terminer une analyse programmée sur %HOSTNAME%. Plusieurs risques de sécurité ont été trouvés qui nécessitent votre attention. Veuillez vous connecter à %OSNAME% sur %HOSTNAME% et afficher le rapport dans Security Advisor.
+Security Advisor vient de terminer une analyse programmée sur %HOSTNAME%. Plusieurs risques de sécurité ont été trouvés qui nécessitent votre attention. Veuillez vous connecter à %INTEGRAOS% sur %HOSTNAME% et afficher le rapport dans Security Advisor.
 
 Sincères salutations,
 %COMPANY_NAME%
@@ -1720,11 +1720,11 @@ Sincères salutations,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Système expiré
-Subject: %OSNAME% sur %HOSTNAME% a expiré sur Conseiller de sécurité
+Subject: %INTEGRAOS% sur %HOSTNAME% a expiré sur Conseiller de sécurité
 
 Cher utilisateur,
 
-%OSNAME% fonctionnant sur %HOSTNAME% a expiré. Veuillez vous connecter à %OSNAME% sur %HOSTNAME%, ouvrir le panneau de configuration et installer la dernière version de %OSNAME%. Pour un rapport détaillé, veuillez accéder à Menu principal > Conseiller de sécurité.
+%INTEGRAOS% fonctionnant sur %HOSTNAME% a expiré. Veuillez vous connecter à %INTEGRAOS% sur %HOSTNAME%, ouvrir le panneau de configuration et installer la dernière version de %INTEGRAOS%. Pour un rapport détaillé, veuillez accéder à Menu principal > Conseiller de sécurité.
 
 Sincères salutations,
 %COMPANY_NAME%
@@ -1733,12 +1733,12 @@ Sincères salutations,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Système et paquets expirés
-Subject: Un %OSNAME% et les paquets sur %HOSTNAME% ont expiré sur Conseiller de sécurité
+Subject: Un %INTEGRAOS% et les paquets sur %HOSTNAME% ont expiré sur Conseiller de sécurité
 
 Cher utilisateur,
 
-Les paquets %OSNAME% et %NUMBER% fonctionnant sur %HOSTNAME% ont expiré. Veuillez vous connecter à %OSNAME% et %HOSTNAME% et procéder comme suit :
-- Ouvrez le Panneau de configuration et installez la dernière version de %OSNAME%.
+Les paquets %INTEGRAOS% et %NUMBER% fonctionnant sur %HOSTNAME% ont expiré. Veuillez vous connecter à %INTEGRAOS% et %HOSTNAME% et procéder comme suit :
+- Ouvrez le Panneau de configuration et installez la dernière version de %INTEGRAOS%.
 - Ouvrez le Panneau de configuration et installez la dernière version de votre/vos paquet(s).
 
 Pour un rapport détaillé, veuillez accéder à Menu principal > Conseiller de sécurité.
@@ -1754,7 +1754,7 @@ Subject: Maliciel détecté sur %HOSTNAME%
 
 Cher utilisateur,
 
-Un maliciel a été détecté sur %HOSTNAME%. Veuillez vous connecter à %OSNAME% sur %HOSTNAME% et ouvrir Security Advisor pour corriger cela.
+Un maliciel a été détecté sur %HOSTNAME%. Veuillez vous connecter à %INTEGRAOS% sur %HOSTNAME% et ouvrir Security Advisor pour corriger cela.
 
 Sincères salutations,
 %COMPANY_NAME%
@@ -1767,7 +1767,7 @@ Subject: Les paquets %HOSTNAME% ont expiré
 
 Cher utilisateur,
 
-%NUMBER% paquets fonctionnant sur %HOSTNAME% a/ont expiré. Veuillez vous connecter à %OSNAME% sur %HOSTNAME% et ouvrir le Centre de paquets pour installer la dernière version de vos paquets.
+%NUMBER% paquets fonctionnant sur %HOSTNAME% a/ont expiré. Veuillez vous connecter à %INTEGRAOS% sur %HOSTNAME% et ouvrir le Centre de paquets pour installer la dernière version de vos paquets.
 
 Sincères salutations,
 %COMPANY_NAME%

@@ -513,7 +513,7 @@ Cordialmente,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Aggiornamento automatico sistema
-Subject: %OSNAME% L'aggiornamento automatico DSM verrà avviato automaticamente su %HOSTNAME% in %COUNTDOWN_MINUTE% minuti
+Subject: %INTEGRAOS% L'aggiornamento automatico DSM verrà avviato automaticamente su %HOSTNAME% in %COUNTDOWN_MINUTE% minuti
 
 Gentile utente,
 
@@ -526,7 +526,7 @@ Cordialmente,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Gli aggiornamenti di sistema verranno installati prima dell'arresto programmato
-Subject: Gli aggiornamenti %OSNAME% saranno installati su %HOSTNAME% prima dello spegnimento pianificato
+Subject: Gli aggiornamenti %INTEGRAOS% saranno installati su %HOSTNAME% prima dello spegnimento pianificato
 
 Gentile utente,
 
@@ -538,12 +538,12 @@ Cordialmente,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Nuovo aggiornamento %OSNAME% pronto
-Subject: L'aggiornamento di %OSNAME% è pronto per essere installato su %HOSTNAME%
+Title: Nuovo aggiornamento %INTEGRAOS% pronto
+Subject: L'aggiornamento di %INTEGRAOS% è pronto per essere installato su %HOSTNAME%
 
 Gentile utente,
 
-Una nuova versione di %OSNAME% è stata scaricata ed è pronta per essere installata. Accedere a %HOSTNAME% e andare su Pannello di controllo > Aggiorna e Ripristina per installare %NEW_VERSION%. Per maggiori informazioni sull'aggiornamento di %OSNAME%, consultare %HTTP_URL%.
+Una nuova versione di %INTEGRAOS% è stata scaricata ed è pronta per essere installata. Accedere a %HOSTNAME% e andare su Pannello di controllo > Aggiorna e Ripristina per installare %NEW_VERSION%. Per maggiori informazioni sull'aggiornamento di %INTEGRAOS%, consultare %HTTP_URL%.
 
 Cordialmente,
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: Informazioni pacchetto aggiornamento per %HOSTNAME%
 
 Gentile utente,
 
-i pacchetti seguenti sono pronti per l'aggiornamento su %HOSTNAME%. Per aggiornarli avviare il Centro pacchetti in %OSNAME%.
+i pacchetti seguenti sono pronti per l'aggiornamento su %HOSTNAME%. Per aggiornarli avviare il Centro pacchetti in %INTEGRAOS%.
 
 Pacchetti da aggiornare:
 %PKG_SET%
@@ -1711,7 +1711,7 @@ Subject: Rischi per la sicurezza rilevati su %HOSTNAME%
 
 Gentile utente,
 
-Security Advisor ha appena completato una scansione pianificata su %HOSTNAME%. Sono stati rilevati numerosi rischi per la sicurezza che richiedono attenzione. Accedere a %OSNAME% su %HOSTNAME% e visualizzare il report in Security Advisor.
+Security Advisor ha appena completato una scansione pianificata su %HOSTNAME%. Sono stati rilevati numerosi rischi per la sicurezza che richiedono attenzione. Accedere a %INTEGRAOS% su %HOSTNAME% e visualizzare il report in Security Advisor.
 
 Cordialmente,
 %COMPANY_NAME%
@@ -1720,11 +1720,11 @@ Cordialmente,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Sistema non aggiornato
-Subject: %OSNAME% su %HOSTNAME% non aggiornato da Security Advisor
+Subject: %INTEGRAOS% su %HOSTNAME% non aggiornato da Security Advisor
 
 Gentile utente,
 
-%OSNAME% in esecuzione su %HOSTNAME% non è aggiornato. Accedere a %OSNAME% su %HOSTNAME% aprire il Pannello di controllo e installare l'ultima versione di %OSNAME%. Per un report dettagliato, andare su Menu principale > Security Adivsor.
+%INTEGRAOS% in esecuzione su %HOSTNAME% non è aggiornato. Accedere a %INTEGRAOS% su %HOSTNAME% aprire il Pannello di controllo e installare l'ultima versione di %INTEGRAOS%. Per un report dettagliato, andare su Menu principale > Security Adivsor.
 
 Cordialmente,
 %COMPANY_NAME%
@@ -1733,12 +1733,12 @@ Cordialmente,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Sistema e pacchetti non aggiornati
-Subject: %OSNAME% e i pacchetti %HOSTNAME% non sono aggiornati da Security Advisor
+Subject: %INTEGRAOS% e i pacchetti %HOSTNAME% non sono aggiornati da Security Advisor
 
 Gentile utente,
 
-I pacchetti %OSNAME% e %NUMBER% in esecuzione su %HOSTNAME% non sono aggiornati. Accedere a %OSNAME% su %HOSTNAME% e procedere come segue:
-- Aprire il Pannello di controllo e installare la versione più aggiornata di %OSNAME%.
+I pacchetti %INTEGRAOS% e %NUMBER% in esecuzione su %HOSTNAME% non sono aggiornati. Accedere a %INTEGRAOS% su %HOSTNAME% e procedere come segue:
+- Aprire il Pannello di controllo e installare la versione più aggiornata di %INTEGRAOS%.
 - Aprire Centro pacchetti e installare la versione più aggiornata del pacchetto.
 
 Per un report dettagliato, andare su Menu principale > Security Adivsor.
@@ -1754,7 +1754,7 @@ Subject: Malware rilevato su %HOSTNAME%
 
 Gentile utente,
 
-Malware rilevato su %HOSTNAME%. Accedere su %OSNAME% su %HOSTNAME% e aprire Security Advisor per risolvere il problema.
+Malware rilevato su %HOSTNAME%. Accedere su %INTEGRAOS% su %HOSTNAME% e aprire Security Advisor per risolvere il problema.
 
 Cordialmente,
 %COMPANY_NAME%
@@ -1767,7 +1767,7 @@ Subject: I pacchetti su %HOSTNAME% non sono aggiornati
 
 Gentile utente,
 
-%NUMBER% pacchetti in esecuzione in %HOSTNAME% non sono aggiornati. Accedere a %OSNAME% su %HOSTNAME% e aprire il Centro pacchetti per installare la versione più recente dei pacchetti.
+%NUMBER% pacchetti in esecuzione in %HOSTNAME% non sono aggiornati. Accedere a %INTEGRAOS% su %HOSTNAME% e aprire il Centro pacchetti per installare la versione più recente dei pacchetti.
 
 Cordialmente,
 %COMPANY_NAME%

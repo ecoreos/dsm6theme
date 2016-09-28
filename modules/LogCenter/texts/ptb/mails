@@ -93,7 +93,7 @@ Subject: O arquivo de log do Log Center no %HOSTNAME% foi desativado.
 
 Prezado usuário,
 
-O arquivo de log do Log Center no %HOSTNAME% foi desativado, porque a pasta compartilhada criptografada “%SHARED_FOLDER%” utilizada para salvar o banco de dados de log foi removida. Efetue login no %OSNAME% e acesse Menu principal > Log Center > Configurações de armazenamento para selecionar outra pasta compartilhada.
+O arquivo de log do Log Center no %HOSTNAME% foi desativado, porque a pasta compartilhada criptografada “%SHARED_FOLDER%” utilizada para salvar o banco de dados de log foi removida. Efetue login no %INTEGRAOS% e acesse Menu principal > Log Center > Configurações de armazenamento para selecionar outra pasta compartilhada.
 
 Atenciosamente,
 %COMPANY_NAME%

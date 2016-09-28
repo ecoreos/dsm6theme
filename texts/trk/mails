@@ -513,7 +513,7 @@ Saygılarımızla,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Sistem Otomatik Güncellemesi
-Subject: %OSNAME% Otomatik Güncellemesi, %HOSTNAME% üzerinde %COUNTDOWN_MINUTE% dakika sonra otomatik olarak başlayacak
+Subject: %INTEGRAOS% Otomatik Güncellemesi, %HOSTNAME% üzerinde %COUNTDOWN_MINUTE% dakika sonra otomatik olarak başlayacak
 
 Sayın kullanıcı,
 
@@ -526,7 +526,7 @@ Saygılarımızla,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Sistem güncellemeleri planlanan kapanıştan önce yüklenecek
-Subject: %OSNAME% güncellemeleri planlanan kapanıştan önce otomatik olarak %HOSTNAME% üzerine kurulacak
+Subject: %INTEGRAOS% güncellemeleri planlanan kapanıştan önce otomatik olarak %HOSTNAME% üzerine kurulacak
 
 Sayın kullanıcı,
 
@@ -538,12 +538,12 @@ Saygılarımızla,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Yeni %OSNAME% güncellemesi hazır
-Subject: %OSNAME% güncellemesi %HOSTNAME% üzerine kurulum için hazır
+Title: Yeni %INTEGRAOS% güncellemesi hazır
+Subject: %INTEGRAOS% güncellemesi %HOSTNAME% üzerine kurulum için hazır
 
 Sayın kullanıcı,
 
-%OSNAME%'nin yeni sürümü indirildi ve kurulmak için hazır. Lütfen %HOSTNAME%'de oturum açın ve Denetim Masası > Güncelle ve Geri Yükle öğesine giderek %NEW_VERSION% öğesini indirin. %OSNAME% güncellemesi hakkında daha fazla bilgi için, lütfen %HTTP_URL% öğesine bakın.
+%INTEGRAOS%'nin yeni sürümü indirildi ve kurulmak için hazır. Lütfen %HOSTNAME%'de oturum açın ve Denetim Masası > Güncelle ve Geri Yükle öğesine giderek %NEW_VERSION% öğesini indirin. %INTEGRAOS% güncellemesi hakkında daha fazla bilgi için, lütfen %HTTP_URL% öğesine bakın.
 
 Saygılarımızla,
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: %HOSTNAME% için Paket Yükseltme Bilgisi
 
 Sayın kullanıcı,
 
-Aşağıdaki paketler %HOSTNAME% üzerinde güncelleme için hazır. Bunları güncellemek için %OSNAME%'de Paket Merkezini başlatabilirsiniz.
+Aşağıdaki paketler %HOSTNAME% üzerinde güncelleme için hazır. Bunları güncellemek için %INTEGRAOS%'de Paket Merkezini başlatabilirsiniz.
 
 Güncellenecek paketler:
 %PKG_SET%
@@ -1711,7 +1711,7 @@ Subject: %HOSTNAME% üzerinde güvenlik riskleri bulundu
 
 Sayın kullanıcı,
 
-Güvenlik Danışmanı %HOSTNAME% üzerinde planlı bir taramayı az önce tamamladı. İlgilenmeniz gereken çok sayıda güvenlik riski bulundu. %HOSTNAME% üzerinde %OSNAME%'de oturum açın ve Güvenlik Danışmanındaki raporu görüntüleyin.
+Güvenlik Danışmanı %HOSTNAME% üzerinde planlı bir taramayı az önce tamamladı. İlgilenmeniz gereken çok sayıda güvenlik riski bulundu. %HOSTNAME% üzerinde %INTEGRAOS%'de oturum açın ve Güvenlik Danışmanındaki raporu görüntüleyin.
 
 Saygılarımızla,
 %COMPANY_NAME%
@@ -1720,11 +1720,11 @@ Saygılarımızla,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Sistem Güncel değil
-Subject: %HOSTNAME% üzerindeki %OSNAME% Güvenlik Danışmanı'ndan güncel değil
+Subject: %HOSTNAME% üzerindeki %INTEGRAOS% Güvenlik Danışmanı'ndan güncel değil
 
 Sayın kullanıcı,
 
-%HOSTNAME% üzerinde çalışan %OSNAME% güncel değil. %HOSTNAME% üzerinde %OSNAME%'de oturum açın, Denetim Masası'nı açın ve %OSNAME%'in en son sürümünü kurun. Ayrıntılı bir rapor için, lütfen Ana Menü > Güvenlik Danışmanı öğesine gidin.
+%HOSTNAME% üzerinde çalışan %INTEGRAOS% güncel değil. %HOSTNAME% üzerinde %INTEGRAOS%'de oturum açın, Denetim Masası'nı açın ve %INTEGRAOS%'in en son sürümünü kurun. Ayrıntılı bir rapor için, lütfen Ana Menü > Güvenlik Danışmanı öğesine gidin.
 
 Saygılarımızla,
 %COMPANY_NAME%
@@ -1733,12 +1733,12 @@ Saygılarımızla,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Sistem ve Paketler Güncel değil
-Subject: %HOSTNAME% üzerindeki %OSNAME% ve paketler Güvenlik Danışmanı'ndan güncel değil
+Subject: %HOSTNAME% üzerindeki %INTEGRAOS% ve paketler Güvenlik Danışmanı'ndan güncel değil
 
 Sayın kullanıcı,
 
-%HOSTNAME% üzerinde çalışan %OSNAME% ve %NUMBER% paketleri güncel değil. %HOSTNAME% üzerinde %OSNAME%'de oturum açın ve aşağıdakileri yapın:
-- Denetim Masasını açın ve %OSNAME%'in en son sürümünü kurun.
+%HOSTNAME% üzerinde çalışan %INTEGRAOS% ve %NUMBER% paketleri güncel değil. %HOSTNAME% üzerinde %INTEGRAOS%'de oturum açın ve aşağıdakileri yapın:
+- Denetim Masasını açın ve %INTEGRAOS%'in en son sürümünü kurun.
 - Paket Merkezini açın ve paketlerinizin en son sürümünü kurun.
 
 Ayrıntılı bir rapor için, lütfen Ana Menü > Güvenlik Danışmanı öğesine gidin.
@@ -1754,7 +1754,7 @@ Subject: %HOSTNAME% üzerinde zararlı yazılım algılandı
 
 Sayın kullanıcı,
 
-%HOSTNAME% üzerinde zararlı yazılım algılandı. Lütfen %HOSTNAME% üzerindeki %OSNAME%'de oturum açın ve bunu düzeltmek için Güvenlik Danışmanını açın.
+%HOSTNAME% üzerinde zararlı yazılım algılandı. Lütfen %HOSTNAME% üzerindeki %INTEGRAOS%'de oturum açın ve bunu düzeltmek için Güvenlik Danışmanını açın.
 
 Saygılarımızla,
 %COMPANY_NAME%
@@ -1767,7 +1767,7 @@ Subject: %HOSTNAME% üzerindeki paketler güncel değil
 
 Sayın kullanıcı,
 
-%HOSTNAME% üzerinde çalışan %NUMBER% paket güncel değil. Lütfen %HOSTNAME% üzerindeki %OSNAME%'de oturum açın ve paketlerinizin en son sürümünü kurmak için Paket Merkezini açın.
+%HOSTNAME% üzerinde çalışan %NUMBER% paket güncel değil. Lütfen %HOSTNAME% üzerindeki %INTEGRAOS%'de oturum açın ve paketlerinizin en son sürümünü kurmak için Paket Merkezini açın.
 
 Saygılarımızla,
 %COMPANY_NAME%

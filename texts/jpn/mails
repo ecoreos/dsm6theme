@@ -515,7 +515,7 @@ Subject: 前に予約したスナップショット タスクがまだ %MAINSITE
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: システム自動更新
-Subject: %OSNAME% 自動更新が %COUNTDOWN_MINUTE% 分以内に %HOSTNAME% で開始されます
+Subject: %INTEGRAOS% 自動更新が %COUNTDOWN_MINUTE% 分以内に %HOSTNAME% で開始されます
 
 お客様各位、
 
@@ -528,7 +528,7 @@ Subject: %OSNAME% 自動更新が %COUNTDOWN_MINUTE% 分以内に %HOSTNAME% で
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: 予定されたシャットダウンの前に、システム アップデートがインストールされます。
-Subject: %OSNAME% アップデートが予定シャットダウン前に %HOSTNAME% にインストールされます
+Subject: %INTEGRAOS% アップデートが予定シャットダウン前に %HOSTNAME% にインストールされます
 
 お客様各位、
 
@@ -540,12 +540,12 @@ Subject: %OSNAME% アップデートが予定シャットダウン前に %HOSTNA
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: 新しい %OSNAME% アップデートの準備ができています
-Subject: %OSNAME% アップデートは %HOSTNAME% にインストールする準備ができています。
+Title: 新しい %INTEGRAOS% アップデートの準備ができています
+Subject: %INTEGRAOS% アップデートは %HOSTNAME% にインストールする準備ができています。
 
 お客様各位
 
-%OSNAME% の新しいバージョンがダウンロードされており、インストールする準備ができています。%HOSTNAME% にサインインして、[コントロール パネル] > [更新と復元] を選択して、%NEW_VERSION% をインストールしてください。%OSNAME% アップデートについての詳細は、%HTTP_URL% をご覧ください。
+%INTEGRAOS% の新しいバージョンがダウンロードされており、インストールする準備ができています。%HOSTNAME% にサインインして、[コントロール パネル] > [更新と復元] を選択して、%NEW_VERSION% をインストールしてください。%INTEGRAOS% アップデートについての詳細は、%HTTP_URL% をご覧ください。
 
 敬具
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: %HOSTNAME% のパッケージ アップグレード情報
 
 お客様各位
 
-次のパッケージは、%HOSTNAME% でアップデートする準備ができています。%OSNAME% でパッケージ センターを起動して、これらをアップデートしてください。
+次のパッケージは、%HOSTNAME% でアップデートする準備ができています。%INTEGRAOS% でパッケージ センターを起動して、これらをアップデートしてください。
 
 アップデートするパッケージ:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: %HOSTNAME% でセキュリティ リスクが検出されました
 
 お客様各位
 
-Security Advisor が %HOSTNAME% で予約スキャンを完了しました。注意が必要な重大なセキュリティ リスクが検出されました。%HOSTNAME% で %OSNAME% にサインインして、Security Advisor のレポートをお読みください。
+Security Advisor が %HOSTNAME% で予約スキャンを完了しました。注意が必要な重大なセキュリティ リスクが検出されました。%HOSTNAME% で %INTEGRAOS% にサインインして、Security Advisor のレポートをお読みください。
 
 敬具
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ Security Advisor が %HOSTNAME% で予約スキャンを完了しました。注
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: システムが最新版ではありません
-Subject: %HOSTNAME% の %OSNAME% がセキュリティ アドバイザーから最新版ではありません
+Subject: %HOSTNAME% の %INTEGRAOS% がセキュリティ アドバイザーから最新版ではありません
 
 お客様各位、
 
-%HOSTNAME% 上で起動される %OSNAME% が最新版ではありません。%HOSTNAME% で %OSNAME% にサインインして、コントロール パネルを開き、最新版の %OSNAME% をインストールしてください。詳しいレポートは、[メイン メニュー] > [セキュリティ アドバイザー] をご覧ください。
+%HOSTNAME% 上で起動される %INTEGRAOS% が最新版ではありません。%HOSTNAME% で %INTEGRAOS% にサインインして、コントロール パネルを開き、最新版の %INTEGRAOS% をインストールしてください。詳しいレポートは、[メイン メニュー] > [セキュリティ アドバイザー] をご覧ください。
 
 敬具。
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ Subject: %HOSTNAME% の %OSNAME% がセキュリティ アドバイザーから�
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: システムとパッケージが最新版ではありません
-Subject: %HOSTNAME% の %OSNAME% とパッケージがセキュリティ アドバイザーから最新版ではありません
+Subject: %HOSTNAME% の %INTEGRAOS% とパッケージがセキュリティ アドバイザーから最新版ではありません
 
 お客様各位、
 
-%HOSTNAME% 上で起動される %OSNAME% と %NUMBER% 個のパッケージが最新版ではありません。%HOSTNAME% で %OSNAME% にサインインして、次のことを行ってください。
-- コントロール パネルを開き、最新版の %OSNAME% をインストールしてください。
+%HOSTNAME% 上で起動される %INTEGRAOS% と %NUMBER% 個のパッケージが最新版ではありません。%HOSTNAME% で %INTEGRAOS% にサインインして、次のことを行ってください。
+- コントロール パネルを開き、最新版の %INTEGRAOS% をインストールしてください。
 - パッケージ センターを開き、最新版のパッケージをインストールしてください。
 
 詳しいレポートは、[メイン メニュー] > [セキュリティ アドバイザー] をご覧ください。
@@ -1757,7 +1757,7 @@ Subject: %HOSTNAME% でマルウェアが検出されました
 
 お客様各位
 
-%HOSTNAME% でマルウェアが検出されました。%HOSTNAME% で %OSNAME% にサインインして、Security Advisor でこの問題を修正してください。
+%HOSTNAME% でマルウェアが検出されました。%HOSTNAME% で %INTEGRAOS% にサインインして、Security Advisor でこの問題を修正してください。
 
 敬具
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: %HOSTNAME% 上のパッケージが最新版ではありません
 
 お客様各位
 
-%HOSTNAME% 上で起動される%NUMBER% 個のパッケージが最新版ではありません。%HOSTNAME% で %OSNAME% にサインインして、パッケージ センターを開き、最新版のパッケージをインストールしてください。
+%HOSTNAME% 上で起動される%NUMBER% 個のパッケージが最新版ではありません。%HOSTNAME% で %INTEGRAOS% にサインインして、パッケージ センターを開き、最新版のパッケージをインストールしてください。
 
 敬具
 %COMPANY_NAME%

@@ -93,7 +93,7 @@ Subject: Protokollarchivierung von Protokoll-Center auf %HOSTNAME% ist deaktivie
 
 Sehr geehrte/r Benutzer/in,
 
-Die Protokollarchivierung von Protokoll-Center auf %HOSTNAME% ist deaktiviert, da der verschlüsselte gemeinsame Ordner „%SHARED_FOLDER%“, der für die Speicherung der Log-Datenbank verwendet wird, entfernt wurde. Bitte melden Sie sich bei %OSNAME% an und gehen Sie zu Hauptmenü > Protokoll-Center > Speichereinstellungen, um einen anderen gemeinsamen Ordner auszuwählen.
+Die Protokollarchivierung von Protokoll-Center auf %HOSTNAME% ist deaktiviert, da der verschlüsselte gemeinsame Ordner „%SHARED_FOLDER%“, der für die Speicherung der Log-Datenbank verwendet wird, entfernt wurde. Bitte melden Sie sich bei %INTEGRAOS% an und gehen Sie zu Hauptmenü > Protokoll-Center > Speichereinstellungen, um einen anderen gemeinsamen Ordner auszuwählen.
 
 Mit freundlichen Grüßen
 %COMPANY_NAME%

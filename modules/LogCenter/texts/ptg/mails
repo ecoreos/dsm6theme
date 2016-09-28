@@ -93,7 +93,7 @@ Subject: O arquivamento de registos do Centro de Registos em %HOSTNAME% está de
 
 Caro utilizador,
 
-O arquivamento de registos do Centro de Registos em %HOSTNAME% está desactivado porque a pasta partilhada "%SHARED_FOLDER%" utilizada para guardar a base de dados de registos foi removida. Inicie sessão no %OSNAME% e aceda a Menu Principal > Centro de Registos > Definições de Armazenamento para seleccionar outra pasta partilhada.
+O arquivamento de registos do Centro de Registos em %HOSTNAME% está desactivado porque a pasta partilhada "%SHARED_FOLDER%" utilizada para guardar a base de dados de registos foi removida. Inicie sessão no %INTEGRAOS% e aceda a Menu Principal > Centro de Registos > Definições de Armazenamento para seleccionar outra pasta partilhada.
 
 Atenciosamente,
 %COMPANY_NAME%

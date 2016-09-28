@@ -93,7 +93,7 @@ Subject: %HOSTNAME% üzerinde Günlük Merkezinin günlük arşivlemesi devre d�
 
 Sayın kullanıcı,
 
-%HOSTNAME% üzerinde Günlük Merkezinin günlük arşivlemesi devre dışı bırakıldı çünkü günşük veritabanını kaydetmek için kullanılan paylaşımlı klasör "%SHARED_FOLDER%" kaldırılmış. Başka bir paylaşımlı klasör seçmek için %OSNAME%'de oturum açın ve Ana Menü > Günlük Merkezi > Depolama Ayarları öğesine gidin.
+%HOSTNAME% üzerinde Günlük Merkezinin günlük arşivlemesi devre dışı bırakıldı çünkü günşük veritabanını kaydetmek için kullanılan paylaşımlı klasör "%SHARED_FOLDER%" kaldırılmış. Başka bir paylaşımlı klasör seçmek için %INTEGRAOS%'de oturum açın ve Ana Menü > Günlük Merkezi > Depolama Ayarları öğesine gidin.
 
 Saygılarımızla,
 %COMPANY_NAME%

@@ -93,7 +93,7 @@ Subject: Loggarkivering på Loggcentral för %HOSTNAME% är inaktiverad.
 
 Bäste användare,
 
-Loggarkivering på Loggcentral för %HOSTNAME% är inaktiverad eftersom den delade mappen "%SHARED_FOLDER%" som används för att spara loggdatabasen har tagits bort. Logga in på %OSNAME% och gå till Huvudmeny > Loggcentral > Lagringsinställningar för att välja en annan delad mapp.
+Loggarkivering på Loggcentral för %HOSTNAME% är inaktiverad eftersom den delade mappen "%SHARED_FOLDER%" som används för att spara loggdatabasen har tagits bort. Logga in på %INTEGRAOS% och gå till Huvudmeny > Loggcentral > Lagringsinställningar för att välja en annan delad mapp.
 
 Med vänliga hälsningar,
 %COMPANY_NAME%

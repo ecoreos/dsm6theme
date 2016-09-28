@@ -515,7 +515,7 @@ Atentamente,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Actualización automática del sistema
-Subject: La actualización automática de %OSNAME% se iniciará automáticamente en %HOSTNAME% en %COUNTDOWN_MINUTE% minutos
+Subject: La actualización automática de %INTEGRAOS% se iniciará automáticamente en %HOSTNAME% en %COUNTDOWN_MINUTE% minutos
 
 Estimado usuario/a:
 
@@ -528,7 +528,7 @@ Atentamente,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Actualizaciones del sistema que se van a instalar antes del apagado programado
-Subject: Las actualizaciones de %OSNAME% se instalarán en %HOSTNAME% antes del apagado programado
+Subject: Las actualizaciones de %INTEGRAOS% se instalarán en %HOSTNAME% antes del apagado programado
 
 Estimado usuario/a:
 
@@ -540,12 +540,12 @@ Atentamente,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Nueva actualización de %OSNAME% lista
-Subject: Actualización de %OSNAME% lista para ser instalada en %HOSTNAME%
+Title: Nueva actualización de %INTEGRAOS% lista
+Subject: Actualización de %INTEGRAOS% lista para ser instalada en %HOSTNAME%
 
 Estimado usuario:
 
-Una nueva versión de %OSNAME% se ha descargado y está lista para ser instalada. Inicie sesión en %HOSTNAME% y vaya a Panel de control > Actualizar y restaurar para instalar %NEW_VERSION%. Para obtener más información acerca de la actualización de %OSNAME%, consulte %HTTP_URL%.
+Una nueva versión de %INTEGRAOS% se ha descargado y está lista para ser instalada. Inicie sesión en %HOSTNAME% y vaya a Panel de control > Actualizar y restaurar para instalar %NEW_VERSION%. Para obtener más información acerca de la actualización de %INTEGRAOS%, consulte %HTTP_URL%.
 
 Atentamente,
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: Información de actualización de paquetes para %HOSTNAME%
 
 Estimado usuario:
 
-Los siguientes paquetes están listos para su actualización en %HOSTNAME%. Puede iniciar Centro de paquetes en %OSNAME% para actualizarlos.
+Los siguientes paquetes están listos para su actualización en %HOSTNAME%. Puede iniciar Centro de paquetes en %INTEGRAOS% para actualizarlos.
 
 Paquetes para actualizar:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: Se han detectado riesgos de seguridad en %HOSTNAME%
 
 Estimado usuario:
 
-El Consejero de seguridad acaba de completar una búsqueda programada en %HOSTNAME%. Se han encontrado numerosos riesgos de seguridad que requieren su atención. Le rogamos que inicie sesión en %OSNAME% de %HOSTNAME% y consulte el informe que encontrará en el Consejero de seguridad.
+El Consejero de seguridad acaba de completar una búsqueda programada en %HOSTNAME%. Se han encontrado numerosos riesgos de seguridad que requieren su atención. Le rogamos que inicie sesión en %INTEGRAOS% de %HOSTNAME% y consulte el informe que encontrará en el Consejero de seguridad.
 
 Atentamente,
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ Atentamente,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Sistema obsoleto
-Subject: %OSNAME% de %HOSTNAME% está obsoleto con respecto al Consejero de seguridad
+Subject: %INTEGRAOS% de %HOSTNAME% está obsoleto con respecto al Consejero de seguridad
 
 Estimado usuario/a:
 
-El %OSNAME% utilizado en %HOSTNAME% está obsoleto. Le rogamos que inicie sesión en %OSNAME% de %HOSTNAME%, abra el Panel de control e instale la versión más reciente de %OSNAME%. Para obtener un informe detallado vaya a Menú principal > Consejero de seguridad.
+El %INTEGRAOS% utilizado en %HOSTNAME% está obsoleto. Le rogamos que inicie sesión en %INTEGRAOS% de %HOSTNAME%, abra el Panel de control e instale la versión más reciente de %INTEGRAOS%. Para obtener un informe detallado vaya a Menú principal > Consejero de seguridad.
 
 Atentamente,
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ Atentamente,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Sistema y paquetes obsoletos
-Subject: %OSNAME% y los paquetes de %HOSTNAME% están obsoletos con respecto al Consejero de seguridad
+Subject: %INTEGRAOS% y los paquetes de %HOSTNAME% están obsoletos con respecto al Consejero de seguridad
 
 Estimado usuario/a:
 
-%OSNAME% y %NUMBER% paquete(s) que se utiliza(n) en %HOSTNAME% está(n) obsoleto(s). Le rogamos que inicie sesión en %OSNAME% de %HOSTNAME% y realice las siguientes acciones:
-- Abra el Panel de control e instale la versión más reciente de %OSNAME%.
+%INTEGRAOS% y %NUMBER% paquete(s) que se utiliza(n) en %HOSTNAME% está(n) obsoleto(s). Le rogamos que inicie sesión en %INTEGRAOS% de %HOSTNAME% y realice las siguientes acciones:
+- Abra el Panel de control e instale la versión más reciente de %INTEGRAOS%.
 - Abra el Centro de paquetes e instale la versión más reciente de su(s) paquete(s).
 
 Para obtener un informe detallado vaya a Menú principal > Consejero de seguridad.
@@ -1757,7 +1757,7 @@ Subject: Se ha detectado la presencia de malware en %HOSTNAME%
 
 Estimado usuario:
 
-Se ha detectado la presencia de malware en %HOSTNAME%. Le rogamos que inicie sesión en %OSNAME% de %HOSTNAME% y abra el Consejero de seguridad para solucionar este problema.
+Se ha detectado la presencia de malware en %HOSTNAME%. Le rogamos que inicie sesión en %INTEGRAOS% de %HOSTNAME% y abra el Consejero de seguridad para solucionar este problema.
 
 Atentamente,
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: Los paquetes de %HOSTNAME% están obsoletos
 
 Estimado usuario:
 
-%NUMBER% paquete(s) que se utiliza(n) en %HOSTNAME% está(n) obsoleto(s). Le rogamos que inicie sesión en %OSNAME% de %HOSTNAME% y abra el Panel de control para instalar la versión más reciente de los paquetes.
+%NUMBER% paquete(s) que se utiliza(n) en %HOSTNAME% está(n) obsoleto(s). Le rogamos que inicie sesión en %INTEGRAOS% de %HOSTNAME% y abra el Panel de control para instalar la versión más reciente de los paquetes.
 
 Atentamente,
 %COMPANY_NAME%

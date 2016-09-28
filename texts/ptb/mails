@@ -515,7 +515,7 @@ Atenciosamente,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Atualização automática do sistema
-Subject: A atualização automática de %OSNAME% iniciará automaticamente em %HOSTNAME% em %COUNTDOWN_MINUTE% minutos
+Subject: A atualização automática de %INTEGRAOS% iniciará automaticamente em %HOSTNAME% em %COUNTDOWN_MINUTE% minutos
 
 Caro usuário,
 
@@ -528,7 +528,7 @@ Atenciosamente,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Atualizações do sistema a serem instaladas antes do desligamento programado
-Subject: As atualizações de %OSNAME% serão instaladas em %HOSTNAME% antes do desligamento programado
+Subject: As atualizações de %INTEGRAOS% serão instaladas em %HOSTNAME% antes do desligamento programado
 
 Caro usuário,
 
@@ -540,12 +540,12 @@ Atenciosamente,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Nova atualização de %OSNAME% pronta
-Subject: A atualização do %OSNAME% está pronta para ser instalada em %HOSTNAME%
+Title: Nova atualização de %INTEGRAOS% pronta
+Subject: A atualização do %INTEGRAOS% está pronta para ser instalada em %HOSTNAME%
 
 Caro usuário,
 
-Uma nova versão do %OSNAME% foi baixada e está pronta para instalação. Entre em %HOSTNAME% e vá para Painel de Controle > Atualizar e Restaurar para instalar a %NEW_VERSION%. Para saber mais sobre a atualização do %OSNAME%, consulte %HTTP_URL%.
+Uma nova versão do %INTEGRAOS% foi baixada e está pronta para instalação. Entre em %HOSTNAME% e vá para Painel de Controle > Atualizar e Restaurar para instalar a %NEW_VERSION%. Para saber mais sobre a atualização do %INTEGRAOS%, consulte %HTTP_URL%.
 
 Atenciosamente,
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: Informações de atualização do pacote de %HOSTNAME%
 
 Caro usuário,
 
-Os pacotes a seguir estão prontos para a atualização em %HOSTNAME%. Você pode iniciar o Centro de Pacotes no %OSNAME% para atualizá-los.
+Os pacotes a seguir estão prontos para a atualização em %HOSTNAME%. Você pode iniciar o Centro de Pacotes no %INTEGRAOS% para atualizá-los.
 
 Pacotes para atualização:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: Riscos de segurança encontrados no %HOSTNAME%
 
 Caro usuário,
 
-O Consultor de Segurança acaba de concluir uma verificação programada em %HOSTNAME%. Foram encontrados diversos riscos à segurança que precisam de sua atenção. Entre no %OSNAME% em %HOSTNAME% e visualize o relatório em Consultor de Segurança.
+O Consultor de Segurança acaba de concluir uma verificação programada em %HOSTNAME%. Foram encontrados diversos riscos à segurança que precisam de sua atenção. Entre no %INTEGRAOS% em %HOSTNAME% e visualize o relatório em Consultor de Segurança.
 
 Atenciosamente,
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ Atenciosamente,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Sistema desatualizado
-Subject: O %OSNAME% em %HOSTNAME% está desatualizado com relação ao Consultor de Segurança
+Subject: O %INTEGRAOS% em %HOSTNAME% está desatualizado com relação ao Consultor de Segurança
 
 Caro usuário,
 
-O %OSNAME% em execução em %HOSTNAME% está desatualizado. Entre no %OSNAME% em %HOSTNAME%, abra o Painel de controle e instale a última versão do %OSNAME%. Para obter um relatório detalhado, acesse Menu principal > Security Advisor.
+O %INTEGRAOS% em execução em %HOSTNAME% está desatualizado. Entre no %INTEGRAOS% em %HOSTNAME%, abra o Painel de controle e instale a última versão do %INTEGRAOS%. Para obter um relatório detalhado, acesse Menu principal > Security Advisor.
 
 Atenciosamente,
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ Atenciosamente,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Sistema e pacotes desatualizados
-Subject: O %OSNAME% e os pacotes em %HOSTNAME% estão desatualizados com relação ao Consultor de Segurança
+Subject: O %INTEGRAOS% e os pacotes em %HOSTNAME% estão desatualizados com relação ao Consultor de Segurança
 
 Caro usuário,
 
-O %OSNAME% e %NUMBER% pacote(s) em execução em %HOSTNAME% está/estão desatualizado(s). Faça login no %OSNAME% em %HOSTNAME% e faça o seguinte:
-- Abra o Painel de controle e instale a versão mais recente do %OSNAME%.
+O %INTEGRAOS% e %NUMBER% pacote(s) em execução em %HOSTNAME% está/estão desatualizado(s). Faça login no %INTEGRAOS% em %HOSTNAME% e faça o seguinte:
+- Abra o Painel de controle e instale a versão mais recente do %INTEGRAOS%.
 - Abra o Centro de pacotes e instale a versão mais recente de seu(s) pacote(s).
 
 Para obter um relatório detalhado, acesse Menu principal > Security Advisor.
@@ -1757,7 +1757,7 @@ Subject: Malware detectado em %HOSTNAME%
 
 Caro usuário,
 
-Malware foi detectado em %HOSTNAME%. Entre no %OSNAME% em %HOSTNAME% e abra o Consultor de Segurança para resolver isso.
+Malware foi detectado em %HOSTNAME%. Entre no %INTEGRAOS% em %HOSTNAME% e abra o Consultor de Segurança para resolver isso.
 
 Atenciosamente,
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: Os pacotes em %HOSTNAME% estão desatualizados
 
 Caro usuário,
 
-O(s) %NUMBER% pacote(s) em execução em %HOSTNAME% está/estão desatualizado(s). Entre no %OSNAME% em %HOSTNAME% e abra o Centro de pacotes para instalar a versão mais recente de seu(s) pacote(s).
+O(s) %NUMBER% pacote(s) em execução em %HOSTNAME% está/estão desatualizado(s). Entre no %INTEGRAOS% em %HOSTNAME% e abra o Centro de pacotes para instalar a versão mais recente de seu(s) pacote(s).
 
 Atenciosamente,
 %COMPANY_NAME%

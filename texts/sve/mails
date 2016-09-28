@@ -513,7 +513,7 @@ Med vänliga hälsningar,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatisk uppdatering av system
-Subject: Automatisk uppdatering av %OSNAME% startar automatiskt på %HOSTNAME% om %COUNTDOWN_MINUTE% minuter
+Subject: Automatisk uppdatering av %INTEGRAOS% startar automatiskt på %HOSTNAME% om %COUNTDOWN_MINUTE% minuter
 
 Bäste användare,
 
@@ -526,7 +526,7 @@ Med vänliga hälsningar,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Systemuppdateringar som installeras före den schemalagda avstängningen
-Subject: %OSNAME%-uppdateringar installeras på %HOSTNAME% före den schemalagda avstängningen
+Subject: %INTEGRAOS%-uppdateringar installeras på %HOSTNAME% före den schemalagda avstängningen
 
 Bäste användare,
 
@@ -538,12 +538,12 @@ Med vänliga hälsningar,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Ny %OSNAME%-uppdatering klar
-Subject: %OSNAME%-uppdatering är klar för installation på %HOSTNAME%
+Title: Ny %INTEGRAOS%-uppdatering klar
+Subject: %INTEGRAOS%-uppdatering är klar för installation på %HOSTNAME%
 
 Bäste användare,
 
-En ny version av %OSNAME% har laddats ned och är klar för installation. Vänligen logga in på %HOSTNAME% och gå till Kontrollpanel > Uppdatera & Återställa, för att installera %NEW_VERSION%. För att lära mer om %OSNAME%-uppdatering, vänligen se %HTTP_URL%.
+En ny version av %INTEGRAOS% har laddats ned och är klar för installation. Vänligen logga in på %HOSTNAME% och gå till Kontrollpanel > Uppdatera & Återställa, för att installera %NEW_VERSION%. För att lära mer om %INTEGRAOS%-uppdatering, vänligen se %HTTP_URL%.
 
 Med vänliga hälsningar,
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: Filpaketuppgraderingsinformation för %HOSTNAME%
 
 Bäste användare,
 
-Följande filpaket är klara för uppdatering på %HOSTNAME%. Du kan starta Paketcenter i %OSNAME% för att uppdatera dem.
+Följande filpaket är klara för uppdatering på %HOSTNAME%. Du kan starta Paketcenter i %INTEGRAOS% för att uppdatera dem.
 
 Filpaket att uppdatera:
 %PKG_SET%
@@ -1711,7 +1711,7 @@ Subject: Säkerhetsrisker hittades på %HOSTNAME%
 
 Bäste användare,
 
-Security Advisor har nyss avslutat en schemalagd skanning på %HOSTNAME%. Flera säkerhetsrisker som kräver din uppmärksamhet hittades. Vänligen logga in på %OSNAME% på %HOSTNAME% och visa rapporten i Security Advisor.
+Security Advisor har nyss avslutat en schemalagd skanning på %HOSTNAME%. Flera säkerhetsrisker som kräver din uppmärksamhet hittades. Vänligen logga in på %INTEGRAOS% på %HOSTNAME% och visa rapporten i Security Advisor.
 
 Med vänliga hälsningar,
 %COMPANY_NAME%
@@ -1720,11 +1720,11 @@ Med vänliga hälsningar,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Systemet är föråldrat
-Subject: %OSNAME% på %HOSTNAME% är föråldrad från Security Advisor
+Subject: %INTEGRAOS% på %HOSTNAME% är föråldrad från Security Advisor
 
 Bäste användare,
 
-%OSNAME% som körs på %HOSTNAME% är föråldrad. Vänligen logga in på %OSNAME% på %HOSTNAME%, öppna Kontrollpanel och installera senaste versionen av DSM. För en detaljerad rapport, vänligen gå till Huvudmeny > Security Advisor.
+%INTEGRAOS% som körs på %HOSTNAME% är föråldrad. Vänligen logga in på %INTEGRAOS% på %HOSTNAME%, öppna Kontrollpanel och installera senaste versionen av DSM. För en detaljerad rapport, vänligen gå till Huvudmeny > Security Advisor.
 
 Med vänliga hälsningar,
 %COMPANY_NAME%
@@ -1733,12 +1733,12 @@ Med vänliga hälsningar,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: System och filpaket är föråldrade
-Subject: %OSNAME% och filpaket på %HOSTNAME% är föråldrade från Security Advisor
+Subject: %INTEGRAOS% och filpaket på %HOSTNAME% är föråldrade från Security Advisor
 
 Bäste användare,
 
-%OSNAME% och %NUMBER% filpaket som körs på %HOSTNAME% är föråldrade. Vänligen logga in på %OSNAME% på %HOSTNAME% och gör följande:
-- Öppna Kontrollpanel och installera den senaste versionen av %OSNAME%.
+%INTEGRAOS% och %NUMBER% filpaket som körs på %HOSTNAME% är föråldrade. Vänligen logga in på %INTEGRAOS% på %HOSTNAME% och gör följande:
+- Öppna Kontrollpanel och installera den senaste versionen av %INTEGRAOS%.
 - Öppna Paketcenter och installera den senaste versionen av dina filpaket.
 
 För en detaljerad rapport, vänligen gå till Huvudmeny > Security Advisor.
@@ -1754,7 +1754,7 @@ Subject: Sabotageprogram upptäcktes på %HOSTNAME%
 
 Bäste användare,
 
-Sabotageprogram upptäcktes på %HOSTNAME%. Vänligen logga in på %OSNAME% på %HOSTNAME% och öppna Security Advisor för att åtgärda detta.
+Sabotageprogram upptäcktes på %HOSTNAME%. Vänligen logga in på %INTEGRAOS% på %HOSTNAME% och öppna Security Advisor för att åtgärda detta.
 
 Med vänliga hälsningar,
 %COMPANY_NAME%
@@ -1767,7 +1767,7 @@ Subject: Filpaket på %HOSTNAME% är föråldrade
 
 Bäste användare,
 
-%NUMBER% filpaket som körs på %HOSTNAME% är föråldrad(e). Vänligen logga in på %OSNAME% på %HOSTNAME% och öppna Paketcenter för att installera senaste versionen av dina filpaket.
+%NUMBER% filpaket som körs på %HOSTNAME% är föråldrad(e). Vänligen logga in på %INTEGRAOS% på %HOSTNAME% och öppna Paketcenter för att installera senaste versionen av dina filpaket.
 
 Med vänliga hälsningar,
 %COMPANY_NAME%

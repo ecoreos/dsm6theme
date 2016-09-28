@@ -515,7 +515,7 @@ Nem sikerült elvégezni a pillanatfelvételi feladatot a következőn: %MAINSIT
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatikus rendszerfrissítés
-Subject: A(z) %OSNAME% automatikus frissítési folyamata %COUNTDOWN_MINUTE% percen belül elindul a(z) %HOSTNAME% eszközön
+Subject: A(z) %INTEGRAOS% automatikus frissítési folyamata %COUNTDOWN_MINUTE% percen belül elindul a(z) %HOSTNAME% eszközön
 
 Kedves felhasználó!
 
@@ -528,7 +528,7 @@ Kedves felhasználó!
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Az ütemezett leállás előtt rendszerfrissítések kerülnek telepítésre
-Subject: A(z) %HOSTNAME% eszköz ütemezett leállása előtt a rendszer %OSNAME% frissítést telepít
+Subject: A(z) %HOSTNAME% eszköz ütemezett leállása előtt a rendszer %INTEGRAOS% frissítést telepít
 
 Kedves felhasználó!
 
@@ -540,12 +540,12 @@ Az ütemezett leállás előtt a rendszer telepíti a(z) %NEW_VERSION% verziót.
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Készen áll a(z) %OSNAME% rendszer új frissítése
-Subject: %OSNAME% frissítése telepítésre kész a következő eszközre: %HOSTNAME%
+Title: Készen áll a(z) %INTEGRAOS% rendszer új frissítése
+Subject: %INTEGRAOS% frissítése telepítésre kész a következő eszközre: %HOSTNAME%
 
 Kedves felhasználó!
 
-A rendszer letöltötte a(z) %OSNAME% új verzióját, mely telepítésre készen áll. Jelentkezzen be a(z) %HOSTNAME% eszközre, majd lépjen a Vezérlőpult > Frissítés és visszaállítás menüpontra a(z) %NEW_VERSION% verzió telepítéséhez. Itt tudhat meg többet a(z) %OSNAME% rendszer frissítéséről: %HTTP_URL%.
+A rendszer letöltötte a(z) %INTEGRAOS% új verzióját, mely telepítésre készen áll. Jelentkezzen be a(z) %HOSTNAME% eszközre, majd lépjen a Vezérlőpult > Frissítés és visszaállítás menüpontra a(z) %NEW_VERSION% verzió telepítéséhez. Itt tudhat meg többet a(z) %INTEGRAOS% rendszer frissítéséről: %HTTP_URL%.
 
 Üdvözlettel:
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: Csomagfrissítési információk a következőhöz: %HOSTNAME%
 
 Kedves felhasználó!
 
-A(z) %HOSTNAME% eszköz következő csomagjai frissítésre készen állnak. A frissítéshez indítsa el a(z) %OSNAME% rendszerben a Csomagkezelési központot.
+A(z) %HOSTNAME% eszköz következő csomagjai frissítésre készen állnak. A frissítéshez indítsa el a(z) %INTEGRAOS% rendszerben a Csomagkezelési központot.
 
 Frissítendő csomagok:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: Biztonsági kockázatok találhatók a következő eszközön: %HOSTNAM
 
 Kedves felhasználó!
 
-A Biztonsági tanácsadó éppen most fejezett be egy ütemezett ellenőrzést a(z) %HOSTNAME% eszközön. Számos biztonsági kockázatot észleltünk, melyekkel foglalkoznia kell. Jelentkezzen be a(z) %OSNAME% rendszerbe a(z) %HOSTNAME% eszközön, majd tekintse meg a Biztonsági tanácsadó jelentését.
+A Biztonsági tanácsadó éppen most fejezett be egy ütemezett ellenőrzést a(z) %HOSTNAME% eszközön. Számos biztonsági kockázatot észleltünk, melyekkel foglalkoznia kell. Jelentkezzen be a(z) %INTEGRAOS% rendszerbe a(z) %HOSTNAME% eszközön, majd tekintse meg a Biztonsági tanácsadó jelentését.
 
 Üdvözlettel:
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ A Biztonsági tanácsadó éppen most fejezett be egy ütemezett ellenőrzést a
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: A rendszer elavult
-Subject: A(z) %HOSTNAME% eszköz %OSNAME% rendszere a Biztonsági tanácsadó szerint elavult.
+Subject: A(z) %HOSTNAME% eszköz %INTEGRAOS% rendszere a Biztonsági tanácsadó szerint elavult.
 
 Kedves felhasználó!
 
-A(z) %HOSTNAME% eszközön futó %OSNAME% rendszer elavult. Jelentkezzen be a(z) %OSNAME% rendszerbe %HOSTNAME% eszközén, nyissa meg a Vezérlőpultot, majd telepítse a(z) %OSNAME% legújabb verzióját. A részletes jelentést megtekintheti a Főmenü > Biztonsági Tanácsadó menüpont alatt.
+A(z) %HOSTNAME% eszközön futó %INTEGRAOS% rendszer elavult. Jelentkezzen be a(z) %INTEGRAOS% rendszerbe %HOSTNAME% eszközén, nyissa meg a Vezérlőpultot, majd telepítse a(z) %INTEGRAOS% legújabb verzióját. A részletes jelentést megtekintheti a Főmenü > Biztonsági Tanácsadó menüpont alatt.
 
 Üdvözlettel:
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ A(z) %HOSTNAME% eszközön futó %OSNAME% rendszer elavult. Jelentkezzen be a(z)
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: A rendszer és egyes csomagok elavultak
-Subject: A(z) %OSNAME% és a(z) %HOSTNAME% eszközön futó egyes csomagok elavultak a Biztonsági tanácsadó szerint
+Subject: A(z) %INTEGRAOS% és a(z) %HOSTNAME% eszközön futó egyes csomagok elavultak a Biztonsági tanácsadó szerint
 
 Kedves felhasználó!
 
-A(z) %OSNAME% rendszer és a(z) %HOSTNAME% eszközön futó %NUMBER% csomag elavult. Jelentkezzen be a(z) %OSNAME% rendszerbe a(z) %HOSTNAME% eszközön, majd tegye a következőket:
-- Nyissa meg a Vezérlőpultot és telepítse a(z) %OSNAME% rendszer legújabb verzióját.
+A(z) %INTEGRAOS% rendszer és a(z) %HOSTNAME% eszközön futó %NUMBER% csomag elavult. Jelentkezzen be a(z) %INTEGRAOS% rendszerbe a(z) %HOSTNAME% eszközön, majd tegye a következőket:
+- Nyissa meg a Vezérlőpultot és telepítse a(z) %INTEGRAOS% rendszer legújabb verzióját.
 - Nyissa meg a Csomagkezelési központot, majd telepítse a csomag(ok) legújabb verzióját.
 
 A részletes jelentést megtekintheti a Főmenü > Biztonsági Tanácsadó menüpont alatt.
@@ -1757,7 +1757,7 @@ Subject: Rosszindulatú program észlelve a következő eszközön: %HOSTNAME%
 
 Kedves felhasználó!
 
-A rendszer rosszindulatú programo(ka)t észlelt a(z) %HOSTNAME% eszközön. A probléma megoldásához jelentkezzen be a(z) %OSNAME% rendszerbe a(z) %HOSTNAME% eszközön, majd nyissa meg a Biztonsági tanácsadót.
+A rendszer rosszindulatú programo(ka)t észlelt a(z) %HOSTNAME% eszközön. A probléma megoldásához jelentkezzen be a(z) %INTEGRAOS% rendszerbe a(z) %HOSTNAME% eszközön, majd nyissa meg a Biztonsági tanácsadót.
 
 Üdvözlettel:
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: A(z) %HOSTNAME% eszközön található egyes csomagok elavultak
 
 Kedves felhasználó!
 
-A(z) %HOSTNAME% eszközön futó %NUMBER% csomag elavult Jelentkezzen be a(z) %OSNAME% rendszerbe a(z) %HOSTNAME% eszközön, nyissa meg a Csomagkezelési központot, majd telepítse a csomag(ok) legújabb verzióját.
+A(z) %HOSTNAME% eszközön futó %NUMBER% csomag elavult Jelentkezzen be a(z) %INTEGRAOS% rendszerbe a(z) %HOSTNAME% eszközön, nyissa meg a Csomagkezelési központot, majd telepítse a csomag(ok) legújabb verzióját.
 
 Üdvözlettel:
 %COMPANY_NAME%

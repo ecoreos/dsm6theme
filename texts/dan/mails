@@ -513,7 +513,7 @@ Med venlig hilsen
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatisk systemopdatering
-Subject: %OSNAME% Automatisk opdatering vil automatisk starte på %HOSTNAME% om %COUNTDOWN_MINUTE% minutter
+Subject: %INTEGRAOS% Automatisk opdatering vil automatisk starte på %HOSTNAME% om %COUNTDOWN_MINUTE% minutter
 
 Kære bruger
 
@@ -526,7 +526,7 @@ Med venlig hilsen
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Systemopdateringer installeres før planlagt lukning
-Subject: %OSNAME%-opdateringer bliver installeret på %HOSTNAME% før planlagt lukning
+Subject: %INTEGRAOS%-opdateringer bliver installeret på %HOSTNAME% før planlagt lukning
 
 Kære bruger
 
@@ -538,12 +538,12 @@ Med venlig hilsen
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Ny %OSNAME%-opdateringer klar
-Subject: %OSNAME%-opdatering er klar til at blive installeret på %HOSTNAME%
+Title: Ny %INTEGRAOS%-opdateringer klar
+Subject: %INTEGRAOS%-opdatering er klar til at blive installeret på %HOSTNAME%
 
 Kære bruger
 
-En ny version af %OSNAME% er downloadet og klar til at blive installeret. Log ind på %HOSTNAME%, og gå til Kontrolpanel > Opdater og gendan for at installere %NEW_VERSION%. Få mere at vide om %OISNAME%-opdageringen under %HTTP_URL%.
+En ny version af %INTEGRAOS% er downloadet og klar til at blive installeret. Log ind på %HOSTNAME%, og gå til Kontrolpanel > Opdater og gendan for at installere %NEW_VERSION%. Få mere at vide om %OISNAME%-opdageringen under %HTTP_URL%.
 
 Med venlig hilsen
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: Oplysninger om pakkeopgradering for %HOSTNAME%
 
 Kære bruger
 
-Følgende pakker er klar til opdatering på %HOSTNAME%. Du kan starte Pakkecenter i %OSNAME% for at opdatere dem.
+Følgende pakker er klar til opdatering på %HOSTNAME%. Du kan starte Pakkecenter i %INTEGRAOS% for at opdatere dem.
 
 Pakker, der skal opdateres:
 %PKG_SET%
@@ -1711,7 +1711,7 @@ Subject: Sikkerhedsrisici fundet på %HOSTNAME%
 
 Kære bruger
 
-Sikkerhedsrådgiver har lige gennemført en planlagt scanning af %HOSTNAME%. Sikkerhedsrisici blev fundet, som kræver din opmærksomhed. Log ind på %OSNAME% på %HOSTNAME%, og se rapporten i Sikkerhedsrådgiver.
+Sikkerhedsrådgiver har lige gennemført en planlagt scanning af %HOSTNAME%. Sikkerhedsrisici blev fundet, som kræver din opmærksomhed. Log ind på %INTEGRAOS% på %HOSTNAME%, og se rapporten i Sikkerhedsrådgiver.
 
 Med venlig hilsen
 %COMPANY_NAME%
@@ -1720,11 +1720,11 @@ Med venlig hilsen
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: System forældet
-Subject: %OSNAME% på %HOSTNAME% er forældet fra Sikkerhedsrådgiver
+Subject: %INTEGRAOS% på %HOSTNAME% er forældet fra Sikkerhedsrådgiver
 
 Kære bruger
 
-%OSNAME%, der kører på %HOSTNAME%, er forældet Log ind på %OSNAME% på %HOSTNAME%, åbne kontrolpanelet, og installer den seneste version af %OSNAME%. Gå til Hovedmenu > Sikkerhedsrådgiver for at få en detaljeret rapport.
+%INTEGRAOS%, der kører på %HOSTNAME%, er forældet Log ind på %INTEGRAOS% på %HOSTNAME%, åbne kontrolpanelet, og installer den seneste version af %INTEGRAOS%. Gå til Hovedmenu > Sikkerhedsrådgiver for at få en detaljeret rapport.
 
 Med venlig hilsen
 %COMPANY_NAME%
@@ -1733,12 +1733,12 @@ Med venlig hilsen
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title:  System og forældede pakker
-Subject: %OSNAME% og pakker på %HOSTNAME% er forældede fra Sikkerhedsrådgiver
+Subject: %INTEGRAOS% og pakker på %HOSTNAME% er forældede fra Sikkerhedsrådgiver
 
 Kære bruger
 
-%OSNAME% og %NUMBER% pakke(r), der kører på %HOSTNAME% er forældede. Log ind på %OSNAME% på %HOSTNAME%, og gør følgende:
-- Åbn Kontrolpanel, og installer den seneste version af %OSNAME%.
+%INTEGRAOS% og %NUMBER% pakke(r), der kører på %HOSTNAME% er forældede. Log ind på %INTEGRAOS% på %HOSTNAME%, og gør følgende:
+- Åbn Kontrolpanel, og installer den seneste version af %INTEGRAOS%.
 - Åbn Pakkecenter, og installer den seneste version af din(e) pakke(r).
 
 Gå til Hovedmenu > Sikkerhedsrådgiver for at få en detaljeret rapport.
@@ -1754,7 +1754,7 @@ Subject: Malware fundet på %HOSTNAME%
 
 Kære bruger
 
-Malware fundet på %HOSTNAME%. Log ind på %OSNAME% på %HOSTNAME%, og åbn Sikkerhedsrådgiver for at rette det.
+Malware fundet på %HOSTNAME%. Log ind på %INTEGRAOS% på %HOSTNAME%, og åbn Sikkerhedsrådgiver for at rette det.
 
 Med venlig hilsen
 %COMPANY_NAME%
@@ -1767,7 +1767,7 @@ Subject: Pakker på %HOSTNAME% er forældede
 
 Kære bruger
 
-%NUMBER% pakke(r), der kører på %HOSTNAME%, er forældede. Log ind på %OSNAME% på %HOSTNAME%, og åbn Pakkecenter for at installere den seneste version af din(e) pakke(r).
+%NUMBER% pakke(r), der kører på %HOSTNAME%, er forældede. Log ind på %INTEGRAOS% på %HOSTNAME%, og åbn Pakkecenter for at installere den seneste version af din(e) pakke(r).
 
 Med venlig hilsen
 %COMPANY_NAME%

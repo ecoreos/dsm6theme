@@ -513,7 +513,7 @@ Mit freundlichen Grüßen
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatische Systemaktualisierung
-Subject: %OSNAME% Automatische Aktualisierung wird auf %HOSTNAME% in %COUNTDOWN_MINUTE% Minuten automatisch gestartet
+Subject: %INTEGRAOS% Automatische Aktualisierung wird auf %HOSTNAME% in %COUNTDOWN_MINUTE% Minuten automatisch gestartet
 
 Sehr geehrter Benutzer,
 
@@ -526,7 +526,7 @@ Mit freundlichen Grüßen
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Systemaktualisierungen, die vor der geplanten Abschaltung installiert werden müssen
-Subject: %OSNAME%-Aktualisierungen werden vor der geplanten Abschaltung auf %HOSTNAME% installiert
+Subject: %INTEGRAOS%-Aktualisierungen werden vor der geplanten Abschaltung auf %HOSTNAME% installiert
 
 Sehr geehrter Benutzer,
 
@@ -538,12 +538,12 @@ Mit freundlichen Grüßen
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Neue %OSNAME%-Aktualisierung verfügbar
-Subject: %OSNAME%-Aktualisierung für die Installation auf %HOSTNAME% verfügbar
+Title: Neue %INTEGRAOS%-Aktualisierung verfügbar
+Subject: %INTEGRAOS%-Aktualisierung für die Installation auf %HOSTNAME% verfügbar
 
 Sehr geehrter Benutzer,
 
-Eine neue %OSNAME%-Version wurde heruntergeladen und steht für die Installation bereit. Melden Sie sich bei %HOSTNAME% an und gehen Sie zu Systemsteuerung > Aktualisieren und Wiederherstellen, um %NEW_VERSION% zu installieren. Nähere Informationen über die %OSNAME%-Aktualisierung finden Sie unter %HTTP_URL%.
+Eine neue %INTEGRAOS%-Version wurde heruntergeladen und steht für die Installation bereit. Melden Sie sich bei %HOSTNAME% an und gehen Sie zu Systemsteuerung > Aktualisieren und Wiederherstellen, um %NEW_VERSION% zu installieren. Nähere Informationen über die %INTEGRAOS%-Aktualisierung finden Sie unter %HTTP_URL%.
 
 Mit freundlichen Grüßen
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: Paketaktualisierungsinformationen für %HOSTNAME%
 
 Sehr geehrter Benutzer,
 
-Die folgenden Pakete sind für die Aktualisierung auf %HOSTNAME% bereit. Für die Aktualisierung können Sie das Paketzentrum in %OSNAME% öffnen.
+Die folgenden Pakete sind für die Aktualisierung auf %HOSTNAME% bereit. Für die Aktualisierung können Sie das Paketzentrum in %INTEGRAOS% öffnen.
 
 Pakete für die Aktualisierung:
 %PKG_SET%
@@ -1726,7 +1726,7 @@ Subject: Sicherheitsrisiken gefunden auf %HOSTNAME%
 
 Sehr geehrter Benutzer,
 
-Der Sicherheitsberater hat gerade eine geplante Prüfung auf %HOSTNAME% abgeschlossen. Es wurden mehrere Sicherheitsrisiken gefunden, die Ihre Aufmerksamkeit erfordern. Melden Sie sich bei %OSNAME% auf %HOSTNAME% an und zeigen Sie den Bericht im Sicherheitsberater an.
+Der Sicherheitsberater hat gerade eine geplante Prüfung auf %HOSTNAME% abgeschlossen. Es wurden mehrere Sicherheitsrisiken gefunden, die Ihre Aufmerksamkeit erfordern. Melden Sie sich bei %INTEGRAOS% auf %HOSTNAME% an und zeigen Sie den Bericht im Sicherheitsberater an.
 
 Mit freundlichen Grüßen
 %COMPANY_NAME%
@@ -1735,11 +1735,11 @@ Mit freundlichen Grüßen
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: System veraltet
-Subject: %OSNAME% auf %HOSTNAME% ist gemäß Sicherheitsberater veraltet
+Subject: %INTEGRAOS% auf %HOSTNAME% ist gemäß Sicherheitsberater veraltet
 
 Sehr geehrter Benutzer,
 
-%OSNAME% auf %HOSTNAME% ist veraltet. Melden Sie sich bei %OSNAME% auf %HOSTNAME% an, öffnen Sie die Systemsteuerung und installieren Sie die neueste Version von %OSNAME%. Einen ausführlichen Bericht finden Sie unter Hauptmenü > Sicherheitsberater.
+%INTEGRAOS% auf %HOSTNAME% ist veraltet. Melden Sie sich bei %INTEGRAOS% auf %HOSTNAME% an, öffnen Sie die Systemsteuerung und installieren Sie die neueste Version von %INTEGRAOS%. Einen ausführlichen Bericht finden Sie unter Hauptmenü > Sicherheitsberater.
 
 Mit freundlichen Grüßen
 %COMPANY_NAME%
@@ -1748,12 +1748,12 @@ Mit freundlichen Grüßen
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: System und Pakete veraltet
-Subject: %OSNAME% und Pakete auf %HOSTNAME% sind gemäß Sicherheitsberater veraltet
+Subject: %INTEGRAOS% und Pakete auf %HOSTNAME% sind gemäß Sicherheitsberater veraltet
 
 Sehr geehrter Benutzer,
 
-%OSNAME% und %NUMBER% Paket(e) auf %HOSTNAME% ist (sind) veraltet. Melden Sie sich bei %OSNAME% auf %HOSTNAME% an und führen Sie folgende Schritte durch:
-- Öffnen Sie die Systemsteuerung und installieren Sie die neueste Version von %OSNAME%.
+%INTEGRAOS% und %NUMBER% Paket(e) auf %HOSTNAME% ist (sind) veraltet. Melden Sie sich bei %INTEGRAOS% auf %HOSTNAME% an und führen Sie folgende Schritte durch:
+- Öffnen Sie die Systemsteuerung und installieren Sie die neueste Version von %INTEGRAOS%.
 - Öffnen Sie das Paketzentrum und installieren Sie die aktuelle Version Ihres Pakets bzw. Ihrer Pakete.
 
 Einen ausführlichen Bericht finden Sie unter Hauptmenü > Sicherheitsberater.
@@ -1769,7 +1769,7 @@ Subject: Schadprogramm erkannt auf %HOSTNAME%
 
 Sehr geehrter Benutzer,
 
-Auf %HOSTNAME% wurde ein Schadprogramm erkannt. Melden Sie sich bei %OSNAME% auf %HOSTNAME% an und öffnen Sie den Sicherheitsberater, um dieses Problem zu beheben.
+Auf %HOSTNAME% wurde ein Schadprogramm erkannt. Melden Sie sich bei %INTEGRAOS% auf %HOSTNAME% an und öffnen Sie den Sicherheitsberater, um dieses Problem zu beheben.
 
 Mit freundlichen Grüßen
 %COMPANY_NAME%
@@ -1782,7 +1782,7 @@ Subject: Die Pakete auf %HOSTNAME% sind veraltet
 
 Sehr geehrter Benutzer,
 
-%NUMBER% Paket(e) auf %HOSTNAME% ist (sind) veraltet. Melden Sie sich bei %OSNAME% auf %HOSTNAME% an und öffnen Sie das Paketzentrum, um die neueste Version Ihres Pakets bzw. Ihrer Pakete zu installieren.
+%NUMBER% Paket(e) auf %HOSTNAME% ist (sind) veraltet. Melden Sie sich bei %INTEGRAOS% auf %HOSTNAME% an und öffnen Sie das Paketzentrum, um die neueste Version Ihres Pakets bzw. Ihrer Pakete zu installieren.
 
 Mit freundlichen Grüßen
 %COMPANY_NAME%

@@ -478,7 +478,7 @@ Subject: %MAINSITE_TARGET_NAME% 前次快照排程任務仍在執行中
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: 系統即將進行自動更新
-Subject: 新版的 %OSNAME% 即將於 %HOSTNAME% 在 %COUNTDOWN_MINUTE% 分鐘後即將進行更新
+Subject: 新版的 %INTEGRAOS% 即將於 %HOSTNAME% 在 %COUNTDOWN_MINUTE% 分鐘後即將進行更新
 
 親愛的使用者，您好：
 
@@ -490,7 +490,7 @@ Subject: 新版的 %OSNAME% 即將於 %HOSTNAME% 在 %COUNTDOWN_MINUTE% 分鐘�
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: 排程關機前安裝系統更新
-Subject: 排程關機前將在 %HOSTNAME% 安裝 %OSNAME% 更新
+Subject: 排程關機前將在 %HOSTNAME% 安裝 %INTEGRAOS% 更新
 
 親愛的使用者，您好：
 
@@ -501,12 +501,12 @@ Subject: 排程關機前將在 %HOSTNAME% 安裝 %OSNAME% 更新
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: 新版 %OSNAME% 已就緒
-Subject: 新版的 %OSNAME% 已準備就緒可安裝於 %HOSTNAME%
+Title: 新版 %INTEGRAOS% 已就緒
+Subject: 新版的 %INTEGRAOS% 已準備就緒可安裝於 %HOSTNAME%
 
 親愛的使用者，您好：
 
-新版的 %OSNAME% 已下載完成可進行安裝。請登入 %HOSTNAME% 後前往控制台 > 更新 & 還原來安裝 %NEW_VERSION%。若要進一步瞭解 %OSNAME% 更新詳情，請參考 %HTTP_URL% 。
+新版的 %INTEGRAOS% 已下載完成可進行安裝。請登入 %HOSTNAME% 後前往控制台 > 更新 & 還原來安裝 %NEW_VERSION%。若要進一步瞭解 %INTEGRAOS% 更新詳情，請參考 %HTTP_URL% 。
 
 %COMPANY_NAME% 敬上
 
@@ -1165,7 +1165,7 @@ Subject: %HOSTNAME% 的套件更新訊息
 
 親愛的使用者，您好：
 
-下列套件已經可以在 %HOSTNAME% 上更新。您可開啟 %OSNAME% 的套件中心來更新套件。
+下列套件已經可以在 %HOSTNAME% 上更新。您可開啟 %INTEGRAOS% 的套件中心來更新套件。
 
 可更新的套件：
 %PKG_SET%
@@ -1596,7 +1596,7 @@ Subject: 於 %HOSTNAME% 偵測到安全性風險
 
 您好：
 
-安全諮詢中心已完成 %HOSTNAME% 的排程掃描任務，並偵測到數項安全性風險，需要您的留意。請於 %HOSTNAME% 登入 %OSNAME% 並檢視安全諮詢中心的結果報表。
+安全諮詢中心已完成 %HOSTNAME% 的排程掃描任務，並偵測到數項安全性風險，需要您的留意。請於 %HOSTNAME% 登入 %INTEGRAOS% 並檢視安全諮詢中心的結果報表。
 
 %COMPANY_NAME% 敬啟
 
@@ -1604,11 +1604,11 @@ Subject: 於 %HOSTNAME% 偵測到安全性風險
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: 系統版本已過時
-Subject: %HOSTNAME% 的 %OSNAME% 版本已過時 (由安全資訊中心發出)
+Subject: %HOSTNAME% 的 %INTEGRAOS% 版本已過時 (由安全資訊中心發出)
 
 您好：
 
-安裝於 %HOSTNAME% 的 %OSNAME% 版本已過時。請於 %HOSTNAME% 登入 %OSNAME% 後，前往控制台並安裝最新版本。若要檢視詳細報表，請至主選單 > 安全諮詢中心。
+安裝於 %HOSTNAME% 的 %INTEGRAOS% 版本已過時。請於 %HOSTNAME% 登入 %INTEGRAOS% 後，前往控制台並安裝最新版本。若要檢視詳細報表，請至主選單 > 安全諮詢中心。
 
 %COMPANY_NAME% 敬啟
 
@@ -1616,12 +1616,12 @@ Subject: %HOSTNAME% 的 %OSNAME% 版本已過時 (由安全資訊中心發出)
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: 系統及套件版本已過時
-Subject: %HOSTNAME% 的 %OSNAME% 及套件版本已過時從安全資訊中心發出
+Subject: %HOSTNAME% 的 %INTEGRAOS% 及套件版本已過時從安全資訊中心發出
 
 您好：
 
-安裝於 %HOSTNAME% 的 %OSNAME% 及 %NUMBER% 個套件版本已過時。請於 %HOSTNAME% 登入 %OSNAME%，並進行以下操作：
-─ 前往控制台，並安裝最新的 %OSNAME% 版本。
+安裝於 %HOSTNAME% 的 %INTEGRAOS% 及 %NUMBER% 個套件版本已過時。請於 %HOSTNAME% 登入 %INTEGRAOS%，並進行以下操作：
+─ 前往控制台，並安裝最新的 %INTEGRAOS% 版本。
 ─ 前往套件中心，並安裝各套件的最新版本。
 
 若要檢視詳細報表，請至主選單 > 安全諮詢中心。
@@ -1636,7 +1636,7 @@ Subject: %HOSTNAME% 上偵測到惡意程式
 
 您好：
 
-%HOSTNAME% 偵測到惡意程式。請於 %HOSTNAME% 登入 %OSNAME% 並開啟安全諮詢中心以進行修復。
+%HOSTNAME% 偵測到惡意程式。請於 %HOSTNAME% 登入 %INTEGRAOS% 並開啟安全諮詢中心以進行修復。
 
 %COMPANY_NAME% 敬啟
 
@@ -1648,7 +1648,7 @@ Subject: %HOSTNAME% 的套件版本已過時
 
 您好：
 
-安裝於 %HOSTNAME% 的 %NUMBER% 個套件版本已過時。請於 %HOSTNAME% 登入 %OSNAME% 後，前往套件中心並安裝最新版本。
+安裝於 %HOSTNAME% 的 %NUMBER% 個套件版本已過時。請於 %HOSTNAME% 登入 %INTEGRAOS% 後，前往套件中心並安裝最新版本。
 
 %COMPANY_NAME% 敬啟
 

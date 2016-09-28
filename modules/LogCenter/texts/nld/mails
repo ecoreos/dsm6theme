@@ -93,7 +93,7 @@ Subject: De opslag van logboeken door Log Center op %HOSTNAME% is uitgeschakeld.
 
 Beste gebruiker
 
-De opslag van logboeken door Log Center op %HOSTNAME% is uitgeschakeld omdat de gecodeerde gedeelde map "%SHARED_FOLDER%" die gebruikt wordt voor de opslag van de logboekdatabase is verwijderd. Meld u aan bij %OSNAME% en ga naar Hoofdmenu > Log Center > Opslaginstellingen om een andere gedeelde map te selecteren.
+De opslag van logboeken door Log Center op %HOSTNAME% is uitgeschakeld omdat de gecodeerde gedeelde map "%SHARED_FOLDER%" die gebruikt wordt voor de opslag van de logboekdatabase is verwijderd. Meld u aan bij %INTEGRAOS% en ga naar Hoofdmenu > Log Center > Opslaginstellingen om een andere gedeelde map te selecteren.
 
 met vriendelijke groeten,
 %COMPANY_NAME%

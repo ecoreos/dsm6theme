@@ -515,7 +515,7 @@ Sincerely,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: System Automatic Update
-Subject: %OSNAME% Automatic Update will automatically start on %HOSTNAME% in %COUNTDOWN_MINUTE% minutes
+Subject: %INTEGRAOS% Automatic Update will automatically start on %HOSTNAME% in %COUNTDOWN_MINUTE% minutes
 
 Dear user,
 
@@ -528,7 +528,7 @@ Sincerely,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: System updates to be installed before scheduled shutdown
-Subject: %OSNAME% updates will be installed on %HOSTNAME% before the scheduled shutdown
+Subject: %INTEGRAOS% updates will be installed on %HOSTNAME% before the scheduled shutdown
 
 Dear user,
 
@@ -540,12 +540,12 @@ Sincerely,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: New %OSNAME% update ready
-Subject: %OSNAME% update is ready to be installed on %HOSTNAME%
+Title: New %INTEGRAOS% update ready
+Subject: %INTEGRAOS% update is ready to be installed on %HOSTNAME%
 
 Dear user,
 
-A new version of %OSNAME% has been downloaded and is ready to install. Please sign into %HOSTNAME% and go to Control Panel > Update & Restore to install %NEW_VERSION%. To know more about the %OSNAME% update, please refer to %HTTP_URL%.
+A new version of %INTEGRAOS% has been downloaded and is ready to install. Please sign into %HOSTNAME% and go to Control Panel > Update & Restore to install %NEW_VERSION%. To know more about the %INTEGRAOS% update, please refer to %HTTP_URL%.
 
 Sincerely,
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: Package Upgrade Information for %HOSTNAME%
 
 Dear user,
 
-The following packages are ready for update on %HOSTNAME%. You can launch Package Center in %OSNAME% to update them.
+The following packages are ready for update on %HOSTNAME%. You can launch Package Center in %INTEGRAOS% to update them.
 
 Packages to update:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: Security risks found on %HOSTNAME%
 
 Dear user,
 
-Security Advisor just completed a scheduled scan on %HOSTNAME%. Several security risks were found that need your attention. Please sign in to %OSNAME% on %HOSTNAME% and view the report in Security Advisor.
+Security Advisor just completed a scheduled scan on %HOSTNAME%. Several security risks were found that need your attention. Please sign in to %INTEGRAOS% on %HOSTNAME% and view the report in Security Advisor.
 
 Sincerely,
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ Sincerely,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: System Out-of-date
-Subject: %OSNAME% on %HOSTNAME% is out-of-date from Security Advisor
+Subject: %INTEGRAOS% on %HOSTNAME% is out-of-date from Security Advisor
 
 Dear user,
 
-%OSNAME% running on %HOSTNAME% is out-of-date. Please sign in to %OSNAME% on %HOSTNAME%, open Control Panel, and install the latest version of %OSNAME%. For a detailed report, please go to Main Menu > Security Advisor.
+%INTEGRAOS% running on %HOSTNAME% is out-of-date. Please sign in to %INTEGRAOS% on %HOSTNAME%, open Control Panel, and install the latest version of %INTEGRAOS%. For a detailed report, please go to Main Menu > Security Advisor.
 
 Sincerely,
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ Sincerely,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: System and Packages Out-of-date
-Subject: %OSNAME% and packages on %HOSTNAME% are out-of-date from Security Advisor
+Subject: %INTEGRAOS% and packages on %HOSTNAME% are out-of-date from Security Advisor
 
 Dear user,
 
-%OSNAME% and %NUMBER% package(s) running on %HOSTNAME% is/are out-of-date. Please sign in to %OSNAME% on %HOSTNAME% and do the following:
-- Open Control Panel and install the latest version of %OSNAME%.
+%INTEGRAOS% and %NUMBER% package(s) running on %HOSTNAME% is/are out-of-date. Please sign in to %INTEGRAOS% on %HOSTNAME% and do the following:
+- Open Control Panel and install the latest version of %INTEGRAOS%.
 - Open Package Center and install the latest version of your package(s).
 
 For a detailed report, please go to Main Menu > Security Advisor.
@@ -1757,7 +1757,7 @@ Subject: Malware detected on %HOSTNAME%
 
 Dear user,
 
-Malware was detected on %HOSTNAME%. Please sign in to %OSNAME% on %HOSTNAME% and open Security Advisor to fix this.
+Malware was detected on %HOSTNAME%. Please sign in to %INTEGRAOS% on %HOSTNAME% and open Security Advisor to fix this.
 
 Sincerely,
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: Packages on %HOSTNAME% are out-of-date
 
 Dear user,
 
-%NUMBER% package(s) running on %HOSTNAME% is/are out-of-date. Please sign in to %OSNAME% on %HOSTNAME% and open Package Center to install the latest version of your package(s).
+%NUMBER% package(s) running on %HOSTNAME% is/are out-of-date. Please sign in to %INTEGRAOS% on %HOSTNAME% and open Package Center to install the latest version of your package(s).
 
 Sincerely,
 %COMPANY_NAME%

@@ -515,7 +515,7 @@ Z poważaniem,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatyczna aktualizacja systemu
-Subject: %OSNAME% Automatyczna aktualizacja rozpocznie się automatycznie na hoście %HOSTNAME% za %COUNTDOWN_MINUTE% min
+Subject: %INTEGRAOS% Automatyczna aktualizacja rozpocznie się automatycznie na hoście %HOSTNAME% za %COUNTDOWN_MINUTE% min
 
 Szanowny Użytkowniku,
 
@@ -528,7 +528,7 @@ Z poważaniem
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Aktualizacje systemowe do zainstalowania przed zaplanowanym zamknięciem
-Subject: %OSNAME% zostaną zainstalowane automatycznie na hoście %HOSTNAME% przed zaplanowanym zamknięciem
+Subject: %INTEGRAOS% zostaną zainstalowane automatycznie na hoście %HOSTNAME% przed zaplanowanym zamknięciem
 
 Szanowny Użytkowniku,
 
@@ -540,12 +540,12 @@ Z poważaniem
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Nowa aktualizacja systemu %OSNAME% jest gotowa
-Subject: Aktualizacja %OSNAME% jest gotowa do instalacji na hoście %HOSTNAME%
+Title: Nowa aktualizacja systemu %INTEGRAOS% jest gotowa
+Subject: Aktualizacja %INTEGRAOS% jest gotowa do instalacji na hoście %HOSTNAME%
 
 Szanowny Użytkowniku,
 
-Nowa wersja systemu %OSNAME% została pobrana i jest gotowa do instalacji. Aby zainstalować wersję %NEW_VERSION%, zaloguj się do hosta %HOSTNAME% i wybierz pozycje Panel sterowania > Aktualizacja i przywracanie. Aby dowiedzieć się więcej o aktualizacji systemu %OSNAME%, przejdź do %HTTP_URL%.
+Nowa wersja systemu %INTEGRAOS% została pobrana i jest gotowa do instalacji. Aby zainstalować wersję %NEW_VERSION%, zaloguj się do hosta %HOSTNAME% i wybierz pozycje Panel sterowania > Aktualizacja i przywracanie. Aby dowiedzieć się więcej o aktualizacji systemu %INTEGRAOS%, przejdź do %HTTP_URL%.
 
 Z poważaniem,
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: Informacje o aktualizacji pakietu na hoście %HOSTNAME%
 
 Szanowny Użytkowniku,
 
-Następujące pakiety są gotowe do aktualizacji na hoście %HOSTNAME%. Uruchom Centrum pakietów na %OSNAME%, aby je zaktualizować.
+Następujące pakiety są gotowe do aktualizacji na hoście %HOSTNAME%. Uruchom Centrum pakietów na %INTEGRAOS%, aby je zaktualizować.
 
 Pakiety do zaktualizowania:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: Wykryto zagrożenia bezpieczeństwa na hoście %HOSTNAME%
 
 Szanowny Użytkowniku,
 
-Aplikacja Security Advisor właśnie ukończyła zaplanowane skanowanie na hoście %HOSTNAME%. Wykryto kilka zagrożeń bezpieczeństwa, które wymagają interwencji użytkownika. Zaloguj się w systemie %OSNAME% na hoście %HOSTNAME% i wyświetl raport w aplikacji Security Advisor.
+Aplikacja Security Advisor właśnie ukończyła zaplanowane skanowanie na hoście %HOSTNAME%. Wykryto kilka zagrożeń bezpieczeństwa, które wymagają interwencji użytkownika. Zaloguj się w systemie %INTEGRAOS% na hoście %HOSTNAME% i wyświetl raport w aplikacji Security Advisor.
 
 Z poważaniem,
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ Z poważaniem,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: System jest nieaktualny
-Subject: %OSNAME% na hoście %HOSTNAME% jest nieaktualny względem aplikacji Security Advisor
+Subject: %INTEGRAOS% na hoście %HOSTNAME% jest nieaktualny względem aplikacji Security Advisor
 
 Szanowny Użytkowniku,
 
-%OSNAME% pracujący na hoście %HOSTNAME% jest nieaktualny. Zaloguj się w systemie %OSNAME% na hoście %HOSTNAME%, otwórz panel sterowania i zainstaluj najnowszą wersję systemu %OSNAME%. Aby wyświetlić szczegółowy raport, przejdź do Menu główne > Security Advisor.
+%INTEGRAOS% pracujący na hoście %HOSTNAME% jest nieaktualny. Zaloguj się w systemie %INTEGRAOS% na hoście %HOSTNAME%, otwórz panel sterowania i zainstaluj najnowszą wersję systemu %INTEGRAOS%. Aby wyświetlić szczegółowy raport, przejdź do Menu główne > Security Advisor.
 
 Z poważaniem
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ Z poważaniem
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: System i pakiety są nieaktualne
-Subject: %OSNAME% i pakiety na hoście %HOSTNAME% są nieaktualne.
+Subject: %INTEGRAOS% i pakiety na hoście %HOSTNAME% są nieaktualne.
 
 Szanowny Użytkowniku,
 
-%OSNAME% i pakiety (%NUMBER%) działające na hoście %HOSTNAME% są nieaktualne. Zaloguj się w systemie %OSNAME% na hoście %HOSTNAME% i wykonaj następujące czynności:
-- Otwórz panel sterowania i zainstaluj najnowszą wersję systemu %OSNAME%.
+%INTEGRAOS% i pakiety (%NUMBER%) działające na hoście %HOSTNAME% są nieaktualne. Zaloguj się w systemie %INTEGRAOS% na hoście %HOSTNAME% i wykonaj następujące czynności:
+- Otwórz panel sterowania i zainstaluj najnowszą wersję systemu %INTEGRAOS%.
 - Otwórz Centrum pakietów i zainstaluj najnowsze wersje pakietów.
 
 Aby wyświetlić szczegółowy raport, przejdź do Menu główne > Security Advisor.
@@ -1757,7 +1757,7 @@ Subject: Wykryto złośliwe oprogramowanie na hoście %HOSTNAME%
 
 Szanowny Użytkowniku,
 
-Wykryto złośliwe oprogramowanie na hoście %HOSTNAME%. Zaloguj się w systemie %OSNAME% na hoście %HOSTNAME% i uruchom aplikację Security Advisor, aby usunąć problem.
+Wykryto złośliwe oprogramowanie na hoście %HOSTNAME%. Zaloguj się w systemie %INTEGRAOS% na hoście %HOSTNAME% i uruchom aplikację Security Advisor, aby usunąć problem.
 
 Z poważaniem,
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: Pakiety na hoście %HOSTNAME% są nieaktualne.
 
 Szanowny Użytkowniku,
 
-Pakiety: %NUMBER% działające na hoście %HOSTNAME% są nieaktualne. Zaloguj się w systemie %OSNAME% na hoście %HOSTNAME% i otwórz Centrum pakietów, aby zainstalować najnowsze wersje pakietów.
+Pakiety: %NUMBER% działające na hoście %HOSTNAME% są nieaktualne. Zaloguj się w systemie %INTEGRAOS% na hoście %HOSTNAME% i otwórz Centrum pakietów, aby zainstalować najnowsze wersje pakietów.
 
 Z poważaniem,
 %COMPANY_NAME%

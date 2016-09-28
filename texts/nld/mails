@@ -513,7 +513,7 @@ met vriendelijke groeten,
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatische systeemupdate
-Subject: De automatische update van %OSNAME% wordt automatisch gestart op %HOSTNAME% in %COUNTDOWN_MINUTE% minuten
+Subject: De automatische update van %INTEGRAOS% wordt automatisch gestart op %HOSTNAME% in %COUNTDOWN_MINUTE% minuten
 
 Beste gebruiker
 
@@ -526,7 +526,7 @@ met vriendelijke groeten,
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Nog voor de geplande uitschakeling te installeren systeemupdates
-Subject: %OSNAME%-updates worden automatisch geïnstalleerd %HOSTNAME% voordat de geplande uitschakeling wordt uitgevoerd
+Subject: %INTEGRAOS%-updates worden automatisch geïnstalleerd %HOSTNAME% voordat de geplande uitschakeling wordt uitgevoerd
 
 Beste gebruiker
 
@@ -538,12 +538,12 @@ met vriendelijke groeten,
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Nieuwe %OSNAME% kan worden bijgewerkt
-Subject: De %OSNAME%-update is gereed voor installatie op %HOSTNAME%
+Title: Nieuwe %INTEGRAOS% kan worden bijgewerkt
+Subject: De %INTEGRAOS%-update is gereed voor installatie op %HOSTNAME%
 
 Beste gebruiker
 
-Er is een nieuwe versie van %OSNAME% gedownload en klaar voor installatie. Meld u aan bij %HOSTNAME% en ga naar Configuratiescherm > Bijwerken en herstellen om %NEW_VERSION% te installeren. Om meer te weten over %OSNAME%-update zie %HTTP_URL%.
+Er is een nieuwe versie van %INTEGRAOS% gedownload en klaar voor installatie. Meld u aan bij %HOSTNAME% en ga naar Configuratiescherm > Bijwerken en herstellen om %NEW_VERSION% te installeren. Om meer te weten over %INTEGRAOS%-update zie %HTTP_URL%.
 
 met vriendelijke groeten,
 %COMPANY_NAME%
@@ -1251,7 +1251,7 @@ Subject: Informatie over pakketupgrade voor %HOSTNAME%
 
 Beste gebruiker
 
-De volgende pakketten zijn gereed voor bijwerken op %HOSTNAME%. U kunt Package Center starten in %OSNAME% om ze bij te werken.
+De volgende pakketten zijn gereed voor bijwerken op %HOSTNAME%. U kunt Package Center starten in %INTEGRAOS% om ze bij te werken.
 
 Bij te werken pakketten:
 %PKG_SET%
@@ -1711,7 +1711,7 @@ Subject: Beveiligingsrisico's gevonden op %HOSTNAME%
 
 Beste gebruiker
 
-Security Advisor heeft een geplande scan voltooid op %HOSTNAME%. Er zijn meerdere beveiligingsrisico's gevonden die uw aandacht vereisen. Meld u aan bij %OSNAME% op %HOSTNAME% en bekijk het rapport in Security Advisor.
+Security Advisor heeft een geplande scan voltooid op %HOSTNAME%. Er zijn meerdere beveiligingsrisico's gevonden die uw aandacht vereisen. Meld u aan bij %INTEGRAOS% op %HOSTNAME% en bekijk het rapport in Security Advisor.
 
 met vriendelijke groeten,
 %COMPANY_NAME%
@@ -1720,11 +1720,11 @@ met vriendelijke groeten,
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Systeem niet bijgewerkt
-Subject: %OSNAME% op %HOSTNAME% is niet bijgewerkt door Security Advisor
+Subject: %INTEGRAOS% op %HOSTNAME% is niet bijgewerkt door Security Advisor
 
 Beste gebruiker
 
-De %OSNAME%-versie op %HOSTNAME% is niet bijgewerkt. Meld u aan bij %OSNAME% op %HOSTNAME%, op het Configuratiescherm en installeer de laatste versie van %OSNAME%. Voor een gedetailleerd rapport gaat u naar Hoofdmenu > Security Advisor.
+De %INTEGRAOS%-versie op %HOSTNAME% is niet bijgewerkt. Meld u aan bij %INTEGRAOS% op %HOSTNAME%, op het Configuratiescherm en installeer de laatste versie van %INTEGRAOS%. Voor een gedetailleerd rapport gaat u naar Hoofdmenu > Security Advisor.
 
 met vriendelijke groeten,
 %COMPANY_NAME%
@@ -1733,12 +1733,12 @@ met vriendelijke groeten,
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Systeem en pakketten zijn niet bijgewerkt
-Subject: %OSNAME% en pakketten op %HOSTNAME% zijn niet bijgewerkt door Security Advisor
+Subject: %INTEGRAOS% en pakketten op %HOSTNAME% zijn niet bijgewerkt door Security Advisor
 
 Beste gebruiker
 
-%OSNAME% en %NUMBER% pakket(ten) op %HOSTNAME% is/zijn niet bijgewerkt. Meld u aan bij %OSNAME% op %HOSTNAME% en voer de volgende handelingen uit:
-- Open Configuratiescherm en installeer de laatste versie van %OSNAME%.
+%INTEGRAOS% en %NUMBER% pakket(ten) op %HOSTNAME% is/zijn niet bijgewerkt. Meld u aan bij %INTEGRAOS% op %HOSTNAME% en voer de volgende handelingen uit:
+- Open Configuratiescherm en installeer de laatste versie van %INTEGRAOS%.
 - Open Package Center en installeer de laatste versie(s) van uw pakket(ten).
 
 Voor een gedetailleerd rapport gaat u naar Hoofdmenu > Security Advisor.
@@ -1754,7 +1754,7 @@ Subject: Malware gedetecteerd op %HOSTNAME%
 
 Beste gebruiker
 
-Er is Malware gedetecteerd op %HOSTNAME%. Meld u aan bij %OSNAME% op %HOSTNAME% en open Security Advisor om dit probleem op te lossen.
+Er is Malware gedetecteerd op %HOSTNAME%. Meld u aan bij %INTEGRAOS% op %HOSTNAME% en open Security Advisor om dit probleem op te lossen.
 
 met vriendelijke groeten,
 %COMPANY_NAME%
@@ -1767,7 +1767,7 @@ Subject: Pakketten op %HOSTNAME% zijn niet bijgewerkt
 
 Beste gebruiker
 
-%NUMBER% pakket(ten) op %HOSTNAME% is/zijn niet bijgewerkt. Meld u aan bij %OSNAME% op %HOSTNAME%, open Package Center en installeer de laatste versie van uw pakket(ten).
+%NUMBER% pakket(ten) op %HOSTNAME% is/zijn niet bijgewerkt. Meld u aan bij %INTEGRAOS% op %HOSTNAME%, open Package Center en installeer de laatste versie van uw pakket(ten).
 
 met vriendelijke groeten,
 %COMPANY_NAME%

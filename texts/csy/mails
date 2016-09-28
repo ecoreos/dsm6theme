@@ -515,7 +515,7 @@ S pozdravem
 [DSMAutoUpdateReady]
 Category: System,Important
 Title: Automatická aktualizace systému
-Subject: Za %COUNTDOWN_MINUTE% minut se na zařízení %HOSTNAME% automaticky spustí automatická aktualizace systému %OSNAME%
+Subject: Za %COUNTDOWN_MINUTE% minut se na zařízení %HOSTNAME% automaticky spustí automatická aktualizace systému %INTEGRAOS%
 
 Vážený uživateli,
 
@@ -528,7 +528,7 @@ S pozdravem
 [DSMAutoUpdateShutdownStart]
 Category: System,Important
 Title: Před plánovaným vypnutím se nainstalují aktualizace systému
-Subject: Před plánovaným vypnutím se na zařízení %HOSTNAME% nainstalují aktualizace systému %OSNAME%
+Subject: Před plánovaným vypnutím se na zařízení %HOSTNAME% nainstalují aktualizace systému %INTEGRAOS%
 
 Vážený uživateli,
 
@@ -540,12 +540,12 @@ S pozdravem
 
 [DSMUpdateAvailable]
 Category: System,Important
-Title: Je připravena nová aktualizace %OSNAME%
-Subject: Aktualizace systému %OSNAME% je připravena k instalaci na zařízení %HOSTNAME%
+Title: Je připravena nová aktualizace %INTEGRAOS%
+Subject: Aktualizace systému %INTEGRAOS% je připravena k instalaci na zařízení %HOSTNAME%
 
 Vážený uživateli,
 
-byla stažena nová verze systému %OSNAME%, která je připravena k instalaci. Novou verzi %NEW_VERSION% nainstalujete tak, že se přihlásíte k zařízení %HOSTNAME% a přejdete do nabídky Ovládací panel > Aktualizace a obnovení. Více informací o aktualizaci systému %OSNAME% se dozvíte na adrese %HTTP_URL%.
+byla stažena nová verze systému %INTEGRAOS%, která je připravena k instalaci. Novou verzi %NEW_VERSION% nainstalujete tak, že se přihlásíte k zařízení %HOSTNAME% a přejdete do nabídky Ovládací panel > Aktualizace a obnovení. Více informací o aktualizaci systému %INTEGRAOS% se dozvíte na adrese %HTTP_URL%.
 
 S pozdravem
 %COMPANY_NAME%
@@ -1253,7 +1253,7 @@ Subject: Informace o upgradu balíčků pro zařízení %HOSTNAME%
 
 Vážený uživateli,
 
-následující balíčky jsou připraveny k aktualizaci na serveru %HOSTNAME%. Můžete ji zahájit spuštěním Centra balíčků v systému %OSNAME%.
+následující balíčky jsou připraveny k aktualizaci na serveru %HOSTNAME%. Můžete ji zahájit spuštěním Centra balíčků v systému %INTEGRAOS%.
 
 Balíčky, které lze aktualizovat:
 %PKG_SET%
@@ -1714,7 +1714,7 @@ Subject: Byla nalezena rizika zabezpečení na zařízení %HOSTNAME%
 
 Vážený uživateli,
 
-nástroj Bezpečnostní poradce právě dokončil plánovanou kontrolu na serveru %HOSTNAME%. Byla nalezena rizika zabezpečení, která vyžadují vaši pozornost. Přihlaste se do systému %OSNAME% na serveru %HOSTNAME%, kde zobrazíte sestavu v nástroji Bezpečnostní poradce.
+nástroj Bezpečnostní poradce právě dokončil plánovanou kontrolu na serveru %HOSTNAME%. Byla nalezena rizika zabezpečení, která vyžadují vaši pozornost. Přihlaste se do systému %INTEGRAOS% na serveru %HOSTNAME%, kde zobrazíte sestavu v nástroji Bezpečnostní poradce.
 
 S pozdravem
 %COMPANY_NAME%
@@ -1723,11 +1723,11 @@ S pozdravem
 [SecurityScanDSMOutOfDate]
 Category: System,Important
 Title: Neaktualizovaný systém
-Subject: Systém %OSNAME% na zařízení %HOSTNAME% není podle nástroje Bezpečnostní poradce aktuální
+Subject: Systém %INTEGRAOS% na zařízení %HOSTNAME% není podle nástroje Bezpečnostní poradce aktuální
 
 Vážený uživateli,
 
-systém %OSNAME% spuštěný na zařízení %HOSTNAME% není aktuální. Přihlaste se do systému %OSNAME% na zařízení %HOSTNAME%, otevřete Ovládací panel a nainstalujte nejnovější verzi systému %OSNAME%. Podrobnější sestavu naleznete v nabídce Hlavní nabídka > Bezpečnostní poradce.
+systém %INTEGRAOS% spuštěný na zařízení %HOSTNAME% není aktuální. Přihlaste se do systému %INTEGRAOS% na zařízení %HOSTNAME%, otevřete Ovládací panel a nainstalujte nejnovější verzi systému %INTEGRAOS%. Podrobnější sestavu naleznete v nabídce Hlavní nabídka > Bezpečnostní poradce.
 
 S pozdravem
 %COMPANY_NAME%
@@ -1736,12 +1736,12 @@ S pozdravem
 [SecurityScanDSMPackageOutOfDate]
 Category: System,Important
 Title: Neaktualizovaný systém a balíčky
-Subject: Systém %OSNAME% a balíčky na zařízení %HOSTNAME% nejsou podle nástroje Security Advisor aktuální
+Subject: Systém %INTEGRAOS% a balíčky na zařízení %HOSTNAME% nejsou podle nástroje Security Advisor aktuální
 
 Vážený uživateli,
 
-systém %OSNAME% a %NUMBER% balíčků spuštěných na zařízení %HOSTNAME% není aktuálních. Přihlaste se do systému %OSNAME% na serveru %HOSTNAME% a proveďte následující akce:
-– Otevřete Ovládací panel a nainstalujte nejnovější verzi systému %OSNAME%.
+systém %INTEGRAOS% a %NUMBER% balíčků spuštěných na zařízení %HOSTNAME% není aktuálních. Přihlaste se do systému %INTEGRAOS% na serveru %HOSTNAME% a proveďte následující akce:
+– Otevřete Ovládací panel a nainstalujte nejnovější verzi systému %INTEGRAOS%.
 – Otevřete Centrum balíčků a nainstalujte nejnovější verzi balíčků.
 
 Podrobnější zpráva se nachází v části Hlavní nabídka > Security Advisor.
@@ -1757,7 +1757,7 @@ Subject: Byl zaznamenám malware na zařízení %HOSTNAME%
 
 Vážený uživateli,
 
-na serveru %HOSTNAME% byl zaznamenán malware. Přihlaste se do systému %OSNAME% na zařízení %HOSTNAME% a problém vyřešte pomocí nástroje Security Advisor.
+na serveru %HOSTNAME% byl zaznamenán malware. Přihlaste se do systému %INTEGRAOS% na zařízení %HOSTNAME% a problém vyřešte pomocí nástroje Security Advisor.
 
 S pozdravem
 %COMPANY_NAME%
@@ -1770,7 +1770,7 @@ Subject: Balíčky na serveru %HOSTNAME% jsou neaktuální
 
 Vážený uživateli,
 
-balíčky (%NUMBER%) spuštěné na zařízení %HOSTNAME% nejsou aktuální. Přihlaste se k systému %OSNAME% na zařízení %HOSTNAME%, otevřete Centrum balíčků a nainstalujte nejnovější verzi balíčků.
+balíčky (%NUMBER%) spuštěné na zařízení %HOSTNAME% nejsou aktuální. Přihlaste se k systému %INTEGRAOS% na zařízení %HOSTNAME%, otevřete Centrum balíčků a nainstalujte nejnovější verzi balíčků.
 
 S pozdravem
 %COMPANY_NAME%

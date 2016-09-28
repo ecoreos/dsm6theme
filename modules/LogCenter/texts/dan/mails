@@ -93,7 +93,7 @@ Subject: Logarkivering af logcenter på %HOSTNAME% er deaktiveret
 
 Kære bruger
 
-Logfilarkivering af logcenter på %HOSTNAME% er deaktiveret, fordi den krypterede delte mappe "%SHARED_FOLDER%", der bruges til lagring af logdatabasen, er fjernet. Log ind på %OSNAME%, og gå til Hovedmenu > Logcenter > Lagerindstillinger for at vælge en anden delt mappe.
+Logfilarkivering af logcenter på %HOSTNAME% er deaktiveret, fordi den krypterede delte mappe "%SHARED_FOLDER%", der bruges til lagring af logdatabasen, er fjernet. Log ind på %INTEGRAOS%, og gå til Hovedmenu > Logcenter > Lagerindstillinger for at vælge en anden delt mappe.
 
 Med venlig hilsen
 %COMPANY_NAME%

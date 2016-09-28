@@ -93,7 +93,7 @@ Subject: Loggarkivering av Loggsenter på %HOSTNAME% er deaktivert.
 
 Kjære bruker,
 
-Loggarkivering av Loggsenter på %HOSTNAME% er deaktivert fordi den delte mappen "%SHARED_FOLDER%" som brukes for å lagre loggdatabasen er blitt fjernet. Logg inn på %OSNAME% og gå til Hovedmeny > Loggsenter > Lagringsinnstillinger for å velge en annen delt mappe.
+Loggarkivering av Loggsenter på %HOSTNAME% er deaktivert fordi den delte mappen "%SHARED_FOLDER%" som brukes for å lagre loggdatabasen er blitt fjernet. Logg inn på %INTEGRAOS% og gå til Hovedmeny > Loggsenter > Lagringsinnstillinger for å velge en annen delt mappe.
 
 Med vennlig hilsen,
 %COMPANY_NAME%

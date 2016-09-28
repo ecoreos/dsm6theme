@@ -93,7 +93,7 @@ Subject: Log archiving of Log Center on %HOSTNAME% is disabled.
 
 Dear user,
 
-Log archiving of Log Center on %HOSTNAME% is disabled because the shared folder "%SHARED_FOLDER%" used for saving the log database has been removed. Please login to %OSNAME% and go to Main Menu > Log Center > Storage Settings to select another shared folder.
+Log archiving of Log Center on %HOSTNAME% is disabled because the shared folder "%SHARED_FOLDER%" used for saving the log database has been removed. Please login to %INTEGRAOS% and go to Main Menu > Log Center > Storage Settings to select another shared folder.
 
 Sincerely,
 %COMPANY_NAME%

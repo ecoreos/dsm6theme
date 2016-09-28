@@ -93,7 +93,7 @@ Subject: Archiwizacja logów Centrum logów na hoście %HOSTNAME% została wył�
 
 Szanowny Użytkowniku!
 
-Archiwizacja logów Centrum logów na hoście %HOSTNAME% została wyłączona, ponieważ zaszyfrowany folder współdzielony „%SHARED_FOLDER%” używany do zapisywania bazy danych logów został usunięty. Zaloguj się w %OSNAME% i przejdź do strony Menu główne > Centrum logów > Ustawienia, aby wybrać inny folder współdzielony.
+Archiwizacja logów Centrum logów na hoście %HOSTNAME% została wyłączona, ponieważ zaszyfrowany folder współdzielony „%SHARED_FOLDER%” używany do zapisywania bazy danych logów został usunięty. Zaloguj się w %INTEGRAOS% i przejdź do strony Menu główne > Centrum logów > Ustawienia, aby wybrać inny folder współdzielony.
 
 Z poważaniem
 %COMPANY_NAME%

@@ -93,7 +93,7 @@ Subject: La archivación de registros del Centro de registros en %HOSTNAME% se h
 
 Estimado usuario:
 
-La archivación de registros del Centro de registros en %HOSTNAME% se ha deshabilitado porque la carpeta compartida cifrada "%SHARED_FOLDER%" utilizada para guardar la base de datos de registros se ha quitado. Inicie sesión en %OSNAME% y vaya a Menú principal" > Centro de registros > Configuración de almacenamiento para seleccionar otra carpeta compartida.
+La archivación de registros del Centro de registros en %HOSTNAME% se ha deshabilitado porque la carpeta compartida cifrada "%SHARED_FOLDER%" utilizada para guardar la base de datos de registros se ha quitado. Inicie sesión en %INTEGRAOS% y vaya a Menú principal" > Centro de registros > Configuración de almacenamiento para seleccionar otra carpeta compartida.
 
 Atentamente,
 %COMPANY_NAME%

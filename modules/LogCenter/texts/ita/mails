@@ -93,7 +93,7 @@ Subject: Archiviazione registro per Log Center su %HOSTNAME% è disabilitata.
 
 Gentile utente,
 
-Archiviazione registro di Log Center su %HOSTNAME% è disabilitata perché la cartella condivisa crittata "%SHARED_FOLDER%" utilizzata per salvare il database di log è rimossa. Accedere al %OSNAME% e andare su Menu principale > Log Center > Impostazioni archiviazione per selezionare un'altra cartella condivisa.
+Archiviazione registro di Log Center su %HOSTNAME% è disabilitata perché la cartella condivisa crittata "%SHARED_FOLDER%" utilizzata per salvare il database di log è rimossa. Accedere al %INTEGRAOS% e andare su Menu principale > Log Center > Impostazioni archiviazione per selezionare un'altra cartella condivisa.
 
 Cordialmente,
 %COMPANY_NAME%

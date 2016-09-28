@@ -93,7 +93,7 @@ Subject: A(z) %HOSTNAME% gazdagépen található Napló központ napló archivá
 
 Kedves felhasználó!
 
-A(z) %HOSTNAME% gazdagépen található Napló központ napló archiválása letiltásra került, mert eltávolításra került a napló adatbázis mentésére használatos "%SHARED_FOLDER%" megosztott mappa. Jelentkezzen be a %OSNAME%–be, menjen a Főmenü > Napló központ > Tárolási beállítások menüpontra, és válasszon másik megosztott mappát.
+A(z) %HOSTNAME% gazdagépen található Napló központ napló archiválása letiltásra került, mert eltávolításra került a napló adatbázis mentésére használatos "%SHARED_FOLDER%" megosztott mappa. Jelentkezzen be a %INTEGRAOS%–be, menjen a Főmenü > Napló központ > Tárolási beállítások menüpontra, és válasszon másik megosztott mappát.
 
 Üdvözlettel:
 %COMPANY_NAME%
